@@ -6,8 +6,8 @@ ultima_atualizacao:
 publish: true
 ---
 ## Valores Referência
-Sódio: $135-145 \text{ mEq/L}$
-Equivalência: $1\text{g}_\text{ NaCl} \approx 17 \text{mEq}$
+- Sódio: $135-145 \text{ mEq/L}$
+- Equivalência: $1\text{g}_\text{ NaCl} \approx 17 \text{mEq}$
 
 NaCl 3% $\rightarrow$ SF 0,9% 90ml + NaCl 20% 10ml
 ## Hiponatremia
@@ -18,6 +18,7 @@ NaCl 3% $\rightarrow$ SF 0,9% 90ml + NaCl 20% 10ml
 
 > [!example] Cálculo da correção de Sódio
 > Lembrar do limite máximo
+> 
 > $$\text{Na}_\text{déficit}=0.6\text{(homem) ou }0.5\text{(mulher)}\times\text{Peso}\times\Delta[\text{Na}]_\text{S}\text{ mEq}$$
 
 > [!attention] Desmielinização Osmótica
@@ -38,8 +39,9 @@ NaCl 3% $\rightarrow$ SF 0,9% 90ml + NaCl 20% 10ml
 ## Hipernatremia
 
 > [!hint] Objetivo
-> - $\downarrow\ce{Na}$ em $10\text{ mEq/L}$ em $24\text{h}$ (Máximo) (**Risco de edema cerebral**)
+> - $\downarrow\text{Na}$ em $10\text{ mEq/L}$ em $24\text{h}$ (Máximo) (**Risco de edema cerebral**)
 
 > [!example] Cálculo de Correção do Sódio
 > Soluções Hipotônicas: SG 5% ou NaCl 0,45% ou 0,225%
-> $$\ce{H2O}_\text{déficit} = 0.5\text{(homem)} \text{ ou }0.4\text{(mulher)}\times\text{Peso}\times\left(\frac{[\ce{Na}]_\text{atual}}{[\ce{Na}]_\text{desejado}}-1\right)$$
+> 
+> $$\text{H}_2\text{O}_\text{déficit} = 0.5\text{(homem)} \text{ ou }0.4\text{(mulher)}\times\text{Peso}\times\left(\frac{[\text{Na}]_\text{atual}}{[\text{Na}]_\text{desejado}}-1\right)$$

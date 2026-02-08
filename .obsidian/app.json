@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "00_Inbox",
-  "attachmentFolderPath": "_media"
+  "attachmentFolderPath": "_media",
+  "strictLineBreaks": true
 }

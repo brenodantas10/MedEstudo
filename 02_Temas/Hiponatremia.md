@@ -7,8 +7,7 @@ status: estudando
 importancia: alta
 publish: true
 ---
-Definida por $[Na^+] < 135\text{ mEq/L}$, representa um distúrbio da **água livre** no corpo.
-O raciocínio baseia-se em **osmolaridade**, **volemia** e **ADH**.
+Definida por $[Na^+] < 135\text{ mEq/L}$, representa um distúrbio da **água livre** no corpo. O raciocínio baseia-se em **osmolaridade**, **volemia** e **ADH**.
 
 ## Classificações Essenciais
 
@@ -35,8 +34,8 @@ O raciocínio baseia-se em **osmolaridade**, **volemia** e **ADH**.
 > [!error] Padrões urinários
 > - $[\text{Na}]_U < 20 \text{ mEq/L}$ → perdas extrarrenais / hipovolemia
 > - $[\text{Na}]_U > 40 \text{ mEq/L}$ → SIADH / perdas renais (diuréticos?)
-> - $\text{Osm}_U > 100$ → ADH ativo
-> - $\text{Osm}_U < 100$ → Água excedente (polidipsia primária?)
+> - $\text{Osm}_U > 100\text{ mOsm/kg}$ → ADH ativo
+> - $\text{Osm}_U < 100\text{ mOsm/kg}$ → Água excedente (polidipsia primária?)
 
 ## Causas mais Cobradas
 
