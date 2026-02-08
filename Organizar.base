@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.folder != "_templates"
+properties:
+  file.name:
+    displayName: Nome da Nota
+views:
+  - type: table
+    name: Temas
+    filters:
+      and:
+        - Tipo == "tema"
+    order:
+      - file.name
+      - Tipo
+      - area
+      - subarea
+      - status
+      - importancia
+      - publish
+    sort: []
