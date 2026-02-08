@@ -1,8 +1,8 @@
 ---
+date: 2026-02-06
 tipo: estudo
 area: Clínica Médica
 subarea: Nefrologia
-data: 2026-02-06
 publish: false
 ---
 Distúrbio definido por $\uparrow$ Na > 145 mEq/L.

@@ -1,5 +1,6 @@
 ---
 aliases:
+date: 2026-02-07
 tipo: tema
 area: Clínica Médica
 subarea: Nefrologia
@@ -10,12 +11,15 @@ publish: true
 Definido por $[\text{K}^+] < 3.5\text{ mEq/L}$, representa por modificações ou distúrbios envolvendo o armazenamento, absorção ou excreção do potássio.
 Raciocínio baseia-se em **pH**, **Aldosterona**, **Armazenamento** e **Excreção**
 
+> [!hint] Classificação
+> - Leve: $[\ce{K+}]<3.5\text{ mEq/L}$
+> - Grave: $[\ce{K+}]<3.0\text{ mEq/L}$
+
 > [!note] Clínica do Paciente
 > - Fraqueza, Cãibra
 > - Hiporreflexia, Parestesia
-> - Arritmias (ver [[Modificações do ECG pelo Potássio]])
+> - ECG ($\downarrow T$, $\uparrow U$, $\uparrow P$, $\uparrow QT$)
 > - Constipação
-
 ## Causas
 > [!hint] Armazenamento
 > - Insulina/Adrenalina

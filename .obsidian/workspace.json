@@ -4,63 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cbe6047794c19caa",
+        "id": "822929c164a1293c",
         "type": "tabs",
         "children": [
           {
-            "id": "5c1ace10ae4fec2f",
+            "id": "d384d30612128aff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
+                "file": "05_Hubs/Ginecologia e Obstetrícia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distúrbios do Potássio - MEDCURSO"
+              "title": "Ginecologia e Obstetrícia"
             }
           },
           {
-            "id": "41342bb2bc7d1ec3",
+            "id": "69d74335e05ec332",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "02_Temas/Diagnóstico da Gravidez e Modificações.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "587fd2dc62aaee8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Temas/Hipocalemia.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hipocalemia"
-            }
-          },
-          {
-            "id": "e299db72b6edb562",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "Diagnóstico da Gravidez e Modificações"
             }
           }
         ],
@@ -226,39 +198,41 @@
       "bases:Create new base": false
     }
   },
-  "active": "41342bb2bc7d1ec3",
+  "active": "69d74335e05ec332",
   "lastOpenFiles": [
-    "02_Temas/Hipercalemia.md",
-    "02_Temas/Hipernatremia.md",
-    "02_Temas/Hipocalemia.md",
-    "02_Temas/Hiponatremia.md",
-    "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
-    "index.md",
-    "05_Hubs/Nefrologia.md",
     "05_Hubs/Ginecologia e Obstetrícia.md",
+    "02_Temas/Diagnóstico da Gravidez e Modificações.md",
+    "index.md",
+    "02_Temas/Hipernatremia.md",
     "03_Zettelkasten/Perdas Insensíveis de Água e Hipernatremia.md",
-    "05_Hubs/Distúrbios Hidroeletrolíticos.md",
-    "05_Hubs/Clínica Médica.md",
     "04_Referencias/Correção de Sódio - Valores e Segurança.md",
+    "00_Inbox/Estrogênio.md",
+    "00_Inbox/Ciclo Menstruação.md",
+    "02_Temas/Hipocalemia.md",
+    "02_Temas/Hipercalemia.md",
+    "03_Zettelkasten/Influência renal no equilíbrio osmótico.md",
+    "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
+    "_templates/00_Tema - Template.md",
+    "_templates/01_Zetel - Template.md",
+    "_templates/02_Estudo - Template.md",
+    "_templates/03_Referência - Template.md",
+    "_templates/04_Hub - Template.md",
     "01_Estudo/Hipernatremia - Medcurso.md",
+    "05_Hubs/Clínica Médica.md",
+    "05_Hubs/Distúrbios Hidroeletrolíticos.md",
+    "05_Hubs/Nefrologia.md",
+    "Organizar.base",
     "04_Referencias/Osmolaridade Urinária.md",
     "04_Referencias/Osmolaridade Plasmática.md",
-    "Organizar.base",
+    "02_Temas/Hiponatremia.md",
     "_media",
-    "_templates/04_Hub - Template.md",
-    "_templates/03_Referência - Template.md",
-    "_templates/02_Estudo - Template.md",
-    "_templates/01_Zetel - Template.md",
-    "_templates/00_Tema - Template.md",
     "02_Temas",
     "05_Hubs",
     "04_Referencias",
     "03_Zettelkasten",
     "01_Estudo",
     "00_Inbox",
-    "00_Inbox/Estrogênio.md",
     "Novas Notas",
-    "00_Inbox/Ciclo Menstruação.md",
     "_templates"
   ]
 }

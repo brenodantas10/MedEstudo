@@ -1,4 +1,5 @@
 ---
+date: "{{date}}"
 tipo: zetel
 area:
 subarea:

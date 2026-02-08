@@ -1,4 +1,5 @@
 ---
+date: 2026-02-05
 tipo: hub
 area: Ginecologia e Obstetrícia
 publish: true

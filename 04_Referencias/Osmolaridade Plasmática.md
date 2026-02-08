@@ -1,4 +1,5 @@
 ---
+date: 2026-02-05
 tipo: referencia
 area: Clínica Médica
 subarea: Nefrologia

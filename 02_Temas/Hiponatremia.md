@@ -1,5 +1,6 @@
 ---
 aliases:
+date: 2026-02-05
 tipo: tema
 area: Clínica Médica
 subarea: Nefrologia

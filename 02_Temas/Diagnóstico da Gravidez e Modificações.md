@@ -1,9 +1,9 @@
 ---
 aliases:
-date: "{{date}}"
+date: 2026-02-08
 tipo: tema
-area:
-subarea:
+area: Obstetrícia
+subarea: Nefrologia
 status: pendente
 importancia: media
 publish: false

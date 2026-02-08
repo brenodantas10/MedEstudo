@@ -1,4 +1,5 @@
 ---
+date: 2026-02-06
 tipo: zetel
 area: Clínica Médica
 subarea: Nefrologia

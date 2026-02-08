@@ -1,5 +1,6 @@
 ---
 aliases:
+date: 2026-02-06
 tipo: tema
 area: Clínica Médica
 subarea: Nefrologia
@@ -49,3 +50,4 @@ Lembrar das perdas insensíveis! (Ver [[Perdas Insensíveis de Água e Hipernatr
 ## Links Relacionados
 - [[Osmolaridade Urinária]]
 - [[Perdas Insensíveis de Água e Hipernatremia]]
+- [[Correção de Sódio - Valores e Segurança]]

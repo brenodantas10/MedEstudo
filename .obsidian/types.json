@@ -12,6 +12,7 @@
     "ultima_revisao": "datetime",
     "publish": "checkbox",
     "ultima_atualizacao": "date",
-    "data": "date"
+    "data": "date",
+    "date": "date"
   }
 }

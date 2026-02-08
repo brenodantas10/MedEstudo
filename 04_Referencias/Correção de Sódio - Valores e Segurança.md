@@ -1,4 +1,5 @@
 ---
+date: 2026-02-05
 tipo: referencia
 area: Clínica Médica
 subarea: Nefrologia
@@ -44,4 +45,8 @@ NaCl 3% $\rightarrow$ SF 0,9% 90ml + NaCl 20% 10ml
 > [!example] Cálculo de Correção do Sódio
 > Soluções Hipotônicas: SG 5% ou NaCl 0,45% ou 0,225%
 > 
-> $$\text{H}_2\text{O}_\text{déficit} = 0.5\text{(homem)} \text{ ou }0.4\text{(mulher)}\times\text{Peso}\times\left(\frac{[\text{Na}]_\text{atual}}{[\text{Na}]_\text{desejado}}-1\right)$$
+> $$\ce{H2O}_\text{déficit} = 0.5\text{(homem)} \text{ ou }0.4\text{(mulher)}\times\text{Peso}\times\left(\frac{[\text{Na}]_\text{atual}}{[\text{Na}]_\text{desejado}}-1\right)$$
+
+> [!note] Recupere as Perdas Insensíveis Sempre!
+> Perdas insensíveis ocorrem a todo momento, isso é além do cálculo de correção
+> - Recupere $10\text{ ml/kg/dia}$ somando ao $\ce{H2O}_\text{déficit}$

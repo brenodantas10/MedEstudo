@@ -1,5 +1,6 @@
 ---
 aliases:
+date: 2026-02-08
 tipo: tema
 area: Clínica Médica
 subarea: Nefrologia
@@ -59,5 +60,5 @@ Distúrbio caracterizado por $[\text{K}]>5.5\text{ mEq/L}$, muito associado a **
 > [!attention] Refratário
 > - Diálise
 
-
-
+## Links Relacionados
+- [[Influência renal no equilíbrio osmótico]]
