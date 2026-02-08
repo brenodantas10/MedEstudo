@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "41342bb2bc7d1ec3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Temas/Hipercalemia.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hipercalemia"
+            }
+          },
+          {
+            "id": "587fd2dc62aaee8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Temas/Hipocalemia.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hipocalemia"
+            }
+          },
+          {
             "id": "e299db72b6edb562",
             "type": "leaf",
             "state": {
@@ -198,19 +226,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "e299db72b6edb562",
+  "active": "41342bb2bc7d1ec3",
   "lastOpenFiles": [
+    "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
+    "02_Temas/Hipercalemia.md",
+    "02_Temas/Hipocalemia.md",
+    "index.md",
     "05_Hubs/Nefrologia.md",
     "05_Hubs/Ginecologia e Obstetrícia.md",
     "03_Zettelkasten/Perdas Insensíveis de Água e Hipernatremia.md",
     "02_Temas/Hiponatremia.md",
     "05_Hubs/Distúrbios Hidroeletrolíticos.md",
-    "index.md",
     "05_Hubs/Clínica Médica.md",
     "04_Referencias/Correção de Sódio - Valores e Segurança.md",
     "01_Estudo/Hipernatremia - Medcurso.md",
-    "02_Temas/Hipocalemia.md",
-    "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
     "02_Temas/Hipernatremia.md",
     "04_Referencias/Osmolaridade Urinária.md",
     "04_Referencias/Osmolaridade Plasmática.md",
