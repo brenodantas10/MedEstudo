@@ -8,3 +8,4 @@ status: pendente
 importancia: media
 publish: false
 ---
+Definida pela **Nidação** do **Blastocisto** no Endométrio.

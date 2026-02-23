@@ -4,7 +4,7 @@ tipo: hub
 area: Ginecologia e Obstetrícia
 publish: true
 ---
-Nota hub destinada aos principais assuntos dentro da Ginecologia e Obstetrícia para a prova de residência.
+Nota hub destinada aos principais assuntos dentro da **Ginecologia** e **Obstetrícia** para a prova de residência.
 
 ## Assuntos
 
@@ -15,8 +15,10 @@ Nota hub destinada aos principais assuntos dentro da Ginecologia e Obstetrícia 
 > - [[Síndrome dos Ovários Policísticos]]
 
 > [!attention] Obstetrícia
-> - [[Diagnóstico da Gravidez e Modificações]]
+> - [[Diagnóstico da Gravidez]]
+> - [[Modificações do Organismo Materno na Gestação]]
 > - [[Pré-Natal]]
 
 ## Outros Temas
 - [[Incongruência de Gênero]]
+- [[Vitalidade Fetal]]
