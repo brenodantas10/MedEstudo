@@ -29,7 +29,7 @@ Iniciada pela **Nidação** do **Blastocisto** no Endométrio. (Ver [[Fecundaç�
 
 ## Sinais Clínicos
 
-> [!note] Presunção - Mama, Ciclo e outros Sintomas
+> [!note] Presunção - Mama, Outros sintomas sistêmicos
 > - Atraso menstrual > 10-14 dias
 > - Congestão e Mastalgia
 > - **Sinais Mamários**
@@ -41,6 +41,9 @@ Iniciada pela **Nidação** do **Blastocisto** no Endométrio. (Ver [[Fecundaç�
 > - [[Sinal de Hegar]]
 > - [[Sinal de Piskacek]]
 > - [[Sinal de Nobile-Budin]]
+> - Regra de Goodell -> Amolecimento do Colo
+> - Sinal de Jacquemier -> Mucosa Vulvar violácea
+> - Sinal de Kluge -> Mucosa Vaginal violácea
 
 > [!hint] Certeza - Sentir o Feto
 > - Ausculta BCF com Sonar > 10-12 semanas.
@@ -59,6 +62,7 @@ Iniciada pela **Nidação** do **Blastocisto** no Endométrio. (Ver [[Fecundaç�
 > [!attention] USG 1ºT
 > - DPP = Data + 40 - IGG
 > - Preferir DUM, se diferença <7 dias
+
 ## Veja Também
 - [[Fecundação e Desenvolvimento Embrionário]]
 - [[Regra de Nagele]]

@@ -7,5 +7,15 @@ publish: true
 ---
 É a aparição de um **Halo mal-definido** em volta das **auréolas mamárias**, surgindo em torno da **20ª Semana Gestacional**, lembrando um **Alvo de Tiro**.
 
+### Classificação
+Sinal de **presunção** ou **possibilidade** da gravidez
+
 ### Fisiopatologia
 Aumento dos hormônios de estrógeno, progesterona, prolactina e $\beta$-hCG, promovendo hipertrofia das glândulas da mama e hiperpigmentação das papilas, tornando os limites mais imprecisos.
+
+### Outros Sinais Mamários
+- [[Tubérculos de Montgomery]]
+- [[Rede de Haller]]
+
+### Ver também
+- [[Diagnóstico da Gravidez]]
