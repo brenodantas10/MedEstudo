@@ -18,6 +18,9 @@ Nota hub destinada aos principais assuntos dentro da **Ginecologia** e **Obstetr
 > - [[Diagnóstico da Gravidez]]
 > - [[Modificações do Organismo Materno na Gestação]]
 > - [[Pré-Natal]]
+> - [[Assistência ao Parto]]
+> - [[Sangramentos da 1ª Metade da Gestação]]
+> - [[Sangramentos da 2ª Metade da Gestação]]
 
 ## Outros Temas
 - [[Incongruência de Gênero]]

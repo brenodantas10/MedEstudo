@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "aeaec1a1e778d16e",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "822929c164a1293c",
+        "id": "ec3032e90c994758",
         "type": "tabs",
         "children": [
           {
-            "id": "d920dec04cdfc40f",
+            "id": "e6e720a2d7df7f3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Estudo/Diagnóstico de Gravidez - MEDCURSO.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagnóstico de Gravidez - MEDCURSO"
-            }
-          },
-          {
-            "id": "69d74335e05ec332",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Temas/Diagnóstico da Gravidez.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diagnóstico da Gravidez"
+              "title": "index"
             }
           }
         ]
@@ -194,37 +180,39 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "d920dec04cdfc40f",
+  "active": "e6e720a2d7df7f3b",
   "lastOpenFiles": [
     "02_Temas/Diagnóstico da Gravidez.md",
-    "01_Estudo/Diagnóstico de Gravidez - MEDCURSO.md",
+    "03_Zettelkasten/Sinal de Hunter.md",
+    "03_Zettelkasten/Tubérculos de Montgomery.md",
+    "03_Zettelkasten/Rede de Haller.md",
+    "03_Zettelkasten/Sinal de Piskacek.md",
+    "03_Zettelkasten/Sinal de Nobile-Budin.md",
+    "03_Zettelkasten/Sinal de Hegar.md",
+    "04_Referencias/Tubérculos de Montgomery.md",
+    "04_Referencias/Sinal de Nobile-Budin.md",
+    "04_Referencias/Sinal de Piskacek.md",
+    "04_Referencias/Sinal de Hegar.md",
     "05_Hubs/Ginecologia e Obstetrícia.md",
+    "03_Zettelkasten/teste.md",
+    "04_Referencias/Regra de Nagele.md",
+    "00_Inbox/Ciclo Menstruação.md",
     "index.md",
+    "05_Hubs/Pediatria.md",
+    "02_Temas/Doença Trofoblástica Gestacional.md",
+    "05_Hubs/Sangramentos da 1ª Metade da Gestação.md",
+    "00_Inbox/Doenças Malignas das Mamas.md",
+    "01_Estudo/Neonatologia - MEDCURSO.md",
+    "01_Estudo/Distúrbios Respiratórios em Pediatria - Aula MEDCURSO.md",
+    "01_Estudo/Diagnóstico de Gravidez - MEDCURSO.md",
+    "01_Estudo/Infertilidade - MEDCURSO 2025.md",
     "02_Temas/Hipernatremia.md",
     "03_Zettelkasten/Perdas Insensíveis de Água e Hipernatremia.md",
-    "04_Referencias/Correção de Sódio - Valores e Segurança.md",
-    "00_Inbox/Estrogênio.md",
-    "00_Inbox/Ciclo Menstruação.md",
-    "02_Temas/Hipocalemia.md",
-    "02_Temas/Hipercalemia.md",
-    "03_Zettelkasten/Influência renal no equilíbrio osmótico.md",
-    "01_Estudo/Distúrbios do Potássio - MEDCURSO.md",
-    "_templates/00_Tema - Template.md",
-    "_templates/01_Zetel - Template.md",
-    "_templates/02_Estudo - Template.md",
-    "_templates/03_Referência - Template.md",
-    "_templates/04_Hub - Template.md",
-    "01_Estudo/Hipernatremia - Medcurso.md",
-    "05_Hubs/Clínica Médica.md",
-    "05_Hubs/Distúrbios Hidroeletrolíticos.md",
-    "05_Hubs/Nefrologia.md",
     "Organizar.base",
-    "04_Referencias/Osmolaridade Urinária.md",
-    "04_Referencias/Osmolaridade Plasmática.md",
-    "02_Temas/Hiponatremia.md",
     "_media",
     "02_Temas",
     "05_Hubs",

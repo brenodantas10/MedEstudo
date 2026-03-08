@@ -8,6 +8,7 @@ Essa Vault será voltada para meus estudos em medicina com foco em **Residência
 ## Áreas Principais
 - [[Clínica Médica]]
 - [[Ginecologia e Obstetrícia]]
-- [[Trauma]]
+- [[Pediatria]]
+- [[Cirurgia]]
 - [[Medicina Preventiva]]
 
