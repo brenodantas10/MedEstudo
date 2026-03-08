@@ -44,7 +44,7 @@ Iniciada pela **Nidação** do **Blastocisto** no Endométrio. (Ver [[Fecundaç�
 
 > [!hint] Certeza - Sentir o Feto
 > - Ausculta BCF com Sonar > 10-12 semanas.
-> - Sinal de Puzos (14 semanas)
+> - [[Sinal de Puzos]] (14 semanas)
 > - $>$ 18-20 semanas
 > 	- Movimentos Fetais
 > 	- Palpação de Partes Fetais
