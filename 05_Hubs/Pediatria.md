@@ -9,5 +9,7 @@ Essa nota é um hub para os principais assuntos em **Pediatria**
 ## Principais Temas
 - [[Reanimação Neonatal]]
 - [[Distúrbios Respiratórios em Neonatologia]]
+- [[Icterícia Neonatal]]
+- [[Doenças Congenitas]]
 
 ## Outros Temas

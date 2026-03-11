@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ec3032e90c994758",
+        "id": "510d350de5489ef1",
         "type": "tabs",
         "children": [
           {
-            "id": "e6e720a2d7df7f3b",
+            "id": "913c068b0fc942c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "05_Hubs/Ginecologia e Obstetrícia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Ginecologia e Obstetrícia"
             }
           }
         ]
@@ -184,15 +184,25 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e6e720a2d7df7f3b",
+  "active": "913c068b0fc942c5",
   "lastOpenFiles": [
+    "index.md",
+    "05_Hubs/Reumatologia.md",
+    "05_Hubs/Artrites Inflamatórias.md",
+    "02_Temas/Artrite Reumatoide.md",
+    "05_Hubs/Distúrbios Hidroeletrolíticos.md",
+    "05_Hubs/Nefrologia.md",
+    "05_Hubs/Clínica Médica.md",
+    "05_Hubs/Pediatria.md",
+    "00_Inbox/Estrogênio.md",
+    "00_Inbox/Doenças Malignas das Mamas.md",
+    "00_Inbox/Ciclo Menstruação.md",
     "02_Temas/Diagnóstico da Gravidez.md",
     "03_Zettelkasten/Tubérculos de Montgomery.md",
     "03_Zettelkasten/Rede de Haller.md",
     "03_Zettelkasten/Sinal de Hunter.md",
     "03_Zettelkasten/Sinal de Puzos.md",
     "05_Hubs/Ginecologia e Obstetrícia.md",
-    "index.md",
     "03_Zettelkasten/Sinal de Piskacek.md",
     "03_Zettelkasten/Sinal de Nobile-Budin.md",
     "03_Zettelkasten/Sinal de Hegar.md",
@@ -202,16 +212,6 @@
     "04_Referencias/Sinal de Hegar.md",
     "03_Zettelkasten/teste.md",
     "04_Referencias/Regra de Nagele.md",
-    "00_Inbox/Ciclo Menstruação.md",
-    "05_Hubs/Pediatria.md",
-    "02_Temas/Doença Trofoblástica Gestacional.md",
-    "05_Hubs/Sangramentos da 1ª Metade da Gestação.md",
-    "00_Inbox/Doenças Malignas das Mamas.md",
-    "01_Estudo/Neonatologia - MEDCURSO.md",
-    "01_Estudo/Distúrbios Respiratórios em Pediatria - Aula MEDCURSO.md",
-    "01_Estudo/Diagnóstico de Gravidez - MEDCURSO.md",
-    "01_Estudo/Infertilidade - MEDCURSO 2025.md",
-    "02_Temas/Hipernatremia.md",
     "Organizar.base",
     "_media",
     "02_Temas",
