@@ -1,6 +1,6 @@
 ---
 date: 2026-03-22
-tipo: tema
+tipo: questao
 area: Obstetrícia
 subarea:
 publish: false

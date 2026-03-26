@@ -1,6 +1,6 @@
 ---
 date: "{{date}}"
-tipo: tema
+tipo: questao
 area:
 subarea:
 publish: false

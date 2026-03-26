@@ -8,5 +8,17 @@ Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traum
 
 ## Assuntos
 
-- [[Atenção Inicial ao Trauma]]
-- 
+>[!attention] Trauma
+> - [[Atenção Inicial ao Trauma]]
+> - [[Trauma de Tórax]]
+> - [[Trauma de Abdome]]
+> - [[Trauma de Pelva]]
+> - [[Traumatismo Craniano]]
+> - [[Cicatrização de Feridas]]
+> - [[Queimaduras]]
+
+>[!note] Urologia
+>- [[Urolitíase]]
+>- [[Câncer de Próstata]]
+>- [[Hiperplasia Prostática Benigna]]
+

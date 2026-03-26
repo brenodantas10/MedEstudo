@@ -8,11 +8,11 @@ publish: false
 ## Pré-Hospitalar
 **Segurança da Cena**
 
-- Afastaar o paciente da fonte de calor
+- Afastar o paciente da fonte de calor
 	- Retirar roupas, joalheria
 - Resfriar a lesão (até 3h)
 	- Água temperatura ambiente por 20-30 min (não pode ser gelada) (não pode ser queimadura química, pode ferver)
-	- Não neutralizar em reações químicas
+	- Não neutralizar em reações químicas por ácidos/bases
 		- Água morna por 30 min e/ou pH da pele 7-7,5
 - Prevenção da Hipotermina
 	- Envolver o paciente em lençois ou cobertores **secos**
