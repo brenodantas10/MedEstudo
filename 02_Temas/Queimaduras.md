@@ -8,10 +8,7 @@ status: pendente
 importancia: media
 publish: true
 ---
-> [!error]- Lembrar sempre da Segurança da Cena Primeiro
-> Ver [[Atendimento Inicial ao Trauma]]
-
-> [!attention] Indicação de Centro Especializado em Tratamento de Queimados
+> [!attention] Indicação de Centro Especializado em Tratamento de Queimados (CETQ)
 > - $\ge 10\%$ SCQ (a partir de 2º grau)
 > - 3º grau (qualquer)
 > - Locais:
@@ -60,11 +57,12 @@ publish: true
 ## Pré-Hospitalar
 
 > [!attention] Segurança da Cena + Paciente
-> - **Afastar** da fonte de calor
-> - **Resfriar** lesões até 3h pós queimadura
+> 1. **Afastar** da fonte de calor
+> 2. **Resfriar** lesões até 3h pós queimadura
 > 	- Água corrente ambiente / morna e neutra por 20-30 min
 > 	- Químicas: Não neutralizar (ácido/base) / Não pode água
-> - **Prevenção de Hipotermia**: Envolver em cobertor **SECO**
+> 3. **Prevenção de Hipotermia**: Envolver em cobertor **SECO**
+> 4. Decidir se precisa de CETQ
 
 > [!note] A: Indicações de Via Aérea
 > - Obstrução / Má oxigenação / $\downarrow$ Consciência
