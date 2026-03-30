@@ -4,7 +4,7 @@ date: 2026-03-26
 tipo: tema
 area: Cirurgia
 subarea: Trauma
-status: pendente
+status: estudando
 importancia: media
 publish: true
 ---
@@ -79,6 +79,11 @@ publish: true
 > - $\ge 13$ anos: 500 ml/h
 ## Intra-Hospitalar
 
+> [!error] C: Administrar Volume (ATLS 11ª)
+> - $V = \dfrac{2\times \text{Peso(kg)}\times \text{SQC(\%)}}{16}\text{ ml/h }(\ge13\text{ anos})$
+> - $V = \dfrac{3\times \text{Peso(kg)}\times \text{SQC(\%)}}{16}\text{ ml/h }(\le12\text{ anos})$
+> - $V = \dfrac{4\times \text{Peso(kg)}\times \text{SQC(\%)}}{16}\text{ ml/h (Elétrica)}$
+> 
 
 ## Links Relacionados
 - [[Como Estimar a SCQ]]

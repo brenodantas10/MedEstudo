@@ -4,7 +4,7 @@ tipo: referencia
 area: Cirurgia
 subarea: Trauma
 ultima_atualizacao: ""
-publish: false
+publish: true
 ---
 ## Regra de Wallace
 
