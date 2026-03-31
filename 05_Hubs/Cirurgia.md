@@ -1,7 +1,7 @@
 ---
 date: 2026-03-24
 tipo: hub
-area:
+area: Cirurgia
 publish: true
 ---
 Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traumatologia.
@@ -22,3 +22,5 @@ Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traum
 >- [[Câncer de Próstata]]
 >- [[Hiperplasia Prostática Benigna]]
 
+## Outros Temas
+- [[Cateter Venoso]]
