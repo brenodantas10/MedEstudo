@@ -22,5 +22,8 @@ Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traum
 >- [[Câncer de Próstata]]
 >- [[Hiperplasia Prostática Benigna]]
 
+> [!hint] Procedimentos
+> - [[Dreno de Tórax]]
+> - [[Point-of-Cara Ultrasound]]
 ## Outros Temas
 - [[Cateter Venoso]]
