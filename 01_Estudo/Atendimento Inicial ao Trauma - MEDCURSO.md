@@ -1,8 +1,9 @@
 ---
 date: 2026-03-23
 tipo: estudo
-area: Cirurgia
-subarea: Trauma
+areas:
+  - Cirurgia
+  - Trauma
 publish: false
 ---
 1º Garantir a sua segurança

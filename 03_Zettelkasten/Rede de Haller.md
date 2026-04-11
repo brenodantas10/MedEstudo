@@ -1,8 +1,8 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area:
-subarea:
+areas:
+  - Obstetrícia
 publish: true
 ---
 É a **aparição** ou **aumento** da **vascularização venosa** na mama devido à estímulos hormonais, geralmente mais aparente a partir da **16ª Semana da Gestação**

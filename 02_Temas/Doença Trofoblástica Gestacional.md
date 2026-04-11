@@ -2,8 +2,8 @@
 aliases:
 date: 2026-02-24
 tipo: tema
-area: Ginecologia e Obstetrícia
-subarea: Obstetrícia
+areas:
+  - Obstetrícia
 status: estudando
 importancia: media
 publish: false

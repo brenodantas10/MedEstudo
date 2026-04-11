@@ -2,8 +2,9 @@
 aliases:
 date: 2026-02-08
 tipo: tema
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 status: estudando
 importancia: media
 publish: true

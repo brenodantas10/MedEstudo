@@ -1,7 +1,8 @@
 ---
-date: "2026-02-24"
+date: 2026-02-24
 tipo: hub
-area:
+areas:
+  - Obstetrícia
 publish: false
 ---
 Nota hub destinada a organizar as notas sobre os sangramentos das primeiras 20 semanas da gestação.

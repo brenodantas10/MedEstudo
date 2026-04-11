@@ -1,8 +1,8 @@
 ---
 date: 2026-02-23
 tipo: estudo
-area: Ginecologia e Obstetrícia
-subarea:
+areas:
+  - Ginecologia
 publish: false
 ---
 É definida pela **ausência de gravidez** durante um período **maior que 12 meses** com tentativas regulares sem uso de contraceptivos.

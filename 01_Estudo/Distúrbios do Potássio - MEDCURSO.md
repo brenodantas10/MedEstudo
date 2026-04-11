@@ -1,8 +1,9 @@
 ---
 date: 2026-02-05
 tipo: estudo
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 publish: false
 ---
 Potássio Referência: 3-5-5,5 mEq/L

@@ -1,8 +1,9 @@
 ---
 date: 2026-03-10
 tipo: hub
-area: Clínica Médica
-subarea: Reumatologia
+areas:
+  - Clínica Médica
+  - Reumatologia
 publish: true
 ---
 Nota hub destinada a organizar as Artrites Inflamatórias da Reumatologia.

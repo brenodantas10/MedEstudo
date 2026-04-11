@@ -2,8 +2,7 @@
 aliases:
 date: 2026-03-23
 tipo: tema
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 status: estudando
 importancia: media
 publish: false

@@ -2,8 +2,7 @@
 aliases:
 date: 2026-02-08
 tipo: tema
-area: Obstetrícia
-subarea: Nefrologia
+areas: Obstetrícia
 status: estudando
 importancia: media
 publish: true

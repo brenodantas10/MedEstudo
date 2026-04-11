@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: true
 ---
 São **Glândulas Sebáceas e Acessórias Hipertrofiadas** na Mama que aparecem a partir da **8ª Semana da Gestação**

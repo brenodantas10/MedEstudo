@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: true
 ---
 É o **Rechaço Fetal Intrauterino**, podendo ser observado a partir da **14ª Semana Gestacional**.

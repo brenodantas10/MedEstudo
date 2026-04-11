@@ -1,7 +1,7 @@
 ---
 date: 2026-02-05
 tipo: hub
-area: Clínica Médica
+areas: Clínica Médica
 publish: true
 ---
 Subárea da clínica médica relacionada ao funcionamento dos rins e suas repercussões sistêmicas

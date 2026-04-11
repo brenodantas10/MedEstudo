@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: true
 ---
 É a **assimetria uterina** pelo local de implantação da placenta entre a **6ª e 8ª semana**

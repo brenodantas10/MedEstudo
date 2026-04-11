@@ -1,8 +1,9 @@
 ---
 date: 2026-04-03
 tipo: estudo
-area: Clínica Médica
-subarea: Pneumologia
+areas:
+  - Clínica Médica
+  - Pneumologia
 publish: false
 ---
 Derrame pleural é o preenchimento o espaço entre a pleura parietal e pulmonar com líquido. Pode ser sintomático ou assintomático. Pode ser visualizado por **Radiografia** ou **Tomografia**.

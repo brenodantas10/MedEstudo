@@ -1,8 +1,7 @@
 ---
 date: "{{date}}"
 tipo: referencia
-area:
-subarea:
+areas:
 ultima_atualizacao: ""
 publish: false
 ---

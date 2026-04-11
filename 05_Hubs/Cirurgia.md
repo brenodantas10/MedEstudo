@@ -1,7 +1,7 @@
 ---
 date: 2026-03-24
 tipo: hub
-area: Cirurgia
+areas: Cirurgia
 publish: true
 ---
 Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traumatologia.
@@ -24,6 +24,6 @@ Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traum
 
 > [!hint] Procedimentos
 > - [[Dreno de Tórax]]
-> - [[Point-of-Cara Ultrasound]]
+> - [[Point-of-Care Ultrasound]]
 ## Outros Temas
 - [[Cateter Venoso]]

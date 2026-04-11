@@ -1,7 +1,6 @@
 ---
 date: "{{date}}"
 tipo: questao
-area:
-subarea:
+areas:
 publish: false
 ---

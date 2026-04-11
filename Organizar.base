@@ -4,18 +4,26 @@ filters:
 properties:
   file.name:
     displayName: Nome da Nota
+  note.area:
+    displayName: areas
 views:
   - type: table
     name: Temas
     filters:
-      and:
+      or:
         - Tipo == "tema"
+        - Tipo == "estudo"
     order:
       - file.name
       - Tipo
-      - area
-      - subarea
       - status
-      - importancia
       - publish
-    sort: []
+      - areas
+    sort:
+      - property: importancia
+        direction: DESC
+      - property: subarea
+        direction: ASC
+    columnSize:
+      note.Tipo: 71
+      note.status: 103

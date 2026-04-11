@@ -1,8 +1,7 @@
 ---
 date: 2026-03-15
 tipo: estudo
-area: Ginecologia
-subarea:
+areas: Ginecologia
 publish: false
 ---
 - Fatores de Risco

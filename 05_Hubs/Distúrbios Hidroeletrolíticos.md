@@ -1,8 +1,9 @@
 ---
 date: 2026-02-05
 tipo: hub
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 publish: true
 ---
 Nota hub dos principais distúrbios eletrolíticos da nefrologia.

@@ -1,8 +1,7 @@
 ---
 date: 2026-03-30
 tipo: estudo
-area: Medicina Preventiva
-subarea:
+areas: Medicina Preventiva
 publish: false
 ---
 # Níveis de Prevenção

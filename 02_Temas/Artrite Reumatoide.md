@@ -2,8 +2,9 @@
 aliases:
 date: 2026-03-10
 tipo: tema
-area: Clínica Médica
-subarea: Reumatologia
+areas:
+  - Clínica Médica
+  - Reumatologia
 status: estudando
 importancia: media
 publish: true

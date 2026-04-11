@@ -1,8 +1,9 @@
 ---
 date: 2026-02-06
 tipo: zetel
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 publish: true
 ---
 As perdas insensíveis de água ocorrem a todo momento, seja **respirando**, **transpirando** ou pelas **fezes** e, pela sede, recuperamos tanto essa água, tanto a água urinada.

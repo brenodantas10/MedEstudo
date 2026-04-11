@@ -1,8 +1,9 @@
 ---
 date: 2026-03-26
 tipo: referencia
-area: Cirurgia
-subarea: Trauma
+areas:
+  - Cirurgia
+  - Trauma
 ultima_atualizacao: ""
 publish: true
 ---

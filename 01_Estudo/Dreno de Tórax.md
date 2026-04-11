@@ -1,8 +1,7 @@
 ---
 date: 2026-04-01
 tipo: estudo
-area: Cirurgia
-subarea: Tórax
+areas: Cirurgia
 publish: false
 ---
 Acrônimo SAFE DRAIN

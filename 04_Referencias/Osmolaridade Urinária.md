@@ -1,8 +1,9 @@
 ---
 date: 2026-02-07
 tipo: referencia
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 publish: true
 ---
 Referência Normal: $300-1050 \text{ mOsm/L}$

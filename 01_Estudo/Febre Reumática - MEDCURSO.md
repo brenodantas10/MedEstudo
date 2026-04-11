@@ -1,8 +1,9 @@
 ---
 date: 2026-03-30
 tipo: estudo
-area: Clínica Médica
-subarea: Reumatologia
+areas:
+  - Clínica Médica
+  - Reumatologia
 publish: false
 ---
 Doença inflamatória aguda causada por reação autoimune cruzada por infecção de Estafilococos beta-hemolítico do grupo A (S. pyogenes).

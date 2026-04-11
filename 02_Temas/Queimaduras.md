@@ -2,8 +2,9 @@
 aliases:
 date: 2026-03-26
 tipo: tema
-area: Cirurgia
-subarea: Trauma
+areas:
+  - Cirurgia
+  - Urgência
 status: estudando
 importancia: media
 publish: true

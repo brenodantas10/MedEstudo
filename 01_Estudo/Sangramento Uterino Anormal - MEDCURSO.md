@@ -1,3 +1,10 @@
+---
+date: 
+tipo: estudo
+areas:
+  - Ginecologia
+publish: false
+---
 - Sempre descartar Gravidez a princípio.
 
 ## Investigação

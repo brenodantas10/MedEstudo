@@ -1,8 +1,9 @@
 ---
 date: 2026-02-08
 tipo: zetel
-area: Clínica Médica
-subarea: Nefrologia
+areas:
+  - Clínica Médica
+  - Nefrologia
 publish: true
 ---
 O Rim é central no equilíbrio da **osmolaridade**, **estado ácido-base** e **concentração de solutos** no sangue.

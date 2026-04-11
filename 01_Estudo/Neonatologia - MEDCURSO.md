@@ -1,8 +1,8 @@
 ---
-date: "2026-02-25"
+date: 2026-02-25
 tipo: estudo
-area:
-subarea:
+areas:
+  - Pediatria
 publish: false
 ---
 # Aspectos Gerais

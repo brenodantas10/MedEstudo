@@ -1,8 +1,9 @@
 ---
 date: 2026-03-29
 tipo: referencia
-area: Cirurgia
-subarea: Trauma
+areas:
+  - Cirurgia
+  - Trauma
 publish: true
 ---
 # Regra de Parkland

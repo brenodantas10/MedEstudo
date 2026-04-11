@@ -1,8 +1,7 @@
 ---
 date: 2026-04-01
 tipo: estudo
-area:
-subarea:
+areas:
 publish: false
 aliases:
   - POCUS

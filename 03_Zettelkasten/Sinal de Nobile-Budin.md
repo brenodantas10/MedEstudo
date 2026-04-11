@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: true
 ---
 É a percepção, durante toque vaginal, do fundo de saco estar preenchido entre 6 e 8 semanas.

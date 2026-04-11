@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: zetel
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: true
 ---
 É a aparição de um **Halo mal-definido** em volta das **auréolas mamárias**, surgindo em torno da **20ª Semana Gestacional**, lembrando um **Alvo de Tiro**.

@@ -1,8 +1,7 @@
 ---
 date: 2026-03-08
 tipo: referencia
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 ultima_atualizacao: ""
 publish: true
 ---

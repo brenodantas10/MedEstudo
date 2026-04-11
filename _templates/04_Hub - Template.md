@@ -1,6 +1,6 @@
 ---
 date: "{{date}}"
 tipo: hub
-area:
+areas:
 publish: false
 ---

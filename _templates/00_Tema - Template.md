@@ -2,8 +2,7 @@
 aliases:
 date: "{{date}}"
 tipo: tema
-area:
-subarea:
+areas:
 status: pendente
 importancia: media
 publish: false

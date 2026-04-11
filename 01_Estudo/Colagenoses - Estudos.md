@@ -1,8 +1,9 @@
 ---
 date: 2026-03-30
 tipo: estudo
-area: Clínica Médica
-subarea: Reumatologia
+areas:
+  - Clínica Médica
+  - Reumatologia
 publish: false
 ---
 É uma doenças inflamatórias sistêmicas auto-imunes idiopáticas

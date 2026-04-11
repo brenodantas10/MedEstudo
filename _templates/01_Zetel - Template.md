@@ -1,7 +1,6 @@
 ---
 date: "{{date}}"
 tipo: zetel
-area:
-subarea:
+areas:
 publish: false
 ---

@@ -1,7 +1,6 @@
 ---
 date: "{{date}}"
 tipo: estudo
-area:
-subarea:
+areas:
 publish: false
 ---

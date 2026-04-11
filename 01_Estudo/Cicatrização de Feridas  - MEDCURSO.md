@@ -1,8 +1,7 @@
 ---
 date: 2026-03-23
 tipo: estudo
-area: Cirurgia
-subarea:
+areas: Cirurgia
 publish: false
 ---
 # Fases da Cicatrização:

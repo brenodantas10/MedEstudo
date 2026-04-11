@@ -1,8 +1,8 @@
 ---
 date: 2026-02-11
 tipo: estudo
-area: Ginecologia e Obstetrícia
-subarea: Obstetrícia
+areas:
+  - Obstetrícia
 publish: false
 ---
 # Diagnóstico de Gravidez

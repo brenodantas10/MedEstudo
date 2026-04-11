@@ -1,8 +1,7 @@
 ---
 date: 2026-03-19
 tipo: estudo
-area: Obstetrícia
-subarea:
+areas: Obstetrícia
 publish: false
 ---
 # Trajeto Duro

@@ -1,8 +1,7 @@
 ---
 date: 2026-03-31
 tipo: estudo
-area: Cirurgia
-subarea:
+areas: Cirurgia
 publish: false
 ---
 
