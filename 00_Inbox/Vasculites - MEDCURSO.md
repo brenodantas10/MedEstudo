@@ -1,0 +1,168 @@
+Inframação sistêmica que provoca em algum momento Inflamação Vascular
+
+**Inflamação Vascular**: Pensar em quem está sofrendo hipóxia
+- **Grande Calibre**: Aorta e seus ramos pra cabeça e pescoço
+	- Reduz a luz do vaso e o fluxo sanguíneo
+	- Falta de oxigênio
+	- Caracterização: Claudicação
+- **Médio**: Irriga órgão e viscera
+	- Aneurismas
+	- Caracterização: Angina
+- **Pequeno**: Todos os outros (pele, geralmente)
+	- Aumento da permeabilidade vascular INTENSA (sai hemácia, além do plasma)
+	- Característica: Púpura palpável (amontoado de hemácias na pele), petéquia, equimose
+		- Diferencia no tamanho: Petéquia < Púrpura < Equimose
+		- Não desaparecem a digitopressão
+
+**Laboratório**
+- Aumento do VHS e PCR
+- Anemia normo/normo, Leucocitose
+- Plaquetas normais ou aumentadas
+- ANCA: Anticorpo anti-citoplasma de neutrófilo
+	- C-ANCA -> Pode estar relacionado a outras doenças
+		- Antiproteinase-3 (confirma que o C-ANCA é de uma vasculite)
+		- Granulomatose de Wegener (Poliangiite granulomatosa)
+	- P-ANCA -> Pode estar relacionado a outras doenças
+		- Anti-Mieloperoxidase (confirma que o P-ANCA é de vasculite)
+		- Poliangiíte microscópica
+		- Churg-Strauss
+
+**Vasculites ANCA + tem síndrome Pulmão-Rim**
+
+
+Inflamação vascular
+- Biópsia do vaso ou tecido
+- Imagem: Angiografia, ECO, USG
+
+
+## Classificação
+- **Grande Calibre**: Pega vasos de grande calibre preferencialmente
+	- Mulher inflamada e Claudica
+	- Takayasu
+		- < 40 anos
+		- Claudica MMSS
+		- Pega subclávia
+		- HAS renovascular (pode pegar arterias renais)
+		- Sopros em subclávia, carótida e aorta
+		- Diagnóstico: Angiografia
+		- Tratamento: Prednisona + Adalimumab ou metotrexato ou mofetila
+			- Angioplastia apenas após a remissão
+	- Temporal (vasculite mais comum do adulto) (ou cel gigantes)
+		- >= 50 anos
+		- Claudica Mandíbula
+		- Pode ter amaurose (pega as artérias oftálmicas)
+		- 50% tem Polimialgia Reumática (o contrário seriam 15%)
+		- Resposta dramática a corticoide
+		- Pode tratar antes da biópsia de temporal (até 14 dias)
+- **Médio Calibre**:
+	- Predomina em Homem
+	- Inflamação sistêmica, aneurisma e angina
+	- Doença de Kawasaki
+		- Criança
+		- Febre, pega mucosa e pé, linfoide e extremidades
+		- Necessário 5 de 6 critérios
+			- Febre >= 5 dias (necessário)
+			- Congestão conjuntival bilateral
+			- Alteração em Lábios e Cavidade Oral (lingua em framboesa)
+			- Adenomegalia Cervical >= 1,5 cm
+			- Exantema polimorfo
+			- Eritema e edema palmoplantar
+		- Pode aumentar complemento (C3)
+		- Diagnóstico: Clínica + ECO (pode dar aneurisma de coronárias)
+		- Tratamento: Imunoglobulina Venosa (+ precoce possível) + AAS em dose alta
+		- Quanto mais nova a criança, maior o rsco de aneurisma e refratariedade ao tratamento.
+	- Poliarterite Nodosa (PAN)
+		- 40 a 60 anos
+		- HAS renovascular: Aneurismas AA. renais
+		- Aumento de ureia e creatinina
+		- Gastrointestinais: Angina mesenterica
+			- doi quando come, passa quando para
+		- Dor Testicular: Angina Testicular
+		- Mononeurite múltiplas: Angina de Vasanervorum
+		- Livedo reticular
+		- Lab: HbsAg+, HbEAg+(30% dos asos)
+		- Diagnóstico: Biópsia da parte acometida. Angiografia mesentérica, Rena (múltiplos aneurismas)
+		- Poupa Pulmão
+- **Pequeno Calibre**:
+	- Ou predomínio de homem, ou homem=mulher
+	- Poliangiite microscópica (parece com PAN, mas pega pulmão)
+		- PAN + Síndrome Pulmão-Rim
+		- Pulmão -> Capilarite com hemoptise
+		- Rim -> GEFS com crescentes
+		- Lab: P-ANCA positivo (anti mieloperoxidase)
+		- Tratamento: prednisona + ciclofosfamida ou rituximabe
+	- Churg-Strauss (Poliangiite granulomatosa eosinofílica)
+		- Ser humano 30 a 50 anos
+		- Asma refratária
+		- Infiltrados Pulmonares Migratórios
+		- Eosinofilia > 1000 (5 a 9 mil)
+		- GEFS leve
+		- Mononeuite Múltipla
+		- Gastroenterite e Miocardite Eosinofílica
+		- Lab: Aumento de IgE, P-ANCA (40%)
+		- Diagnóstico: Biopsia pulmonar
+		- Tratamento: 
+			- Corticoide + Ciclofosfamida (se ANCA -) ou Rituximabe (se ANCA +)
+	- Granulomatose de Wegener: Granulomas em VA superiores, inferiores e crescentes em rins
+		- Ser humano 30 a 50 anos
+		- Sinusite, RInorreia purulenta
+		- Exoftalmia
+		- Perfuração em VAS
+		- Nariz em sela
+		- Hemoptise
+		- GEFS com Crescente
+		- Lab: C-ANCA + (90%)
+		- Diagnóstico: Biópsia de VAS e pulmão
+		- Tratamento: Corticoide + ciclofosfamida ou rituximabe
+- Calibre Variável:
+	- Púrpura de Henoch-Schönlein (Vasculite por IgA / Anafilactoide)
+		- Vasculite mais comum da infância
+		- Homem < 20 anos
+		- Padrão de vasculite leucocitoclástica
+		- Infecção prévia de VA
+		- Tétrade:
+			- Púrpura gravidade-dependente
+			- Artralgia/Artrite não deformante
+			- Dor abdominal (pedir USG)
+			- Glomerulite com Hematúria (=Berget)
+		- Outras
+			- Invaginação intestinal (íleo-ileal + comum)
+			- Orqui/epididimite, torão testicular
+			- Hemoragia conjuntival
+			- Neuropsiquiátricas
+		- Lab: Aumento IgA; Plaquetas normais ou aumentadas
+		- Diagnóstico: 
+			- Púrpura não trombocitopênica + 1
+				- Dor abdominal, articular, IgA em tecido
+		- Tratamento: Sintomáticos e Suporte apenas
+			- Corticoide se complicar (abdominal, nefrite, neurológico)
+	- Vasculite Crioglobulinêmica
+		- Leucocitoplástica
+		- Estressou -> Faz púrpura
+		- púrpura palpável
+		- Poliartralgia
+		- Glomerulonerite Branda
+		- Neuropatia periférica
+		- Lab: Diminui Complemento (C4), HCV +
+		- Diagnóstico: Crioglobulinas +
+		- Tratamento: 
+			- Corticoide + Rituximabe + Plasmaferese
+			- Tratar Hepatite C
+	- Doença de Behçet
+		- Ser Humano 25-35 anos
+		- Patergia (Hipersensibilidade cutânea)
+			- Arranhar a pele com agulha de insulina em formato de moeda
+			- Surge uma pápula no lugar alguns dias depois.
+		- Acne: "Pseudofoliculite"
+		- Úlceras Orais
+		- Lesões ocular:
+			- Hipópio:Leucocitos em câmara anterior do olho
+			- Uveíte anterior, Pan uveíte
+			- Neovascularização
+		- Úlceras genitais - escrotais
+		- Aneurismas pulmonares: RAROS (rompem ao esforço)
+		- Meningite asséptica
+		- Laboratório: ASCA +
+		- Diagnóstico: línica + Arteriografia Pulmonar
+		- Tratamento:
+			- Prednisona + Ciclofosfamida (?)
