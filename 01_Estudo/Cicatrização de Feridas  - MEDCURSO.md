@@ -11,7 +11,7 @@ Conceito 1: O capricho é sacrificado em favor da velocidade
 Concento 2: Dividida em 3 fases:
 1. Inflamação
 2. Proliferação ou Regeneração
-3. Maturção ou Remodelação
+3. Maturação ou Remodelação
 
 Se for 5 fases
 1. Hemostasia
@@ -20,7 +20,7 @@ Se for 5 fases
 4. Fibroplastia
 5. Maturação ou Remodelação
 
-### Inflamação: Exsudato na Ferida
+## Inflamação: Exsudato na Ferida
 - Vasoconstrição e Início da **Hemostasia**
 - Aumento da Permeabilidade (Permite sair células e exsudato para a ferida)
 	- Liberação de Histamina
@@ -30,7 +30,7 @@ Se for 5 fases
 - Depois chega o Linfócito T
 	- Libera IFN-gama para estimular o **FIBROBLASTO**
 
-### Proliferação: Tecido de Granulação
+## Proliferação: Tecido de Granulação
 O mais impostante é o FIBROBLASTO que libera COLÁGENO
 
 - **Fibroplastia**: Deposição de colágeno tipo III
@@ -39,7 +39,7 @@ O mais impostante é o FIBROBLASTO que libera COLÁGENO
 
 Tecido frágil, sangra fácil
 
-### Maturação: Bordas "contraindo"
+## Maturação: Bordas "contraindo"
 Feito pelos **Miofibroblastos** (Fibroblasto especializado)
 - Contraem a ferida
 - Aumenta troca do Colágeno tipo III por tipo I (trançado)
@@ -57,7 +57,7 @@ Feito pelos **Miofibroblastos** (Fibroblasto especializado)
 - Deficiência de Vitaminas e Sais Minerais
 	- Vir C, A, K e Zinco
 
-## Cictriz Hipertrófica e Queloide
+## Cicatriz Hipertrófica e Queloide
 Causa: Excesso de Colágeno
 - Aumento da produção de fibronectina, elastina e proteoglicanos
 
