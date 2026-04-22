@@ -47,20 +47,26 @@ Usa-se o sistema **TNM** (Tumor, linfoNodos, Metastases), podendo ter classifica
 ### Estadiamento Clínico
 Usa-se de exame físico e radiográfico
 
-|         | **N0** | **N1** | **N2** | **N3** |
-| ------: | :----: | :----: | :----: | :----: |
-|  **T1** |   I    |  III   |  IV-A  |  IV-B  |
-|  **T2** |   II   |  III   |  IV-A  |  IV-B  |
-|  **T3** |  III   |  III   |  IV-A  |  IV-B  |
-| **T4a** |  IV-A  |  IV-A  |  IV-A  |  IV-B  |
-| **T4b** |  IV-B  |  IV-B  |  IV-B  |  IV-B  |
-|  **M1** |  IV-C  |  IV-C  |  IV-C  |  IV-C  |
+|     | ---- |  N0  | N1  |  N2  |  N3  |
+| --: | :--: | :--: | :-: | :--: | :--: |
+|  T1 | :-:  |  I   | III | IV-A | IV-B |
+|  T2 |  -   |  II  |  ^  |  ^   |  ^   |
+|  T3 |  -   | III  |  <  |  ^   |  ^   |
+| T4a |  -   | IV-A |  <  |  ^   |  ^   |
+| T4b |  -   | IV-B |  <  |  <   |  ^   |
+|  M1 |  -   | IV-C |  <  |  <   |  <   |
+Tabela 1: Estadiamento clínico/patológico de um HPV negativo
 
-|         | **N0** | **N1** | **N2** |
-| ------: | :----: | :----: | :----: |
-| **pT0** |   I    |   I    |   II   |
-| **pT1** |   I    |   I    |   II   |
-| **pT2** |   I    |   I    |   II   |
-| **pT3** |   II   |   II   |  III   |
-| **pT4** |   II   |   II   |  III   |
-|  **M1** |   IV   |   IV   |   IV   |
+|     | ---- | N0  | N1  | N2  |
+| --: | ---: | :-: | :-: | :-: |
+| pT0 |    - |  I  |  <  | II  |
+| pT1 |    - |  ^  |  ^  |  ^  |
+| pT2 |    - |  ^  |  ^  |  ^  |
+| pT3 |    - | II  |  <  | III |
+| pT4 |    - |  ^  |  ^  |  ^  |
+|  M1 |    - | IV  |  <  |  <  |
+Tabela 2: Estadiamento patológico de um HPV positivo
+
+## Acompanhamento
+- Não existem marcadores sanguíneos para acompanhar ccanceres de cabeça e pescoço
+- Testar DNA e EBV e HPV podem ser utilizados se o cancer em questão tiver envolvimento desses vírus.
