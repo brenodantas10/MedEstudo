@@ -27,3 +27,8 @@ views:
     columnSize:
       note.Tipo: 71
       note.status: 103
+  - type: cards
+    name: Inbox
+    filters:
+      and:
+        - file.folder == "00_Inbox"
