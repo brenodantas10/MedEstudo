@@ -68,5 +68,5 @@ Tabela 1: Estadiamento clínico/patológico de um HPV negativo
 Tabela 2: Estadiamento patológico de um HPV positivo
 
 ## Acompanhamento
-- Não existem marcadores sanguíneos para acompanhar ccanceres de cabeça e pescoço
+- Não existem marcadores sanguíneos para acompanhar canceres de cabeça e pescoço
 - Testar DNA e EBV e HPV podem ser utilizados se o cancer em questão tiver envolvimento desses vírus.
