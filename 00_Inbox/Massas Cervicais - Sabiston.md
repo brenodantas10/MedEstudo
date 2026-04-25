@@ -49,7 +49,7 @@ Usa-se de exame físico e radiográfico
 
 |     | ---- |  N0  | N1  |  N2  |  N3  |
 | --: | :--: | :--: | :-: | :--: | :--: |
-|  T1 | :-:  |  I   | III | IV-A | IV-B |
+|  T1 |  -   |  I   | III | IV-A | IV-B |
 |  T2 |  -   |  II  |  ^  |  ^   |  ^   |
 |  T3 |  -   | III  |  <  |  ^   |  ^   |
 | T4a |  -   | IV-A |  <  |  ^   |  ^   |
