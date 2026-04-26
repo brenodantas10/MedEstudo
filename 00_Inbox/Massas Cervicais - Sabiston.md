@@ -67,6 +67,32 @@ Tabela 1: Estadiamento clínico/patológico de um HPV negativo
 |  M1 |    - | IV  |  <  |  <  |
 Tabela 2: Estadiamento patológico de um HPV positivo
 
+
+**Quanto a classificação clínica dos linfonodos**
+
+|     | - |     |         n          |           Local           |        Tamanho        |              Se HPV +               |
+| --: | - | --: | :----------------: | :-----------------------: | :-------------------: | :---------------------------------: |
+| cNX | - |     |   Não verificado   |             <             |           <           |                  <                  |
+| cN0 | - |     |  Sem acometimento  |             <             |           <           |                  <                  |
+| cN1 | - |     |         1          |        Ipsilateral        |  $\le 3 \text{ cm}$   | 1+, ipsilateral, $\le 6 \text{ cm}$ |
+| cN2 | - |   a |         1          |        Ipsilateral        | $\gt 3 - 6\text{ cm}$ |    Bilateral, $\le 6 \text{ cm}$    |
+|   ^ | - |   b |         1+         |        Ipsilateral        |  $\le 6 \text{ cm}$   |                  ^                  |
+|   ^ | - |   c |         1+         | Bilateral / Contralateral |  $\le 6 \text{ cm}$   |                  ^                  |
+| cN3 | - |   a | $\gt 6 \text{ cm}$ |             <             |           <           |          $\gt 6\text{ cm}$          |
+|   ^ | - |   b | Invasão extranodal |             <             |           <           |                  ^                  |
+
+
+
+- cNX: Linfonodos não verificados
+- cN0: Sem alterações
+- cN1: $\le3\text{ cm}$ (1 lfn ipsilateral)
+	- Se HPV+: $\le$ 6 cm
+- cN2: $\le6\text{ cm}$
+	- cN2a: 1 lfn $\le$ 6 cm
+	- cN2b: >1 lfn $\le$ 6 cm (ipsilateral)
+	- cN2c: >1 lfn $\le$ 6 cm (bilateral/contralateral)
+	- HPV+: Bilateral $\le$ 6 cm
+- cN3: > 6 cm ou extensão extranodal (invasão local a partir do linfonodo / rompe linfonodo)
 ## Acompanhamento
 - Não existem marcadores sanguíneos para acompanhar canceres de cabeça e pescoço
 - Testar DNA e EBV e HPV podem ser utilizados se o cancer em questão tiver envolvimento desses vírus.
