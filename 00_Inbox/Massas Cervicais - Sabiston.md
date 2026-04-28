@@ -70,16 +70,16 @@ Tabela 2: Estadiamento patológico de um HPV positivo
 
 **Quanto a classificação clínica dos linfonodos**
 
-|     | - |     |         n          |           Local           |        Tamanho        |              Se HPV +               |
-| --: | - | --: | :----------------: | :-----------------------: | :-------------------: | :---------------------------------: |
-| cNX | - |     |   Não verificado   |             <             |           <           |                  <                  |
-| cN0 | - |     |  Sem acometimento  |             <             |           <           |                  <                  |
-| cN1 | - |     |         1          |        Ipsilateral        |  $\le 3 \text{ cm}$   | 1+, ipsilateral, $\le 6 \text{ cm}$ |
-| cN2 | - |   a |         1          |        Ipsilateral        | $\gt 3 - 6\text{ cm}$ |    Bilateral, $\le 6 \text{ cm}$    |
-|   ^ | - |   b |         1+         |        Ipsilateral        |  $\le 6 \text{ cm}$   |                  ^                  |
-|   ^ | - |   c |         1+         | Bilateral / Contralateral |  $\le 6 \text{ cm}$   |                  ^                  |
-| cN3 | - |   a | $\gt 6 \text{ cm}$ |             <             |           <           |          $\gt 6\text{ cm}$          |
-|   ^ | - |   b | Invasão extranodal |             <             |           <           |                  ^                  |
+|     | -   |     |         n          |           Local           |        Tamanho        |              Se HPV +               |
+| --: | --- | --: | :----------------: | :-----------------------: | :-------------------: | :---------------------------------: |
+| cNX | -   |     |   Não verificado   |             <             |           <           |                  <                  |
+| cN0 | -   |     |  Sem acometimento  |             <             |           <           |                  <                  |
+| cN1 | -   |     |         1          |        Ipsilateral        |  $\le 3 \text{ cm}$   | 1+, ipsilateral, $\le 6 \text{ cm}$ |
+| cN2 | -   |   a |         1          |        Ipsilateral        | $\gt 3 - 6\text{ cm}$ |    Bilateral, $\le 6 \text{ cm}$    |
+|   ^ | -   |   b |         1+         |        Ipsilateral        |  $\le 6 \text{ cm}$   |                  ^                  |
+|   ^ | -   |   c |         1+         | Bilateral / Contralateral |  $\le 6 \text{ cm}$   |                  ^                  |
+| cN3 | -   |   a | $\gt 6 \text{ cm}$ |             <             |           <           |          $\gt 6\text{ cm}$          |
+|   ^ | -   |   b | Invasão extranodal |             <             |           <           |                  ^                  |
 
 
 
