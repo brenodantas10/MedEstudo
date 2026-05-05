@@ -13,9 +13,9 @@ publish: false
 3. **Relaxamento**: Promove melhor ventilação
 
 ## Tempos da Anestesia
-1. Indução: 
-2. Manutenção
-3. Recuperação
+1. **Indução**: Momento pré-cirúrgico; Reduzir a consciência do paciente e sensibilidade a estímulos dolorosos
+2. **Manutenção**: Momento cirúrgico; Manter o paciente em estado de inconsciência
+3. **Recuperação**: Pós-cirúrgico; Observar paciente e reverter anestésicos até que todo efeito residual se esvaeça.
 
 # Fármacos
 
@@ -27,6 +27,15 @@ publish: false
 ## Intravenosos
 
 ### Opioides
+Atuam nos receptores mu e promovem dois itens principais:
+- Analgesia
+- Diminuição da resposta autonômica a estímulos danosos do ato cirúrgico
+
+Drogas:
+- Fentanil
+- Sufentanil
+- Remifentanil
+- Alfentanil
 
 
 ### Hipnóticos
@@ -48,4 +57,5 @@ publish: false
 - Dexmedetomidina
 
 ### Bloqueadores Neuromusculares
-
+- Rocurônio
+- Cisatracúrio
