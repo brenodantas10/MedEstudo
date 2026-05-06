@@ -33,8 +33,8 @@ Elevação do membro, compressa, gelo e descanso
 
 
 Fratura:
-- Colles: Radio aponta para cima
-- Smith: Radio aponta para baixo
+- Colles: Radio aponta para cima (fragmento posteriormente ao radio)
+- Smith: Radio aponta para baixo (Fragmento anteriormente ao radio)
 
 > [!note] Fratura imobilizada não doi
 > Se doer, tem algo errado (Síndrome compartimental)
