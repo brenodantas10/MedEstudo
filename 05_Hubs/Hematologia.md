@@ -9,8 +9,8 @@ publish: false
 Esta nota é dedicada a englobar links para os temas mais pertinentes em hematologia, incluindo as doenças da série vermelha, série branca e das plaquetas.
 
 ## Temas
-**Série Vermelha**
-
+**Série Vermelha** Anemias
+- [[Anemias]]
 
 **Série Branca**
 - [[Leucemias]]
