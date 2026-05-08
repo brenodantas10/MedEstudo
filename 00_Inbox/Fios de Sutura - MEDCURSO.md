@@ -68,3 +68,18 @@ publish: false
 	- Boca
 	- Subcutâneo
 	- Ginecologia
+- Poliglactina (vicryl) - (Fechar aponeurose)
+	- Aponeurose sem tensão
+	- Urologia
+	- Ginecologia
+	- Absorvível
+- Polipropileno (Prolene) - (Fechar aponeurose)
+	- Inabsorvível, Monofilamentar
+	- Aponeurose com tensão
+	- Anastomoses digestivas
+	- Anastomoses Vasculares
+- Polidioxanona (PDS) - Caro, bom pra tudo
+	- Pode usar para tudo, mas é caro que só
+- Poliamida (Nylon)
+	- Pele
+	- Fixar drenos
