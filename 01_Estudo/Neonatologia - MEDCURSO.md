@@ -59,16 +59,19 @@ Fluxograma na mesa de reanimação
 	- EPIN
 
 Detalhes ASPAS
-- Prover calor -> Sala entre 23-25ºC
+- Prover calor
+	- Sala entre 23-25ºC
+	- Campo aquecido
+	- Fonte de calor radiante
 - Secar
 	- RN < 34 semanas -> (**não secar**)
-		- Saco plástico e touca dupla
+		- Saco plástico e touca dupla (calor de novo)
 - Aspirar vias aéreas somente se necessário
 	- Posicionar levemente o pescoço da criança.
 	- 1º Boca, 2º Narina
 - APÓS: FC com estetoscópio por 6''
-	- < 100  ou apneia ou respiração irregualar -> VPP 30'
-- VPP (30'')
+	- < 100 bpm  ou apneia ou respiração irregualar -> VPP 30'
+- VPP (30'') -> Sempre monitorizar (FC em 3 pontos, )
 	- 40-60x por minuto
 	- Concentração O2
 		- >= 34 sem. -> Ar ambiente (21%)
@@ -85,8 +88,9 @@ Detalhes ASPAS
 		- Posição atrás da cabeça do RN -> dá acesso ao coto umbilical a outro profissional
 		- FIO2 100% após início das compressões torácicas
 
-- Administração de drogas
-	- Epinefrina
+- Administração de drogas EV (Cateterismo umbilical Venoso ou Arterial)
+	- Epinefrina (pode fazer a 1º dose no tubo se n tiver acesso)
+		- 1 mg/ml: diluir 1 ml em 9 ml SF 0,9%
 	- SF 0,9% 10 ml/kg: Suspeita de Hipovolemia (DPP)
 
 ## RN Banhado em Mecônio
