@@ -10,12 +10,23 @@ publish: false
 ## Investigação
 - PALM - Fatores Estruturais
 - COEIN - Fatores Endócrinos/Sistêmicos
+
+5 Perguntas
+- Origem do sangramento -> Fazer exame especular
+- Idade
+- Sexualmente ativa
+- Momento do sangramento
+- Doenças sistêmicas
 ## Ddx p/ Cada Idade
+- **Neonatal**
+	- Privação de estrogênio (após clampeamento de cordão)
 - **Crianças**
-	- Trauma / Abuso Sexual
+	- Corpo estranho / Infecções inespecíficas
+	- Trauma / Abuso Sexual (pensar sempre, por mais que não seja a maioria das vezes)
+		- Queda a cavaleiro (exemplo)
 	- Neo
 		- Vagina: Sarcoma botroide
-		- Ovário: Puberdade precoce
+		- Ovário: Puberdade precoce -> olhar desenvolvimento sexual secundário
 - **Adolescência** - Direito a ser atendida com privacidade
 	- Disfunção ovariana (até 2 anos da menarca) -> Imaturidade Eixo Hipotálamo-Hipófise-Gonadal
 	- Outros: Gestação / IST / Coagulopatia
@@ -38,44 +49,48 @@ publish: false
 
 # Mioma
 - 95% dos tumores benignos do trato genital feminino
-- Maioria assintomático
+- **Maioria assintomático**
 - Cresce por ação estrogênica
 - Subseroso não sangra (camada de fora)
 - Submucoso e Intramural -> Podem sangrar e causar infertilidade
 
 3 mecanismos do sangramento:
-- Aumento da área de sangramento
-- Diminui Contratilidade
-- Estasae venosa endometrial.
+- Aumento da área de sangramento (distende endométrio)
+- Diminui Contratilidade do miométrio
+- Estase venosa endometrial (comprime estruturas vasculares).
 
 ### Classificação FIGO
 - 0 a 7 (de dentro para fora)
 - 0, 1, 2 -> Subseroso
-	- 0-> Pediculado
+	- 0-> Pediculado -> pode virar mioma parido
 	- Pode sair por Histeroscopia
 - 3, 4 -> Intramural
 - 5, 6, 7 -> Subserroso
 	- 7 -> Pediculado
-- 8 -> Parasita (solto na cavidade abdominal)
+- 8 -> Parasita (solto na cavidade abdominal) -> pode aderir a outras estruturas ou estar no colo
 - 2-5: Mioma grande, pegando serosa e mucosa.
 	- Apenas Laparoscopia
 
 ## Diagnóstico
-- USG TV: Nódulo hipoecóico
+- USG TV: Nódulo **hipoecóico**
 	- Histerossonografia -> Injeta algo para preencher útero e facilitar visualização das dimensões do tumor.
 
 ## Tratamento
 - Assintomático: Não tratar
 - Sintomático
-	- Leve-moderado: Clínico
+	- Leve-moderado: Clínico (ACO) -> Tentar controlar até a menopausa
 	- Intenso
 		- Nulípara: Miomectomia
-		- Multípara: Histerectomia (com proles constituídas), menos o submucoso
-- Clampeamento temporário das artérias uterinas pode diminuir sangramento na cirurgia
-- Droga no preparo cirúrgico
-	- Análogo do GnRH: diminui tumor / diminui anemia
+		- Multípara: Histerectomia (com proles constituídas)
+			- Submucoso faz Miomectomia mesmo assim.
+- Miomectomia sangra mais que a Histerectomia
+	- Clampeamento temporário das artérias uterinas pode diminuir sangramento na cirurgia
+	- Droga no preparo cirúrgico
+		- Análogo do GnRH: diminui tumor / diminui anemia
 - Embolização artéria uterina:
 	- Não fazer se: Pediculado, DIP, câncer, Coagulopatia ou desejo reprodutivo.
+
+> Miomectomia sangra mais que a Histerectomia
 
 - Pode Degenerar:
 	- Hialina (+ comum)
@@ -84,7 +99,7 @@ publish: false
 
 # Pólipo
 Patologia benigna com baixo potencial de malignização (0,5 a 1%)
-- Risco amior após menopausa ou > 1 cm
+- Risco maior após menopausa ou > 1 cm
 
 Cervical: Pode causar sinusiorragia
 Endometrial: Assintomático, pode causar SUA
