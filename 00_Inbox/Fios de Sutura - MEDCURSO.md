@@ -83,3 +83,19 @@ publish: false
 - Poliamida (Nylon)
 	- Pele
 	- Fixar drenos
+
+## Tabela Resumida
+
+|           Fios |           Comercial | Absorção     | Tempo de Absorção | Material            | Filamento    | Capilaridade | Tensil     | Reação Tecidual |
+| -------------: | ------------------: | ------------ | ----------------- | ------------------- | ------------ | ------------ | ---------- | --------------- |
+|         Catgut |                     | Absorvível   | 7-21 dias         | Biológico           | Multi*       | Alta         | Menor      | Alta            |
+|   Poliglactina |              Vicryl | Absorvível   | 56-70 dias        | Sintético           |              |              |            | Baixa           |
+| Poliglecaprona | Monocryl / Caprofyl | Absorvível   | 90-120 dias       | Sintético           | Mono         |              |            |                 |
+|  Polidioxanona |  PSD II / Surgycryl | Absorvível   | 180 dias          | Sintético           | Mono         |              | Alta       |                 |
+|           Seda |                     | Inabsorvível |                   | Biológico           | Multi        |              |            |                 |
+|        Algodão |                     | Inabsorvível |                   | Sintético/Biológico | Multi        |              |            |                 |
+|          Linho |                     | Inabsorvível |                   | Biológico           | Multi        |              |            |                 |
+|  Polipropileno |             Prolene | Inabsorvível |                   | Sintético           | Mono         |              |            | Pouca           |
+|      Poliéster |                     | Inabsorvível |                   | Sintético           | Multi        |              | Muito Alta |                 |
+|          Nylon |                     | Inabsorvível |                   | Sintético           | Mono / Multi |              |            |                 |
+|            Aço |                     | Inabsorvível |                   | Natural-Mineral     | Mono         |              | Muito Alta | Pouca           |

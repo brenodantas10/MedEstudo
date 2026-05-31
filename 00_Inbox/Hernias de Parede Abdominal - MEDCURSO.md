@@ -39,16 +39,16 @@ Uma hérnia no local da incisão cirúrgica, devido a uma deiscência
 ## Hérnia de Spiegel
 Formada entre a borda lateral do reto abdominal e a linha de spiegel
 
-Linha de spiegel: Linha semilunar que mostra a junção da musculatura mais lateral do abdomen
+Linha de Spiegel: Linha semilunar que mostra a junção da musculatura mais lateral do abdomen
 
-- Ao nívell ou abaixo da linha arqueada de Douglas
+- Ao nível ou abaixo da linha arqueada de Douglas
 	- Linha que coincide com a linha da cicatriz umbilical
 		- Dois componentes na parede acima (anterior e posterior)
 		- 1 componente abaixo (posterior)
 - Hérnia interparietal: difícil de ver clinicamente
 	- Imagem: TC
 
-**Sempre opera**: risco de encarceramento aumentado
+**Sempre opera**: Risco de encarceramento aumentado
 
 ## Hérnias Lombares
 Se formam nos triângulos lombares
@@ -80,9 +80,9 @@ Anatomia:
 - **Anel Inguinal**
 	- Estruturas
 		- Homem: Funículo espermático
-		- Mulheres: Ligamnto redondo
+		- Mulheres: Ligamento redondo
 
-Hérnias da Regiao da Virilha
+Hérnias da Região da Virilha
 - Hérnia Inguinal Indireta (mais comum)
 - Hérnia inguinal direta
 - Hernias femorais
@@ -109,7 +109,7 @@ Para a prova:
 	- Latera: Indireta
 - Exame Físico
 	- Tocar canal inguinal
-- Indireta é mais provável de encarcerar
+- **Indireta é mais provável de encarcerar**
 
 ### Diagnóstico
 - Clínico
@@ -127,6 +127,46 @@ Se anuncia abaixo do ligamento inguinal
 	- Medial: Ligamento Lacunar
 	- Lateral: Veia Femoral
 	- Assoalho: Ligamento Pectíneo (Cooper)
-- Ocorre mais comum nas mulheres
-- Mais comum a direita
-- Maior risco de encarceramento: Sempre operar (VLP)
+- Ocorre mais comum nas mulheres e à direita
+- **Maior risco de encarceramento**: Sempre operar (VLP)
+
+Classificação de Nyhus
+- I: Indireta com anel preservado
+- II: Indireta com anel alargado (> 2 cm)
+- III: Defeito na parede posterior
+	- A- Direta
+	- B- Indireta
+	- C- Femoral
+- IV: Recidiva
+	- A- Direta
+	- B- Indireta
+	- C- Femoral
+	- D- Mista
+
+## Tratamento - Hernia Inguinal
+- **Redutível**: Cirurgia eletiva
+	- Masculino assintomático: não operatório
+- **Encarcerada**: Redução manual
+	- Isquemia? Obstrução, > 6-8h, sinais flogísticos, instabilidade, irritação peritoneal
+- **Estrangulada**: Cirurgia de Emergência (Inguinotomia)
+	- Se reduzir na anestesia: Necessário procurar a alsa afetada -> LAPAROTOMIA OU VIDEOLAPAROTOMIA
+	- **Abordagem anterior**
+		- **Inguinal**
+			- **Shouldice**: Imbricação de músculos (suturar um músculo acima do outro) - Mais difícil
+			- **Lichtenstein**: Tela livre de tensão
+		- **Femoral**
+			- **Mc Vay**: Hérnia Femoral
+			- **Plug Femoral**: Cone de tela no canal femoral
+
+## Complicações
+- Inguinodínea: Dor crônica após correção de hérnia
+
+Nervos afetados em abordagem anterior
+- Ilioinguinal
+- Ilio-Hipogastrico
+- Ramo genital do genitofemoral
+
+Nervos afetados em VLP
+- Cutâneo femoral lateral
+- Femoral
+- Ramo femoral do genitofemoral
