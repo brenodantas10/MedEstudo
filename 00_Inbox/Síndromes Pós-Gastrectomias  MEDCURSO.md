@@ -45,4 +45,4 @@ Ausência do piloro: Muita comida chega ao duodeno
 - Clínica: Dor que piora com alimentação (estímulo)
 	- Alivia com vômitos (Pode ajudar a retirar a torção da alça)
 
-- Tratamento: Fazer o Y de Roux.
+- Tratamento: Fazer o Y de Roux

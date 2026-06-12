@@ -1,3 +1,7 @@
+---
+areas:
+  - Reumatologia
+---
 Inframação sistêmica que provoca em algum momento Inflamação Vascular
 
 **Inflamação Vascular**: Pensar em quem está sofrendo hipóxia

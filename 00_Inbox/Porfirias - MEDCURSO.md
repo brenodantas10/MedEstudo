@@ -5,7 +5,7 @@ tipo:
 areas:
   - Hematologia
   - Dermatologia
-  - Gastrologia
+  - Gastroenterologia
 publish: false
 ---
 Porfúria -> Urina arroxeada ao ser exposta à luz

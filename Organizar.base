@@ -32,7 +32,7 @@ views:
     filters:
       and:
         - file.folder == "00_Inbox"
-        - areas.containsAny("Obstetrícia,Ginecologia")
+        - areas.containsAny("Gastroenterologia")
     order:
       - file.name
       - areas

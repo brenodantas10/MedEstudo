@@ -1,8 +1,9 @@
 ---
-date: "2026-05-06"
+date: 2026-05-06
 tipo:
   - inbox
 areas:
+  - Cirurgia
 publish: false
 ---
 # Tipos de Fios

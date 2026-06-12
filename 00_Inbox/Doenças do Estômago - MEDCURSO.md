@@ -1,8 +1,9 @@
 ---
-date: "2026-05-25"
+date: 2026-05-25
 tipo:
   - inbox
 areas:
+  - Gastroenterologia
 publish: false
 ---
 ## Estômago Normal
