@@ -7,6 +7,7 @@ publish: true
 Essa nota é um hub para os principais assuntos em **Pediatria**
 
 ## Principais Temas
+- [[Classificação Neonatal]]
 - [[Reanimação Neonatal]]
 - [[Distúrbios Respiratórios em Neonatologia]]
 - [[Icterícia Neonatal]]
