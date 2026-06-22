@@ -27,16 +27,18 @@ Verifica-se 3 parâmetros. Necessita dos 3
 O protocolo muda se for $\ge$ 34 semanas ou < 34 semanas. Mas de maneira geral, segue a sequência abaixo.
 
 ### Bebê com $\ge$ 34 semanas
+A-- This is the text! ---B
 
 ```mermaid
 graph TD
 A(RN - Boa Vitalidade)
 B(RN - Má Vitalidade)
 C(Clamp Oportuno > 60s)
-D(Ordenha 20 cm / 2s + Clamp Precoce > 30s)
+D(Ordenha 20 cm / 2s +<br/>Clamp Precoce > 30s)
 E(Estímulo Tátil em dorso 15s)
-F(Tônus + Flexão)
-G(Não Respirou e/ou Hipotônico)
+F(Respirar /<br/> Tônus em Flexão)
+G(Não Respirou e/ou<br/>Hipotônico)
+H(Reanimação)
 
 subgraph Vitalidade do Bebê
 	A
@@ -46,11 +48,13 @@ end
 A --> C
 B --> E
 E --> F
-E --> G
+E --Não Respirou e/ou<br/>Hipotônico --D
 F --> C
 G --> D
+D --> H
 ```
 
+> [!error] Insuficiência Placentária = Clamp Imediato
 ### Bebê com $<$ 34 semanas
 
 
