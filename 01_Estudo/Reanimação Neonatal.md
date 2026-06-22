@@ -4,7 +4,7 @@ tipo: estudo
 areas:
   - Pediatria
   - Neonatologia
-publish: false
+publish: true
 ---
 A reanimação deve sermpre seguir passos lógicos já pré-estabelecidos.
 
@@ -27,35 +27,48 @@ Verifica-se 3 parâmetros. Necessita dos 3
 O protocolo muda se for $\ge$ 34 semanas ou < 34 semanas. Mas de maneira geral, segue a sequência abaixo.
 
 ### Bebê com $\ge$ 34 semanas
-A-- This is the text! ---B
 
 ```mermaid
 graph TD
-A(RN - Boa Vitalidade)
-B(RN - Má Vitalidade)
+subgraph Vitalidade
+	A(RN - Boa Vitalidade)
+	B(RN - Má Vitalidade)
+end
 C(Clamp Oportuno > 60s)
 D(Ordenha 20 cm / 2s +<br/>Clamp Precoce > 30s)
-E(Estímulo Tátil em dorso 15s)
-F(Respirar /<br/> Tônus em Flexão)
-G(Não Respirou e/ou<br/>Hipotônico)
+E{{Estímulo Tátil<br/>em dorso 15s}}
 H(Reanimação)
-
-subgraph Vitalidade do Bebê
-	A
-	B
-end
 
 A --> C
 B --> E
-E --> F
-E --Não Respirou e/ou<br/>Hipotônico --D
-F --> C
-G --> D
+E -- Respirar /<br/>Tônus em Flexão --> C
+E -- Não Respirou e/ou<br/>Hipotônico --> D
 D --> H
 ```
 
 > [!error] Insuficiência Placentária = Clamp Imediato
 ### Bebê com $<$ 34 semanas
+
+```mermaid
+graph TD
+subgraph "Vitalidade < 34 sem"
+	A(Boa Vitalidade)
+	B(Má Vitalidade)
+end
+C(Clamp Oportuno > 60s)
+D(Clamp Precoce > 30s)
+E{{Estímulo Tátil<br/>em dorso 15s}}
+
+A --> C
+B --> E
+E -- Respirar /<br/>Tônus em Flexão --> C
+E --> F[Não Respirou e/ou<br/>Hipotônico]
+F --> G[".>= 28 semanas"]
+F --> H["< 28 semanas"]
+G -- "Ordenha" --> D
+H --> D
+D --> I(Reanimação)
+```
 
 
 > [!attention]- Ventilar é mais importante que Coração
