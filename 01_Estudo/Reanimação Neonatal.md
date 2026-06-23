@@ -56,20 +56,27 @@ subgraph "Vitalidade < 34 sem"
 	B(Má Vitalidade)
 end
 C(Clamp Oportuno > 60s)
-D(Clamp Precoce > 30s)
+D(Clamp Precoce < 30s)
 E{{Estímulo Tátil<br/>em dorso 15s}}
+I(Reanimação)
 
 A --> C
 B --> E
 E -- Respirar /<br/>Tônus em Flexão --> C
+C -- ".>= 32 semanas" --> J("Mãe")
+C -- "< 32 semanas" --> I
 E --> F[Não Respirou e/ou<br/>Hipotônico]
 F --> G[".>= 28 semanas"]
 F --> H["< 28 semanas"]
 G -- "Ordenha" --> D
 H --> D
-D --> I(Reanimação)
+D --> I
 ```
 
+> [!error] < 32 Semanas: Sempre vai para Mesa de Reanimação
+
+> [!example] Enquanto espera tempo do Clamp Oportuno
+> Secar cabeça, por saco plástico e colocar compressa aquecida em cima do bebê
 
 > [!attention]- Ventilar é mais importante que Coração
 > Tempo é cérebro
