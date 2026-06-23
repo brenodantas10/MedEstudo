@@ -80,5 +80,3 @@ D --> I
 
 > [!attention]- Ventilar é mais importante que Coração
 > Tempo é cérebro
-
-**Pilares**
