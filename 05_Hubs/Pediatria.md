@@ -10,7 +10,7 @@ Essa nota é um hub para os principais assuntos em **Pediatria**
 - [[Classificação Neonatal]]
 - [[Reanimação Neonatal]]
 - [[Distúrbios Respiratórios em Neonatologia]]
-- [[Icterícia Neonatal]]
+- [[Icterícia Neonatal - MEDCURSO]]
 - [[Doenças Congenitas]]
 
 ## Outros Temas
