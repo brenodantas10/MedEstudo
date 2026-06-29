@@ -104,7 +104,6 @@ publish: false
 		- Gonadas: Gonadotrofinas (Fazem as gonadas crescerem)
 			- Ovários: Estrogênio
 			- Testículo: Testosterona
-	- 
 - **Adrenarca** ->
 	- Liberação de Androgênios da Adrenal
 		- DHEA
@@ -121,3 +120,86 @@ publish: false
 		- Cartilagens substituídas por tecido ósseo
 	- Característica:
 		- Centrípeto -> Inicia pelos membros e depois no corpo.
+
+- Eventos Hormonais
+	- Telarca (desenvolvimento do broto mamário) -> devido a Gonadarca
+	- Pubarca (Pilificação genital) -> Devido a adrenarca
+	- Menarca (em M4) -> Fase de desaceleração.
+
+- **Primeiros Sinais**
+	- **Mulheres**
+		- Início: 8-13 anos
+		- 1º SInal: Telarca -> Pubarca -> Menarca
+	- **Homens**
+		- Início: 9-14 anos
+		- 1º Sinal: Aumento Testicular (>=4)
+
+## Estadiamento de Tanner
+Sempre 5 estágios (1 a 5)
+1 -> Padrão infantil
+5 -> Padrão Adulto
+
+- Mulheres
+	- Mamas
+		- M1: Pré-puberal
+		- M2: Broto Mamário (Telarca) -> Aceleração do crescimento
+		- M3: Crescimento da Mama e Aréola (Pico do estirão)
+		- M4: Elevação da aréola (Saliência acima da mama)
+		- M5: Estágio adulto (Aréola se incorpora na mama)
+		- Telarca para Menarca -> 2-2,5 anos
+	- Pelos
+		- P1: Ausência de pelos
+		- P2: Pelos finos, pouco pigmentados, **grandes lábios**
+		- P3: Escurece, grosso, curvo, **sínfise púbica**
+		- P4: Pelo adulto, grande quantidade
+		- P5: Pelo adulto, **Raíz das coxas**
+- Homens
+	- Genitália
+		- G1: Infantil
+		- G2: Aumento do volume testículo
+		- G3: Aumento comprimento pênis
+		- G4: Aumento diâmetro do pênis (**Contorno da glande**)
+		- G5: Estágio adulto
+	- Pelos - Mesmo que mulheres.
+	- Lembrar -> Homens podem ter ginecomastia fisiológica.
+
+# Desenvolvimento
+
+Avaliação
+- Motor
+- Adaptativo (Motricidade Fina)
+- Pessoal-Social
+- Linguagem
+
+Regras gerais
+- Cranio-Caudal
+- Medial-Lateral
+
+Ministério da Saúde
+- Reflexos/Habilidades
+	- **Desenvolvimento Normal**: Preenche marcos para idade
+	- **Alerta para o Desenvolvimento**: Preenche marcos da faixa anterior e não para atual
+		- Rever em 30 dias
+		- Ver fatores de risco (Geralmente tem)
+	- **Provável Atraso no Desenvolvimento**: Não faz nem agora, nem anterior
+		- Encaminhar para Centro Multi-Disciplinar
+		- Alterações Fenotípicas (Geralmente tem)
+			- PC com Z-score > +2
+			- PC com Z-score < -2
+
+
+## Marcos do Desenvolvimento
+
+Legenda:
+- **Ministério da Saúde**
+- Nelson
+
+| Até X Meses | M                                                  | A                                             | S                                       | L                                               |
+| ----------- | -------------------------------------------------- | --------------------------------------------- | --------------------------------------- | ----------------------------------------------- |
+| RN          | Postura Tônica-Cervical (PTC) Flexão, cabeça pende | Fixa Visão                                    | Prefere a Face Humana                   |                                                 |
+| 1 Mês       | **PTC, Eleva a cabeça***                           | Segue Obj em Movimento                        | **Observa o Rosto**; Sorri              | **Reage a som**                                 |
+| 2 Meses     | **Movimenta os Membros**                           | Segue 180º; **Abre as Mãos**                  | **Sorriso Social**                      | **Emite Sons**                                  |
+| 4 Meses     | **Eleva Cabeça e Tronco**                          | **Segura Objetos** (Com região medial da mão) | **Contato Social**                      | **Emite Sons**; **Ri Alto**                     |
+| 6 Meses     | Muda de posição (**Rola**); Senta com apoio        | **Leva OBJ a Boca**                           | **Busca Ativa de Objetos**; Prefere Mãe | **Localiza Som**; Polissílabos Vogais (lalação) |
+| 9 Meses     | **Senta sem Apoio**; Engatinha**                   | **Transfere OBJs*** (7 meses)                 | "**Cadê**"; Estranha quem não convive   | **Duplica Sílabas**                             |
+| 12 Meses    | **Anda com Apoio**; Se levanta sozinha             | **Faz Pinça**                                 | **Imita Gestos**; Brinca (joga Bola)    | **Jargão**; Algumas Palavras*                   |
