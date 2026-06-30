@@ -159,7 +159,56 @@ obs.: Kwashiorkor-Marasmático -> Mistura de sintomas
 
 # Baixa Estatura
 
-Estatura < Z-2 (P3%)
+- Estatura: < Z-2 (P3%)
 - Velocidade de Crescimento
 	- Escolar: >= 5 cm/ano
-	- 
+- Alvo Genético
+	- Meninas -> (Est Pai - 13 + Est Mãe) / 2
+	- Meninos -> (Est Pai + Est Mãe + 13) / 2
+- Idade Óssea
+	- Atrasada >= 2 anos atrás da IC
+
+## Etiologias
+- Variantes Fisiológicas
+	- Baixa Estatura Familiar
+		- Estatura Baixa
+		- Dentro do Canal/Alvo genético Baixo
+		- Velocidade Normal
+		- Idade óssea normal
+	- Atraso Constitucional do Crescimento e Prematuridade
+		- Estatura Baixa
+		- Velocidade normal
+		- Alvo Genético Normal
+			- Canal é baixo no início e dá um estirão.
+		- Idade Óssea Reduzida (< Idade Cronológica). Pelo menos 2 anos
+- Condições Patológicas
+	- Desnutrição
+		- **Primária**
+		- **Secundária**
+	- Endócrinas
+		- **Hipotireoidismo**
+		- Deficiências de Gh
+		- Hipercortisolismo
+	- Genéticas
+		- Sd. de Turner (45 X)
+			- Baixa estatura
+			- Atraso Puberal
+			- Pescoço alado
+			- Hipertelorismo Mamário
+			- Cúbito Valgo
+			- Coarctação da Aorta
+		- Displasia Óssea
+			- Acondroplasia
+				- BE desproporcional (Segmento superior > Segmento Inferior)
+
+## Investigação
+- Fluxograma
+	1. Avaliar Estatura e **Velocidade de Crescimento**
+		- BE + VC Normal -> Fisiológica
+			- IO = IC -> BE Familiar
+			- IO < IC -> ACCP
+		- BE + VC Reduzida ou Outras Alterações -> Causas Patológicas
+			- Feminino -> Pedir Cariótipo
+			- Alt. Fenotípica -> Sd. Genética
+			- Obesa/Eutrófica -> Endócrina
+			- Emagrecida -> Desnutrição

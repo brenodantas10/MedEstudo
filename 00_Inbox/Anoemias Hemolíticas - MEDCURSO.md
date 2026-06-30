@@ -17,7 +17,7 @@ publish: false
 - Hemocaterese: Processo Fisiológico
 	- Morre com >= 120 dias
 	- Local: Baço
-- Hemóise: Processo Patológico
+- Hemólise: Processo Patológico
 	- Morre com < 120 dias de vida
 	- Baço
 - Hemólise compensada
@@ -157,11 +157,11 @@ Lembrete: Alfa -> par no cromossomo 16. Beta, gamma, delta no cromossomo 11
 - HbA2 (2alfa + 2delta)
 - HbF (2alfa + 2gama)
 
-A anemia falciforme é uma doença genética autossômica recessiva mutaçao simples do códon 6 do gene beta-globina, com sunstituição da glutamina pela valina
-- Homozigoto SS (betaS-betaS)
-	- HbS (2alfa + 2betaS) - Doença falciforme
-- Heterozigoto AS (beta + betaS)
-	- HbA > HbS (é mais fácil juntar betas normais que mutados)
+A anemia falciforme é uma doença genética autossômica recessiva mutaçao simples do códon 6 do gene beta-globina, com **substituição da glutamina pela valina**
+- **Homozigoto SS** (betaS-betaS)
+	- HbS (2alfa + 2betaS) - **Anemia falciforme**
+- **Heterozigoto AS** (beta + betaS)
+	- HbA > HbS (é mais fácil juntar betas normais que mutados) - **Traço Falciforme**
 
 
 Hemácia falciforme
@@ -179,8 +179,13 @@ Hemácia falciforme
 		- "Grudenta" (moléculas de adesão)
 		- Fluxo turbilhonar -> Lesão endotelial
 
+## Diagnóstico
+- Triagem Neonatal
+- Eletroforese de Hemoglobina
+- Cromatografia Líquida de Alta Resolução
+
 ## Clínica
-- Aparecimento após 6 meses
+- Aparecimento após 6 meses (3-4 meses, a depender da bibliografia (tempo de vida média da hemácia))
 	- Até 6 meses: predomínio da HbF (assintomático)
 	- > 6 meses: predomina HbS (aparece clínica)
 - Crises vaso-oclusivas agudas (gatilhos: desoxidação ou desidratação)
@@ -191,18 +196,47 @@ Hemácia falciforme
 		- Síndrome Mão-pé
 			- Idade: 2-3 anos (osso poroso)
 			- Local: Extremidades (menos perfusão)
-			- Clínica: Dor com dactilite
+			- Clínica: Dor com dactilite + Edema
 			- Rx: normal
 		- Crise óssea
 			- Idade: > 3 anos
 			- Local: Ossos longos
 			- Clínica: Dor sem edema
 			- Rx: Normal
-		- Sequestro esplênico
+		- Sequestro esplênico (< 5 anos)
 			- Clínica: Dor abdominal + esplenoegalia + Diminuição da PA + choque. Até 5 anos de vida
-		- Síndrome torácica aguda
+			- Após 5 anos o Baço fibrosou e não sequestra mais
+		- Síndrome torácica aguda (Principal causa de morte da Anemia Falciforme)
+			- Infiltrado pulmonar + 1 achado pneumônico (febre, tosse, dor torácica, purulência, dispneia)
+			- Precipitantes: Infecção e/ou crise vaso-oclusiva
+-> Profilaxia com Penicilina oral até os 5 anos
 
 > Existe sequestro hepátic e pulmonar também
 
 - Osteomielite por
 	- Salmonella / S. aureus
+
+## Tratamento das Crises
+- Internar se Febre
+- Hidratar (Não hiperhidratar)
+- O2: Alvo SatO2 >= 95%
+- Analgesia: Opioides
+
+- Se sequestro esplênico
+	- Transfusão (Melhora oxigenação pois hemácias não polimerizam)
+	- Indicar esplenectomia eletiva (ver imunização)
+
+- Se Sd. Torácica Aguda
+	- **Trata como Pneumonia Atípica** (Beta-lactâmico + Macrolídeo)
+	- Transfusão / Exsanguíneo-transfusão
+
+## Prevenção das Crises
+- Ácido Fólico
+- **Reduzem Morbimortalidade**
+	- Vacinação
+	- Penicilina VO até 5 anos
+	- Hidroxiureia -> Efeito colateral de aumento da HbF
+	- Transfusões Crônicas
+	- Quelante de Fe
+- Transplante de Cels. Tronco.
+- Crizanlizumabe, Voxelotor, L-glutamina

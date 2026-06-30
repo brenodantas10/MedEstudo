@@ -95,7 +95,7 @@ Não tratar todas as anemias microcíticas com ferro
 	- Carência Fe
 		- Perversão do apetite (PICA - pagofagia): comer gelo ou terra (geralmente gelo)
 	- Coiloníquia: unha em forma de colher
-	- Disfagia (Plummer-Vinson): Estenose peri-exofágica (fibrose)
+	- Disfagia (Plummer-Vinson): Estenose peri-esofágica (fibrose)
 
 ## Ciclo do Ferro
 
@@ -150,7 +150,7 @@ Intestino: Dieta
 		- Sulfato ferroso 300 mg (ou 60mg Fe elementar) 3x/dia
 			- Comer frutas ácidas (mellhora absorção)
 	- Criança
-		- Sultafo Ferroso 3-6 mg/kg/dia de Fe elementar
+		- Sultato Ferroso 3-6 mg/kg/dia de Fe elementar
 	- Avaliação da resposta: reticulócito
 		- Aumenta muito no primeiro momento após início do tratamento
 	- Demora em média 2 meses para hemoglobina voltar a normal
@@ -166,7 +166,7 @@ Intestino: Dieta
 ## Diagnóstico
 - **Hemograma**
 	- Anemia normo/normo
-	- RDW noral
+	- RDW normal
 - **Índices do Ferro**
 	- Ferro sérico baixo
 	- Sat. transferrina baixa
@@ -174,10 +174,8 @@ Intestino: Dieta
 		- Aumento da Ferritina (Ferro aprisionado)
 		- Diminuição da transferrina
 		- Diminuição do TIBC
-			- 
 
 ## Tratamento
-
 - Tratar doença de base
 - Eritropoetina (casos selecionados)
 	- Doenças intratáveis
