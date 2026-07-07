@@ -5,6 +5,7 @@ tipo:
 areas:
   - Pediatria
 publish: false
+cssClasses:
 ---
 # Avaliação Nutricional
 
@@ -47,26 +48,34 @@ gantt
 		BE       : b2, after b1, 2
 		Adequado : B3, after b2, 8
 	section P/E
-		M. Acentuada      : c1, 0, 1
+		M. Acent.         : c1, 0, 1
 		Magreza           : c2, after c1, 2
 		Eutrófico         : c3, after c2, 5
-		R. Sobrepeso      : c4, after c3, 6
+		R. Sobre.         : c4, after c3, 6
 		Sobrepeso         : c5, after c4, 7
 		Obesidade         : c6, after c5, 8
 	section IMC <5a
-		M. Acentuada      : d1, 0, 1
+		M. Acent.         : d1, 0, 1
 		Magreza           : d2, after d1, 2
 		Eutrófico         : d3, after d2, 5
-		R. Sobrepeso      : d4, after d3, 6
+		R. Sobre.         : d4, after d3, 6
 		Sobrepeso         : d5, after d4, 7
 		Obesidade         : d6, after d5, 8
 	section IMC >5a
-		M. Acentuada      : e1, 0, 1
+		M. Acent.         : e1, 0, 1
 		Magreza           : e2, after e1, 2
 		Eutrófico         : e3, after e2, 5
 		Sobrepeso         : e4, after e3, 6
 		Obesidade         : e5, after e4, 7
 		Ob. Grave         : e6, after e5, 8
+	section Percentil
+		0,1               : milestone, p001, 1, 0s
+		3                 : milestone, p030, 2, 0s
+		15                : milestone, p150, 3, 0s
+		50                : milestone, p500, 4, 0s
+		85                : milestone, p850, 5, 0s
+		97                : milestone, p970, 6, 0s
+		99,9              : milestone, p999, 7, 0s
 ```
 # Desnutrição Grave
 
@@ -98,7 +107,7 @@ A "doença do primeiro filho" -> Desmame do Seio Materno, perdendo aporte protei
 - **Deficiência de Proteínas** -> **Edema** (perda para 3º espaço)
 - Mais comum em > 2 anos
 - Instalação rápida
-- Subcutâneo preservado
+- Subcutâneo preservado -> Junta gordura pois ela tem energia (mas não tem proteína)
 	- Hepatomegalia (guarda gordura)
 - Apatia e Hipoatividade -> **Maior Gravidade**
 - Dermatoses: "**Flaky Paint**" (rachadura na pele)
@@ -116,18 +125,19 @@ A "doença do primeiro filho" -> Desmame do Seio Materno, perdendo aporte protei
 Feito em 3 momentos
 
 - **1º Momento**: Estabilização
-	- Prevenir e Tratar
-		- Hipoglicemia
-		- Hipotermia
-		- Desidratação
-			- Hidratar VO - ReSoMal (Balanceada)
-		- Eletrólitos (Exceto Sódio) (Na escondido em Cels. por falta de Bomba funcional, volta após melhora)
-		- Infecções (Imunocomprometido) -> **ATB sempre**
+	- Prevenir e Tratar (4 is)
+		- H**i**poglicemia
+		- H**i**potermia
+		- H**i**droeletrolíticos
+			- Desidratação
+				- Hidratar VO - ReSoMal (Balanceada)
+			- Eletrólitos (Exceto Sódio) (Na escondido em Cels. por falta de Bomba funcional, volta após melhora)
+		- **I**nfecções (Imunocomprometido) -> **ATB sempre**
 	- Repor Micronutrientes
 		- **Não repor Ferro agora** -> Produz muito Radical Livre
 	- Dieta Normocalórica / Normoproteica -> Evitar **Síndrome de Realimentação**
 		- Aumenta muito insulina, mas células estão em estado metabólico ruim
-		- Faz Hipocalemia e **Hipofosfatemia**
+		- Faz Hipocalemia e **Hipofosfatemia** (mais comum)
 - **2º Momento**: Reabilitação
 	- Dieta Hiperproteica e Hipercalórica (Catch Up - Ganhar peso)
 	- Reposição de Ferro
