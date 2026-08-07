@@ -127,13 +127,15 @@ Melhor em mama com liposubstituição (menos densa) (> 40 anos)
 	- Ex.: Espiculado / Microcalcificação pleomórfica agrupada
 - 6: Câncer já confirmado
 
+-> PAAF: Utilizada para esvaziar cistos e investigar linfonodos.
+
 #### CORE BIOPSY (Punção com Agulha Grossa)
-- Útilizada para nódulos **bem palpáveis**
+- Útilizada para **nódulos bem palpáveis**
 - Retirar 10-12 fragmentos
 
 #### Mamotomia (Biópsia a Vácuo)
 - Guiada por Mamografia
-- Microcalcificação suspeita
+- **Microcalcificação suspeita**
 
 #### Biópsia Cirúrgica (Diagnóstico)
 - Padrão ouro
