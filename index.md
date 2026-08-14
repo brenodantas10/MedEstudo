@@ -17,3 +17,4 @@ Essa Vault será voltada para meus estudos em medicina com foco em **Residência
 > 2. Volte a sua pilha de coleta de conhecimentos e crie anotações com suas ideias até zerar a pilha
 > 3. Você aprendeu algo novo? Foi muito ou pouco?
 > 4. Mude o tempo a depender de como se sentir.
+

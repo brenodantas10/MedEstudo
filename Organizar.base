@@ -32,10 +32,12 @@ views:
     filters:
       and:
         - file.folder == "00_Inbox"
-        - areas.containsAny("Gastroenterologia")
     order:
       - file.name
       - areas
+    sort:
+      - property: date
+        direction: DESC
   - type: table
     name: Estudo
     filters:
