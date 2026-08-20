@@ -14,3 +14,14 @@ Quarta-Feira
 
 ### Casos Clínicos
 - Na sala do 3º andar em frente ao departamento.
+
+
+### Assuntos a Estudar
+
+#### Ginecologia
+- [ ] Ciclo Menstrual
+- [ ] Amenorreias
+- [ ] Síndrome dos Ovários Policísticos
+- [ ] Incontinência Urinária
+- [ ] Climatério
+- [ ] Distopias
