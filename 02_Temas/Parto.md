@@ -5,7 +5,7 @@ tipo: tema
 areas: Obstetrícia
 status: estudando
 importancia: media
-publish: false
+publish: true
 ---
 > [!note] Classificação por Idade Gestacional
 > - Pré-Termo: < 37 semanas
@@ -26,18 +26,18 @@ publish: false
 > - Colo curto (<= 25 mm) em USG 2º T
 
 > [!hint] Prevenção
-> - Progesterona: Se Colo curto ou prematuro anterior
-> - Cerclagem:Se Colo curto + prematuro anterior
+> - **Progesterona**: Se Colo curto ou prematuro anterior
+> - **Cerclagem**: Se Colo curto + prematuro anterior
 
 # Trabalho de Parto
 
 > [!attention] 24-34 Semanas - Condutas
-> - **Maturação Pulmonar**: Betametasona ou Dexametasona IM
-> - **Tocólise** (48h): se não tiver sofrimento ou corioamnionite
-> 	- Beta agonista
-> 	- Indometacina
-> 	- Nifedipina (Menos em ICC ou baixa PA)
-> 	- Atosibana - Antagonista ocitocina (Menos efeito adverso)
+> - **Maturação Pulmonar**: Betametasona ou Dexametasona IM 24/24h
+> - **Tocólise** (por 48h): se não tiver sofrimento ou corioamnionite
+> 	- Beta agonista: Muito efeito adverso (adrenérgico)
+> 	- Indometacina: AINE -> Fecha ducto arterioso em >32sem
+> 	- **Nifedipina** (Menos em ICC ou baixa PA)
+> 	- **Atosibana** - Antagonista ocitocina (Menos efeito adverso)
 > - **Neuroproteção** <32 semanas: Sulfato de Magnésio
 
 # Amniorrexe Prematura
@@ -52,9 +52,10 @@ publish: false
 > [!attention] Conduta
 > - **34 semanas**: Parto
 > - **24-34 semanas**: Corticoide + Antibiótico (já age como tocolítico)
+> 	- Ampicilina IV 48h + Azitromicina IM Dose Única
 > 	- Mudar pra esquema GBS se entrar em trabalho de parto
 
-> [!error]- Corioamnionite - Fazer parto independente da IG
+> [!error]- Corioamnionite - **Parto Vaginal** independente da IG
 > Febre + 2 (leucocitose ou aumento FC ou BCF ou dor uterina oulíquido fétido)
 
 ## Indução de Parto
@@ -65,9 +66,9 @@ publish: false
 > - RPMO > 34 semanas
 
 > [!attention] Conduta
-> - Ocitocina (BISHOP > 6)
+> - Ocitocina (BISHOP > 6): Pode em cicatriz anterior
 > - Misoprostol (<=6) -> Não faz se cicatriz uterina
-> 	- Krause - > prerparar colo com sonda
+> 	- Krause - > prerparar colo com sonda: Não usar em RPMO
 
 > [!hint]- BISHOP (5 As)
 > - Apagado
