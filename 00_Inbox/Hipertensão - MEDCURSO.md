@@ -137,7 +137,6 @@ Considerar em sequência. Se não for nenhum abaixo, pode escolher qualquer um
 		- Rubor Facial
 	- Não utilizar em casos de ICC
 
-
 ## HAS Resistente
 PA Elevada apesar de 3 drogas (1ª Linha) em dose otimizada
 

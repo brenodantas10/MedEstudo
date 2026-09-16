@@ -55,7 +55,7 @@ Tipos de IC
 			- **Exceto se**: K > 5,5 | Cr > 3,5 | ClCr < 20 ml/min
 			- BRA substitui iECA em angioedema e tosse.
 			1. **INRAs**: Inibidores da neprilisina e dos receptores da ATII
-				-  Sacubitril: Inibidor de neprilisina (Neproçosoma degrada natriuréticos)
+				-  Sacubitril: Inibidor de neprilisina (Neprisilina degrada natriuréticos)
 				- + Valsartana
 				- **Quando?** em sintomáticos apesar de **Otimizado** (substitui iECA) 
 				- **Como age?** Aumenta Natriuréticos promovendo diurese

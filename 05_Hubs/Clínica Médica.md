@@ -12,3 +12,4 @@ Nota hub destinada às principais áreas dentro da clínica médica.
 - [[Hematologia]]
 - [[Gastroenterologia]]
 - [[Cardiologia]]
+- [[Pneumologia]]

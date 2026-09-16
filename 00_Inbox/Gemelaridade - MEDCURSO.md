@@ -9,9 +9,13 @@ publish: false
 ## Conceitos
 - **Corion**: Remete à placenta
 	- Monocoriônico: Uma placenta compartilhada
+		- Mais risco
 	- Dicoriônico: Cada um com sua placenta
+		- Menor risco
 - **Amnion**: Refere à bolsa amniótica
 	- Monoamniótico: Bolsa compartilhada
+		- Mias preocupante
+		- Sempre cesárea
 	- Diamniótico: Cada um com sua bolsa
 ## Tipos
 Os tipos de gemelaridade dependem tanto do número de óvulos liberados/fecundados, quanto o momento da divisão de um embrião
@@ -58,8 +62,9 @@ Cordões de inserção próxima permite proximidade de vasos nas placentas, cria
 
 - Em fetos que compartilham mesma placenta
 	- Fetos
-		- Doador: Pálido, oligodramnia, RCIU
-		- Receptor: Polidramnio, Hidropsia
+		- Doador: Pálido, **oligodramnia**, RCIU
+		- Receptor: **Polidramnio**, Hidropsia
+		- Oligo/Polidramnia é o principal critério (Discrepância dos Bolsões)
 - Tratamento
 	- Amniocentese seriada (casos leves) (retirar líquido amniótico para aliviar pressão)
 	- Fotocoagulação com laser em quadros graves (separar anastomoses placentárias)

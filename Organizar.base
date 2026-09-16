@@ -47,3 +47,13 @@ views:
     order:
       - file.name
       - areas
+  - type: table
+    name: Cardio
+    filters:
+      and:
+        - areas.containsAny("Cardiologia")
+  - type: table
+    name: GO
+    filters:
+      and:
+        - areas.containsAny("Ginecologia", "Obstetrícia")
