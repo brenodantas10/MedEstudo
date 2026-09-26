@@ -1212,3 +1212,4 @@ views:
     filters:
       and:
         - areas.containsAny("Gastroenterologia", "Hepatologia")
+        - file.folder == "00_Inbox"
