@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pneumologia
-publish: false
+publish:
+status:
 ---
 ## Fisiopatologia
 - Obstrução

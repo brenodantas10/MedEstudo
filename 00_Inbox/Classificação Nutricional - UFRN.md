@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+publish:
+status:
 ---
 Na dúvida, se cair no limite, considerar o diagnóstico mais benéfico.
 - **Peso para a Idade**

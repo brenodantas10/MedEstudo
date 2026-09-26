@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 ## Sinais de Ascite
 - Piparote

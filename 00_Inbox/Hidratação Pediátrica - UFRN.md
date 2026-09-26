@@ -1,9 +1,11 @@
 ---
-date: "2026-06-10"
+date: 2026-06-10
 tipo:
   - inbox
 areas:
-publish: false
+  - Pediatria
+publish:
+status:
 ---
 Água no 3º espaço -> Células ficam imersas, mais espaçadas e mais distantes da membrana basal. (**RESUMO DO PACIENTE GRAVE**)
 - Células ficam mal nutridas pelos nutrientes terem que "andar mais" até chegar na célula

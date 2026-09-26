@@ -4,7 +4,9 @@ tipo:
   - inbox
 areas:
   - Obstetrícia
-publish: false
+  - Endocrinologia
+publish:
+status:
 ---
 Intolerância aos carboidrtos iniciada na gestação
 

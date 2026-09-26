@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 - Quase 50% dos pacientes internados tem ou desenvolvem desnutrição
 

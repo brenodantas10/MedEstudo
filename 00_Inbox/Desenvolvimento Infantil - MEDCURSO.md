@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+publish:
+status:
 ---
 # Desenvolvimento Infantil
 ## Fisiologia do Crescimento

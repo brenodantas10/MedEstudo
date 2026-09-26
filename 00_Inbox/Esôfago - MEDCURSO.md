@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 ## Funções
 - Transporte: Leva comida da boca para o esômago

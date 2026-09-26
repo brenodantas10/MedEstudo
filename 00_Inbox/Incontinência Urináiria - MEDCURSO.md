@@ -6,7 +6,8 @@ areas:
   - Urologia
   - Ginecologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 Bexiga
 - Ação Simpática (adrenérgico): Segura urina

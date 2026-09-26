@@ -5,7 +5,8 @@ tipo:
 areas:
   - Gastroenterologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ## Organização Hepática
 - **Irrigação**:

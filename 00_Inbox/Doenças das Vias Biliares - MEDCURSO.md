@@ -6,7 +6,8 @@ areas:
   - Gastroenterologia
   - Clínica Médica
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 ## Anatomia
 

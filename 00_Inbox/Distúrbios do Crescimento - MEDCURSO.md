@@ -4,8 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
-cssClasses:
+publish:
+status:
 ---
 # Avaliação Nutricional
 

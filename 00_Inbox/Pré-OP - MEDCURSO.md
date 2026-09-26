@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 # PRé-Operatório
 

@@ -5,7 +5,8 @@ tipo:
 areas:
   - Clínica Médica
   - Hepatologia
-publish: false
+publish:
+status:
 ---
 - Mais caen
 	- Hipertensão Porta

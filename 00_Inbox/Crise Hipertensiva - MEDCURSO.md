@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cardiologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ## Crise Hipertensiva
 Elevação aguda e intensa com PA >= 180x110 mmHg

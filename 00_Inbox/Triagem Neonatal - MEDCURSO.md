@@ -5,7 +5,8 @@ tipo:
 areas:
   - Pediatria
   - Neonatologia
-publish: false
+publish:
+status:
 ---
 Serve para identificar precocemente
 

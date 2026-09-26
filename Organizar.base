@@ -6,6 +6,10 @@ properties:
     displayName: Nome da Nota
   note.area:
     displayName: areas
+  note.publish:
+    displayName: publish
+  note.Tipo:
+    displayName: tipo
 views:
   - type: table
     name: Temas
@@ -35,25 +39,1176 @@ views:
     order:
       - file.name
       - areas
+      - Tipo
     sort:
       - property: date
-        direction: DESC
-  - type: table
-    name: Estudo
-    filters:
-      and:
-        - file.inFolder("01_Estudo")
-        - areas.containsAny("Ginecologia", "Obstetrícia")
-    order:
-      - file.name
-      - areas
+        direction: ASC
+    columnOrders:
+      file.file:
+        - 00_Inbox/Aleitamento Materno - MEDCURSO.md
+        - 00_Inbox/Alto Risco - UFRN.md
+        - 00_Inbox/Amenorreia - MEDCURSO.md
+        - 00_Inbox/Anemias - MEDCURSO.md
+        - 00_Inbox/Anestésicos - Livro.md
+        - 00_Inbox/Anoemias Hemolíticas - MEDCURSO.md
+        - 00_Inbox/Ascite e Hipertensão Portal - UFRN.md
+        - 00_Inbox/Asma e DPOC - MEDCURSO.md
+        - 00_Inbox/Aula Dr. João Felipe.md
+        - 00_Inbox/Avaliação Nutricional - UFRN.md
+        - 00_Inbox/Bradirritimias e PCR - MEDCURSO.md
+        - 00_Inbox/CA de Colo Retal - MEDGRUPO.md
+        - 00_Inbox/CA de Pulmão - MEDCURSO.md
+        - 00_Inbox/Ciclo Menstruação - MEDCURSO.md
+        - 00_Inbox/Cirrose Hepática e Suas Causas - MEDCURSO.md
+        - 00_Inbox/Cirrose e Suas Complicações - MEDCURSO.md
+        - 00_Inbox/Classificação Nutricional - UFRN.md
+        - 00_Inbox/Climatério - MEDCURSO.md
+        - 00_Inbox/Crise Hipertensiva - MEDCURSO.md
+        - 00_Inbox/Câncer Gástrico - MEDCURSO.md
+        - 00_Inbox/DISCUSSÃO TRSBALHOS CARDIOLOGIA.md
+        - 00_Inbox/Desenvolvimento Infantil - MEDCURSO.md
+        - 00_Inbox/Diabetes Gestacional - MEDCURSO.md
+        - 00_Inbox/Diabetes Mellitus - MEDCURSO.md
+        - 00_Inbox/Diarreia - MEDCURSO.md
+        - 00_Inbox/Discussão Infarto - UFRN.md
+        - 00_Inbox/Distúrbios Puberais - MEDCURSO.md
+        - 00_Inbox/Distúrbios do Crescimento - MEDCURSO.md
+        - 00_Inbox/Doença Hemolítica - MEDCURSO.md
+        - 00_Inbox/Doenças Suprarrenais - MEDCURSO.md
+        - 00_Inbox/Doenças da Mama - MEDCURSO.md
+        - 00_Inbox/Doenças da Tireoide - MEDCURSO.md
+        - 00_Inbox/Doenças das Vias Biliares - MEDCURSO.md
+        - 00_Inbox/Doenças do Estômago - MEDCURSO.md
+        - 00_Inbox/Doenças do Ovário - MEDCURSO.md
+        - 00_Inbox/Doenças do Pâncreas - MEDGRUPO.md
+        - 00_Inbox/Dor Torácica - UFRN.md
+        - 00_Inbox/ECG - UFRN.md
+        - 00_Inbox/Emergências Intestinais - MEDCURSO.md
+        - 00_Inbox/Emergências Intestinais 2 - MEDCURSO.md
+        - 00_Inbox/Esôfago - MEDCURSO.md
+        - 00_Inbox/Fios de Sutura - MEDCURSO.md
+        - 00_Inbox/GIST - MEDCURSO.md
+        - 00_Inbox/Gemelaridade - MEDCURSO.md
+        - 00_Inbox/Hemoglubinúria Paroxística Noturna - MEDCURSO.md
+        - 00_Inbox/Hemorragia Digestiva Alta - MEDCURSO.md
+        - 00_Inbox/Hemorragia Digestiva Obscura - MEDCURSO.md
+        - 00_Inbox/Hemostasia - MEDCURSO.md
+        - 00_Inbox/Hepatites Virais - MEDCURSO.md
+        - 00_Inbox/Hernias de Parede Abdominal - MEDCURSO.md
+        - 00_Inbox/Hidratação Pediátrica - UFRN.md
+        - 00_Inbox/Hipertensão - MEDCURSO.md
+        - 00_Inbox/Hipertensão Pulmonar - MEDCURSO.md
+        - 00_Inbox/IVAS - MEDCURSO.md
+        - 00_Inbox/IVAS - UFRN.md
+        - 00_Inbox/Icterícia Neonatal - MEDCURSO.md
+        - 00_Inbox/Incontinência Urináiria - MEDCURSO.md
+        - 00_Inbox/Infecções Congênitas - MEDCURSO.md
+        - 00_Inbox/Infecções Respiratórias Agudas 2 - MEDCURSO.md
+        - 00_Inbox/Infecções do Trato Urinário PED - MEDCURSO.md
+        - 00_Inbox/Insuficiência Cardíaca - MEDCURSO.md
+        - 00_Inbox/Leucemias - MEDCURSO.md
+        - 00_Inbox/Linfoma Gástrico - MEDCURSO.md
+        - 00_Inbox/Linfomas e Mieloma Múlltiplo- MEDCURSO.md
+        - 00_Inbox/Massas Cervicais - Sabiston.md
+        - 00_Inbox/Neoplasias Ginecológicas - MEDCURSO.md
+        - 00_Inbox/Otorrino - Internato.md
+        - 00_Inbox/Pneumonia Adquirida na Comunidade - MEDCURSO.md
+        - 00_Inbox/Porfirias - MEDCURSO.md
+        - 00_Inbox/Profilaxia TEP e TVP - MEDCURSO.md
+        - 00_Inbox/Pré-OP - MEDCURSO.md
+        - 00_Inbox/Reanimação Neonatal - UFRN.md
+        - 00_Inbox/SUS Parte 1 (História, Leis e Financiamento) - MEDCURSO.md
+        - 00_Inbox/SUS parte 2 - MEDCURSO.md
+        - 00_Inbox/Sangramento 2ª Metade - MEDGRUPO.md
+        - 00_Inbox/Sangramentos 1ª Metade da Gestção - MEDCURSO.md
+        - 00_Inbox/Síndrome de Zollinger-Ellison - MEDCURSO.md
+        - 00_Inbox/Síndromes Coronarianas - MEDCURSO.md
+        - 00_Inbox/Síndromes Disabsortivas - MEDCURSO.md
+        - 00_Inbox/Síndromes Hipertensivas na Gestação - MEDCURSO.md
+        - 00_Inbox/Síndromes Pós-Gastrectomias  MEDCURSO.md
+        - 00_Inbox/Talassemias - MEDCURSO.md
+        - 00_Inbox/Taquiarritmias - MEDCURSO.md
+        - 00_Inbox/Traumato-Ortopedia - MEDCURSO.md
+        - 00_Inbox/Triagem Neonatal - MEDCURSO.md
+        - 00_Inbox/Tromboembolismo Venoso- MEDCURSO.md
+        - 00_Inbox/Tuberculose - MEDCURSO.md
+        - 00_Inbox/Valvopatias - MEDCURSO.md
+        - 00_Inbox/Vasculites - MEDCURSO.md
+        - _pdfs/Livros/Anatomia/(Gray's Anatomy) Richard Drake, Wayne Vogl, Adam W. M. Mitchell, Richard Tibbitts, Paul Richardson - Gray's Atlas of Anatomy-Churchill Livingstone _ Elsevier (2020).pdf
+        - _pdfs/Livros/Histologia/(Netter Basic Science) William Ovalle, Patrick Nahirney - Netter's Essential Histology With Correlated Histopathology (Netter Basic Science), 3E-Elsevier (2020).pdf
+        - _pdfs/Livros/Patologia/(Robbins Pathology) Vinay Kumar, Abul Abbas, Jon Aster - Robbins & Cotran Pathologic Basis of Disease-Elsevier (2020).pdf
+        - _pdfs/Livros/Histologia/(The God of Education) Anthony L. Mescher - Junqueira’s Basic Histology Text and Atlas-McGraw-Hill Education (2018).pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/01 - Iniciação ao Exame Clínico.pdf
+        - _pdfs/Livros/Semiologia/Porto/1 - Semiologia e o Ensino_Aprendizagem da Medicina.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/1. Anatomia e Fisiologia do Aparelho Visual (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/1. Anatomia e Fisiologia do Aparelho Visual.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/1. Ciclo Menstrual (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/1. Ciclo Menstrual.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/1. Coma e Alterações da Consciência (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/1. Coma e Alterações da Consciência.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/1. Derrame Pleural (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/1. Derrame Pleural.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/1. Diabetes Mellitus - Introdução ao Diabetes MellitusDefinição Critérios Diagnósticos Classificação e Acompanhamento Ambulatorial (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/1. Diabetes Mellitus - Introdução ao Diabetes MellitusDefinição Critérios Diagnósticos Classificação e Acompanhamento Ambulatorial.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/1. Doenças Glomerulares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/1. Doenças Glomerulares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/1. Hemorragia Digestiva Alta Não Varicosa (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/1. Hemorragia Digestiva Alta Não Varicosa.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/1. Histologia e Fisiologia da Pele e Lesões Elementares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/1. Histologia e Fisiologia da Pele e Lesões Elementares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/1. Infecções de Vias Aéreas Superiores - Parte I (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/1. Infecções de Vias Aéreas Superiores - Parte I.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/1. Introdução à Hepatologia e Icterícia Não Obstrutiva (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/1. Introdução à Hepatologia e Icterícia Não Obstrutiva.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/1. Introdução à Reumatologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/1. Introdução à Reumatologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/1. Introdução ao Estudo das Anemias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/1. Introdução ao Estudo das Anemias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/1. Medidas de Saúde Coletiva - Parte IIndicadores de Morbidade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/1. Medidas de Saúde Coletiva - Parte IIndicadores de Morbidade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/1. Meningites (Infecções do Sistema Nervoso Central) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/1. Meningites (Infecções do Sistema Nervoso Central).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/1. Parada Cardiorrespiratória (PCR) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/1. Parada Cardiorrespiratória (PCR).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/1. Puberdade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/1. Puberdade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/1. Quadril Pediátrico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/1. Quadril Pediátrico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/1. TPP - Prematuridade e Trabalho de Parto Prematuro (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/1. TPP - Prematuridade e Trabalho de Parto Prematuro.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/1. Transtornos do Humor (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/1. Transtornos do Humor.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/1. Trauma - Avaliação Inicial Vias Aéreas e Trauma Torácico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/1. Trauma - Avaliação Inicial Vias Aéreas e Trauma Torácico.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/02 - Laboratório de Habilidades Clínicas.pdf
+        - _pdfs/Livros/Semiologia/Porto/2 - Relação Médico-Paciente.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/2. Anatomia Fisiologia e Semiologia Neurológica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/2. Anatomia Fisiologia e Semiologia Neurológica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/2. Anemias Microcíticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/2. Anemias Microcíticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/2. Bradiarritmias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/2. Bradiarritmias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/2. BRUE SMSL (Brief Resolved Unexplained Events Síndrome da Morte Súbita do Lactente) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/2. BRUE SMSL (Brief Resolved Unexplained Events Síndrome da Morte Súbita do Lactente).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/2. Córnea e Cristalino (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/2. Córnea e Cristalino.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/2. Diabetes Mellitus Tipo 2 (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/2. Diabetes Mellitus Tipo 2.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/2. Doença Pulmonar Obstrutiva Crônica (DPOC) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/2. Doença Pulmonar Obstrutiva Crônica (DPOC).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/2. Doenças Inflamatórias do Tecido Conjuntivo I (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/2. Doenças Inflamatórias do Tecido Conjuntivo I.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/2. Hanseníase (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/2. Hanseníase.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/2. Hemorragia Digestiva Alta Varicosa (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/2. Hemorragia Digestiva Alta Varicosa.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/2. Hepatites Virais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/2. Hepatites Virais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/2. Infecções de Vias Aéreas Superiores - Parte II (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/2. Infecções de Vias Aéreas Superiores - Parte II.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/2. Leptospirose (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/2. Leptospirose.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/2. Lesão Renal Aguda (LRA) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/2. Lesão Renal Aguda (LRA).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/2. Medidas de Saúde Coletiva - Parte IIIndicadores de Mortalidade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/2. Medidas de Saúde Coletiva - Parte IIIndicadores de Mortalidade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/2. Planejamento Familiar (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/2. Planejamento Familiar.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/2. Politrauma Ortopédico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/2. Politrauma Ortopédico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/2. Rotura Prematura de Membranas (RPM) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/2. Rotura Prematura de Membranas (RPM).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/2. Transtornos de Ansiedade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/2. Transtornos de Ansiedade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/2. Trauma - Choque (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/2. Trauma - Choque.pdf
+        - _pdfs/Cursos/Estratégia/out/2. Trauma - Choque.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/03 - Método Clínico.pdf
+        - _pdfs/Livros/Semiologia/Porto/3 - Método Clínico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/3. Amenorreia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/3. Amenorreia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/3. Anemias Macrocíticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/3. Anemias Macrocíticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/3. Cefaleias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/3. Cefaleias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/3. Diabetes Mellitus – Insulinoterapia e Cirurgia Metabólica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/3. Diabetes Mellitus – Insulinoterapia e Cirurgia Metabólica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/3. Doença Renal Crônica (DRC) - Parte I (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/3. Doença Renal Crônica (DRC) - Parte I.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/3. Doenças da Coluna Vertebral (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/3. Doenças da Coluna Vertebral.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/3. Doenças Inflamatórias do Tecido Conjuntivo II (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/3. Doenças Inflamatórias do Tecido Conjuntivo II.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/3. Glaucoma (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/3. Glaucoma.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/3. Hemorragia Digestiva Baixa (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/3. Hemorragia Digestiva Baixa.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/3. Hepatopatias Autoimunes (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/3. Hepatopatias Autoimunes.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/3. HPP - Hemorragia Pós-Parto (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/3. HPP - Hemorragia Pós-Parto.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/3. Infecção de Trato Urinário em Pediatria (ITU) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/3. Infecção de Trato Urinário em Pediatria (ITU).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/3. Infecções de Vias Aéreas Superiores - Parte III (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/3. Infecções de Vias Aéreas Superiores - Parte III.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/3. Malária (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/3. Malária.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/3. Medidas de Saúde Coletiva - Parte IIIIndicadores demográficos + Transição Demográfica-Epidemiológica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/3. Medidas de Saúde Coletiva - Parte IIIIndicadores demográficos + Transição Demográfica-Epidemiológica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/3. Oncologia Cutânea (Câncer de Pele) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/3. Oncologia Cutânea (Câncer de Pele).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/3. Taquiarritmias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/3. Taquiarritmias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/3. Transtornos Psicóticos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/3. Transtornos Psicóticos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/3. Trauma Abdominal e Pélvico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/3. Trauma Abdominal e Pélvico.pdf
+        - _pdfs/Cursos/Estratégia/out/3. Trauma Abdominal e Pélvico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/3. Tromboembolismo Pulmonar (TEP) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/3. Tromboembolismo Pulmonar (TEP).pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/04 - Anamnese.pdf
+        - _pdfs/Livros/Semiologia/Porto/4 - Dor.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/4. Alergia Alimentar (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/4. Alergia Alimentar.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/4. Anemias Hemolíticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/4. Anemias Hemolíticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/4. Animais Peçonhentos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/4. Animais Peçonhentos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/4. Artrite Reumatoide (Apêndice - Medicações na Reumatologia) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/4. Artrite Reumatoide (Apêndice - Medicações na Reumatologia).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/4. Bases de Saúde do Trabalhador (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/4. Bases de Saúde do Trabalhador.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/4. Complicações do Trauma Ortopédico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/4. Complicações do Trauma Ortopédico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/4. Demências (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/4. Demências.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/4. Dependência Química (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/4. Dependência Química.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/4. Dermatoses Infecciosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/4. Dermatoses Infecciosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/4. Diabetes Mellitus - Complicações Agudas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/4. Diabetes Mellitus - Complicações Agudas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/4. Distúrbios da Refração (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/4. Distúrbios da Refração.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/4. Doença do Refluxo Gastroesofágico Esofagites Não-Pépticas e Ingestão de Corpo Estranho (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/4. Doença do Refluxo Gastroesofágico Esofagites Não-Pépticas e Ingestão de Corpo Estranho.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/4. Doença Renal Crônica (DRC) - Parte II (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/4. Doença Renal Crônica (DRC) - Parte II.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/4. Fibrilação e Flutter Atrial (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/4. Fibrilação e Flutter Atrial.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/4. Gestação Múltipla (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/4. Gestação Múltipla.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/4. Introdução a Pneumologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/4. Introdução a Pneumologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/4. Otoneurologia Vertigens e Audiologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/4. Otoneurologia Vertigens e Audiologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/4. Outras Hepatopatias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/4. Outras Hepatopatias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/4. Síndrome dos Ovários Policísticos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/4. Síndrome dos Ovários Policísticos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/4. Trauma de Face e Cervical (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/4. Trauma de Face e Cervical.pdf
+        - _pdfs/Cursos/Estratégia/out/4. Trauma de Face e Cervical.pdf
+        - _pdfs/Livros/Semiologia/Porto/5 - Anomalia Genética.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/05 - Técnicas Básicas de Exame Físico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/5. Anemia Associada a Condições Não Hematológicas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/5. Anemia Associada a Condições Não Hematológicas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/5. Cirrose Hepática (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/5. Cirrose Hepática.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/5. Cirurgia de Cabeça e Pescoço - Laringologia Apneia do Sono e SRO (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/5. Cirurgia de Cabeça e Pescoço - Laringologia Apneia do Sono e SRO.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/5. Dermatoses Eczematosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/5. Dermatoses Eczematosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/5. Diabetes Mellitus - Complicações Crônicas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/5. Diabetes Mellitus - Complicações Crônicas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/5. Disfagia Alterações Estruturais e Distúrbios da Motilidade do Esôfago (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/5. Disfagia Alterações Estruturais e Distúrbios da Motilidade do Esôfago.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/5. Distúrbios Ácido-Base (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/5. Distúrbios Ácido-Base.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/5. Endometriose (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/5. Endometriose.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/5. Epilepsias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/5. Epilepsias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/5. Espondiloartrites (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/5. Espondiloartrites.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/5. Influenza (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/5. Influenza.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/5. Maus Tratos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/5. Maus Tratos.pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/5. Neuroftalmologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/5. Normas Regulamentadoras (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/5. Normas Regulamentadoras.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/5. Obesidade Infantil e na Adolescência (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/5. Obesidade Infantil e na Adolescência.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/5. Partograma e Distocia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/5. Partograma e Distocia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/5. Pneumologia Intensiva (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/5. Pneumologia Intensiva.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/5. Síncope (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/5. Síncope.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/5. TOC Transtornos Somáticos Dissociativos e Relacionados ao Estresse (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/5. TOC Transtornos Somáticos Dissociativos e Relacionados ao Estresse.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/5. Trauma Vascular de Extremidades e Musculoesquelético (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/5. Trauma Vascular de Extremidades e Musculoesquelético.pdf
+        - _pdfs/Cursos/Estratégia/out/5. Trauma Vascular de Extremidades e Musculoesquelético.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/06 - Sinais e Sintomas.pdf
+        - _pdfs/Livros/Semiologia/Porto/6 - Sistema Tegumentar.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/6. Acidentes Vasculares Cerebrais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/6. Acidentes Vasculares Cerebrais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/6. Adenomiose (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/6. Adenomiose.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/6. Análise da Gasometria Arterial (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/6. Análise da Gasometria Arterial.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/6. Anatomofisiologia Gástrica Gastrites Gastroparesia e Dispepsia Funcional (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/6. Anatomofisiologia Gástrica Gastrites Gastroparesia e Dispepsia Funcional.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/6. Asma (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/6. Asma.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/6. Bacia Obstétrica Pelvimetria e Estática Fetal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/6. Bacia Obstétrica Pelvimetria e Estática Fetal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/6. Cirurgia de Cabeça e Pescoço - Manejo dos Nódulos de Tireoide Câncer de Tireoide e Tireoidectomia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Otorrinolaringologia e Cirurgia de Cabeça e Pescoço - Extensivo/6. Cirurgia de Cabeça e Pescoço - Manejo dos Nódulos de Tireoide Câncer de Tireoide e Tireoidectomia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/6. Complicações da Cirrose Hepática (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/6. Diabetes Mellitus - Hiperglicemia Hospitalar (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/6. Diabetes Mellitus - Hiperglicemia Hospitalar.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/6. Dislipidemia e Estratificação de Risco Cardiovascular (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/6. Dislipidemia e Estratificação de Risco Cardiovascular.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/6. Distúrbios Metabólicos do Neonato (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/6. Distúrbios Metabólicos do Neonato.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/6. Farmacodermias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/6. Farmacodermias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/6. HIV (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/6. HIV.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/6. Leucemias Agudas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/6. Leucemias Agudas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/6. Oncologia Ortopédica e Osteomielite (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/6. Oncologia Ortopédica e Osteomielite.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/6. Processo Saúde-Doença (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/6. Processo Saúde-Doença.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/6. Psiquiatria Infantil (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/6. Psiquiatria Infantil.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/6. Trauma Populações Especiais (Pediátrico Gestante e Idosos) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/6. Trauma Populações Especiais (Pediátrico Gestante e Idosos).pdf
+        - _pdfs/Cursos/Estratégia/out/6. Trauma Populações Especiais (Pediátrico Gestante e Idosos).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/6. Traumatismos Oculares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/6. Traumatismos Oculares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/6. Vasculites (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/6. Vasculites.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/07 - Exame Psíquico e Avaliação das Condições Emocionais.pdf
+        - _pdfs/Livros/Semiologia/Porto/7 - Olhos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/7. Anafilaxia e Urticária (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/7. Anafilaxia e Urticária.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/7. Artrites Microcristalinas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/7. Artrites Microcristalinas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/7. Dermatoses Papuloescamosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/7. Dermatoses Papuloescamosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/7. Distúrbios do Sódio - Disnatremias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/7. Distúrbios do Sódio - Disnatremias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/7. Doença Arterial Coronariana Estável (DAC Estável) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/7. Doença Arterial Coronariana Estável (DAC Estável).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/7. Doença Ulcerosa Péptica Inibidores de Bomba de Prótons (IBP) e Helicobacter pylori (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/7. Doença Ulcerosa Péptica Inibidores de Bomba de Prótons (IBP) e Helicobacter pylori.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/7. Doenças Neuromusculares (Neuropatias Periféricas Miopatias Doenças da Junção Neuromuscular e Doença do Neurônio Motor) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/7. Doenças Neuromusculares (Neuropatias Periféricas Miopatias Doenças da Junção Neuromuscular e Doença do Neurônio Motor).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/7. Fraturas e Luxações (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/7. Fraturas e Luxações.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/7. Infecção Puerperal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/7. Infecção Puerperal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/7. Leucemias Crônicas Linfomas Mielodisplasias e Mieloproliferações (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/7. Leucemias Crônicas Linfomas Mielodisplasias e Mieloproliferações.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/7. Miscelânea (Interstício Bronquiectasias Hipertensão Pulmonar e Pneumotórax) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/7. Miscelânea (Interstício Bronquiectasias Hipertensão Pulmonar e Pneumotórax).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/7. Pólipos Uterinos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/7. Pólipos Uterinos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/7. Processos Epidêmicos e Epidemiologia das Doenças Infecciosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/7. Processos Epidêmicos e Epidemiologia das Doenças Infecciosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/7. Queimaduras e Trauma Elétrico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/7. Queimaduras e Trauma Elétrico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/7. Sepse (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/7. Sepse.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/7. Síndrome Hepatorrenal e Síndrome Hepatopulmonar (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/7. Síndrome Hepatorrenal e Síndrome Hepatopulmonar.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/7. Tireoide - Fisiologia Semiologia e Avaliação Diagnóstica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/7. Tireoide - Fisiologia Semiologia e Avaliação Diagnóstica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/7. Transtornos de Personalidade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/7. Transtornos de Personalidade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/7. Tumores Oculares Malignos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/7. Tumores Oculares Malignos.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/08 - Médicos, Pacientes e Famílias.pdf
+        - _pdfs/Livros/Semiologia/Porto/8 - Orelhas, Nariz, Seios Paranasais, Faringe e Laringe.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/8. Antibióticos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/8. Antibióticos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/8. Crescimento (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/8. Crescimento.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/8. Dermatoses Vesicobolhosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/8. Dermatoses Vesicobolhosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/8. Distúrbios do Movimento (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/8. Distúrbios do Movimento.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/8. Distúrbios do Potássio (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/8. Distúrbios do Potássio.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/8. Estatística Médica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/8. Estatística Médica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/8. Fratura Exposta (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/8. Fratura Exposta.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/8. Gamopatias Monoclonais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/8. Gamopatias Monoclonais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pneumologia - Extensivo/8. Neoplasias Pulmonares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pneumologia - Extensivo/8. Neoplasias Pulmonares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/8. Pancreatite Aguda e Crônica (Pancreatites) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/8. Pancreatite Aguda e Crônica (Pancreatites).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/8. Rastreamento do Câncer de Mama (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/8. Rastreamento do Câncer de Mama.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/8. Resposta Endócrino-Metabólica ao Trauma (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/8. Resposta Endócrino-Metabólica ao Trauma.pdf
+        - _pdfs/Cursos/Estratégia/out/8. Resposta Endócrino-Metabólica ao Trauma.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/8. SCASSST - Síndrome Coronária Aguda Sem Supra do Segmento ST (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/8. SCASSST - Síndrome Coronária Aguda Sem Supra do Segmento ST.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/8. Sífilis na Gestação e Sífilis Congênitas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/8. Sífilis na Gestação e Sífilis Congênitas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/8. Síndrome do Olho Vermelho (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/8. Síndrome do Olho Vermelho.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/8. Síndromes Dolorosas Crônicas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/8. Síndromes Dolorosas Crônicas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/8. Tireoide - Hipotireoidismo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/8. Tireoide - Hipotireoidismo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/8. Transtornos Alimentares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/8. Transtornos Alimentares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/8. Tumores Hepáticos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/8. Tumores Hepáticos.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/09 - Exame Clínico do Idoso.pdf
+        - _pdfs/Livros/Semiologia/Porto/9 - Sistema Respiratório.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/9. Anatomia do Intestino e Síndrome do Intestino Irritável (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/9. Anatomia do Intestino e Síndrome do Intestino Irritável.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/9. Arboviroses (Dengue Chikungunya e Zika) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/9. Arboviroses (Dengue Chikungunya e Zika).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/9. Constipação Intestinal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/9. Constipação Intestinal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/9. Doenças do Osso e da Cartilagem (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/9. Doenças do Osso e da Cartilagem.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Oftalmologia - Extensivo/9. Doenças do Polo Posterior (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Oftalmologia - Extensivo/9. Doenças do Polo Posterior.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/9. Hemostasia IConceitos Básicos e Anticoagulantes (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/9. Hemostasia IConceitos Básicos e Anticoagulantes.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/9. IAMCSSST (Infarto Agudo do Miocárdio com Supradesnivelamento de Segmento ST) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/9. IAMCSSST (Infarto Agudo do Miocárdio com Supradesnivelamento de Segmento ST).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/9. Infecções Congênitas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/9. Infecções Congênitas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/9. Miscelânea (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/9. Miscelânea.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/9. Ombro e Joelho Pediátrico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/9. Ombro e Joelho Pediátrico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/9. Princípios e Diretrizes do SUS (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/9. Princípios e Diretrizes do SUS.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/9. Psicofarmacologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/9. Psicofarmacologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/9. Sangramento Uterino Anormal (SUA) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/9. Sangramento Uterino Anormal (SUA).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/9. Tireoide - TireotoxicoseDiagnóstico Etiologia Tratamento Tireotoxicose na Gestação e Crise Tireotóxica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/9. Tireoide - TireotoxicoseDiagnóstico Etiologia Tratamento Tireotoxicose na Gestação e Crise Tireotóxica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hepatologia - Extensivo/9. Transplante Hepático e Hepatite Fulminante (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hepatologia - Extensivo/9. Transplante Hepático e Hepatite Fulminante.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/9. Traumatismo Cranioencefálico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/9. Traumatismo Cranioencefálico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/9. Túbulo-Interstício Renal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/9. Túbulo-Interstício Renal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/9. Urgências Abdominais - Abdome Agudo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/9. Urgências Abdominais - Abdome Agudo.pdf
+        - _pdfs/Cursos/Estratégia/out/9. Urgências Abdominais - Abdome Agudo.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/10 - Exame Físico Geral.pdf
+        - _pdfs/Livros/Semiologia/Porto/10 - Sistema Cardiovascular.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/10. Abdome Agudo Inflamatório - Apendicite Aguda (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/10. Abdome Agudo Inflamatório - Apendicite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/out/10. Abdome Agudo Inflamatório - Apendicite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/10. Aloimunização Materna e Doença Hemolítica Perinatal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/10. Aloimunização Materna e Doença Hemolítica Perinatal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/10. Artropatias Infecciosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/10. Artropatias Infecciosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/10. Conceitos Básicos do Trauma Ortopédico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/10. Conceitos Básicos do Trauma Ortopédico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/10. Distúrbios do Sono (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/10. Distúrbios do Sono.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/10. Doença Inflamatória Intestinal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/10. Doença Inflamatória Intestinal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/10. Doenças Benignas da Mama (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/10. Doenças Benignas da Mama.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/10. Hemostasia IIDoenças Hemostáticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/10. Hemostasia IIDoenças Hemostáticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/10. Hiperplasia Adrenal Congênita (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/10. Hiperplasia Adrenal Congênita.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/10. ITU (Infecção do Trato Urinário) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/10. ITU (Infecção do Trato Urinário).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/10. Micoses Invasivas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/10. Micoses Invasivas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/10. Obesidade - Obesidade e Síndrome Metabólica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/10. Obesidade - Obesidade e Síndrome Metabólica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/10. Pesquisa Epidemiológica e Medidas de Associação (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/10. Pesquisa Epidemiológica e Medidas de Associação.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/10. Psicopatologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/10. Psicopatologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/10. Síndromes Aórticas Agudas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/10. Síndromes Aórticas Agudas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Dermatologia - Extensivo/10. Síndromes Verrucosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Dermatologia - Extensivo/10. Síndromes Verrucosas.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/11 - Exame de Pele, das Mucosas e dos Fâneros.pdf
+        - _pdfs/Livros/Semiologia/Porto/11 - Sistema Digestório.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/11. Abdome Agudo Inflamatório - Colecistite e Colangite Aguda (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/11. Abdome Agudo Inflamatório - Colecistite e Colangite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/out/11. Abdome Agudo Inflamatório - Colecistite e Colangite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/11. Alteração do volume de Líquido Amniótico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/11. Alteração do volume de Líquido Amniótico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/11. Cirurgia Bariátrica e Metabólica (Tratamento Cirúrgico da Obesidade) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/11. Cirurgia Bariátrica e Metabólica (Tratamento Cirúrgico da Obesidade).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/11. Conceitos Básicos de Anatomia e Semiologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/11. Conceitos Básicos de Anatomia e Semiologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/11. Distúrbios Respiratórios do Período Neonatal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/11. Distúrbios Respiratórios do Período Neonatal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/11. Doenças Desmielinizantes e Encefalites Autoimunes (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/11. Doenças Desmielinizantes e Encefalites Autoimunes.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/11. Hipertensão Arterial Sistêmica (Parte 1)Diagnóstico Classificação Avaliação Clínico-laboratorial e Estratificação de Risco Cardiovascular (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/11. Hipertensão Arterial Sistêmica (Parte 1)Diagnóstico Classificação Avaliação Clínico-laboratorial e Estratificação de Risco Cardiovascular.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/11. Incontinência Urinária (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/11. Incontinência Urinária.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/11. Marcos legais do Sistema Único de Saúde (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/11. Marcos legais do Sistema Único de Saúde.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Hematologia - Extensivo/11. Medicina Transfusional (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Hematologia - Extensivo/11. Medicina Transfusional.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Nefrologia - Extensivo 9/11. Nefrolitíase (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Nefrologia - Extensivo 9/11. Nefrolitíase.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/11. Outras Artropatias (Polimialgia Reumática - Doença de Still do Adulto) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/11. Outras Artropatias (Polimialgia Reumática - Doença de Still do Adulto).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/11. Psiquiatria Social e Reforma Psiquiátrica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/11. Psiquiatria Social e Reforma Psiquiátrica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/11. Síndromes Disabsortivas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/11. Síndromes Disabsortivas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/11. Tuberculose (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/11. Tuberculose.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/12 - Exame dos Linfonodos.pdf
+        - _pdfs/Livros/Semiologia/Porto/12 - Sistema Endócrino.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/12. Abdome Agudo Inflamatório - Diverticulite Aguda (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/12. Abdome Agudo Inflamatório - Diverticulite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/out/12. Abdome Agudo Inflamatório - Diverticulite Aguda.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/12. Câncer de Mama (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/12. Câncer de Mama.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/12. Desenvolvimento Ortopédico da Criança (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/12. Desenvolvimento Ortopédico da Criança.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/12. Divertículos Colônicos e Divertículo de Meckel (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/12. Divertículos Colônicos e Divertículo de Meckel.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/12. Febre Reumática (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/12. Febre Reumática.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/12. Hipertensão Arterial Sistêmica (Parte 2) Tratamento (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/12. Hipertensão Arterial Sistêmica (Parte 2) Tratamento.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Psiquiatria - Extensivo/12. Intoxicações Exógenas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Psiquiatria - Extensivo/12. Intoxicações Exógenas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/12. Metabolismo Ósseo e Mineral - Princípios e Fisiologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/12. Metabolismo Ósseo e Mineral - Princípios e Fisiologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/12. Miopatias Autoimunes Sistêmicas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/12. Miopatias Autoimunes Sistêmicas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/12. Modificações Fisiológicas da Gestação (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/12. Modificações Fisiológicas da Gestação.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/12. Parasitoses (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/12. Parasitoses.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/12. Processos de Descentralização e Regionalização do SUS (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/12. Processos de Descentralização e Regionalização do SUS.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Neurologia - Extensivo 14/12. Tumores Intracranianos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Neurologia - Extensivo 14/12. Tumores Intracranianos.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/13 - Exame dos Pulsos Radial, Periféricos e Venoso.pdf
+        - _pdfs/Livros/Semiologia/Porto/13 - Metabolismo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/13. Abdome Agudo Vascular (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/13. Abdome Agudo Vascular.pdf
+        - _pdfs/Cursos/Estratégia/out/13. Abdome Agudo Vascular.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/13. Abortamento de Repetição (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/13. Abortamento de Repetição.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/13. Câncer do Corpo do Útero (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/13. Câncer do Corpo do Útero.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/13. Doenças do Ombro e Cotovelo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/13. Doenças do Ombro e Cotovelo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/13. Hipertensão Arterial Sistêmica (Parte 3) - Secundária e Crise Hipertensiva (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/13. Hipertensão Arterial Sistêmica (Parte 3) - Secundária e Crise Hipertensiva.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/13. História do SUS (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/13. História do SUS.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/13. Metabolismo Ósseo e Mineral - Hipercalcemia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/13. Metabolismo Ósseo e Mineral - Hipercalcemia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/13. Miscelânea (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/13. Miscelânea.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/13. Neutropenia Febril e Febre de Origem Indeterminada (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/13. Neutropenia Febril e Febre de Origem Indeterminada.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/13. Polipose Intestinal e Câncer Colorretal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/13. Polipose Intestinal e Câncer Colorretal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/13. Síndromes Genéticas e Erros Inatos do Metabolismo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/13. Síndromes Genéticas e Erros Inatos do Metabolismo.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/14 - Exame da Pressão Arterial.pdf
+        - _pdfs/Livros/Semiologia/Porto/14 - Sistema Urinário e Genital.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/14. Abdome Agudo Hemorrágico (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/14. Abdome Agudo Hemorrágico.pdf
+        - _pdfs/Cursos/Estratégia/out/14. Abdome Agudo Hemorrágico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/14. Doença Hipertensiva Específica da Gestação e Hipertensão Crônica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/14. Doença Hipertensiva Específica da Gestação e Hipertensão Crônica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/14. Doenças da Mão e Síndromes Compressivas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/14. Doenças da Mão e Síndromes Compressivas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/14. Endocardite Bacteriana - Endocardite Infecciosa (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/14. Endocardite Bacteriana - Endocardite Infecciosa.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/14. Enurese Noturna (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/14. Enurese Noturna.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/14. Insuficiência Cardíaca (Parte 1)Classificação Fisiopatologia Diagnóstico e Exames Complementares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/14. Insuficiência Cardíaca (Parte 1)Classificação Fisiopatologia Diagnóstico e Exames Complementares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/14. Metabolismo Ósseo e Mineral - Hipocalcemia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/14. Metabolismo Ósseo e Mineral - Hipocalcemia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/14. Neoplasias de Estômago e Esôfago (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/14. Neoplasias de Estômago e Esôfago.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/14. Reumatologia Pediátrica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/14. Reumatologia Pediátrica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/14. Testes Diagnósticos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/14. Testes Diagnósticos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/14. Tumores Anexiais e Câncer de Ovário (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/14. Tumores Anexiais e Câncer de Ovário.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/15 - Exame de Cabeça e Pescoço.pdf
+        - _pdfs/Livros/Semiologia/Porto/15 - Sistema Hematopoiético.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/15. Abdome Agudo Perfurativo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/15. Abdome Agudo Perfurativo.pdf
+        - _pdfs/Cursos/Estratégia/out/15. Abdome Agudo Perfurativo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/15. Anatomia e Fisiologia do Pâncreas e Neoplasias Pancreáticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/15. Anatomia e Fisiologia do Pâncreas e Neoplasias Pancreáticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/15. Atenção Primária à Saúde no Brasil (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/15. Atenção Primária à Saúde no Brasil.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/15. Coluna Pediátrica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/15. Coluna Pediátrica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/15. Doenças de Vulva e Vagina (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/15. Doenças de Vulva e Vagina.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/15. Infecções Congênitas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/15. Infecções Congênitas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/15. Infecções Relacionadas à Assistência em Saúde - IRAS (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/15. Infecções Relacionadas à Assistência em Saúde - IRAS.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/15. Insuficiência Cardíaca (Parte 2)Tratamento (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/15. Insuficiência Cardíaca (Parte 2)Tratamento.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Reumatologia - Extensivo/15. Manifestações Reumatológicas e Doenças Sistêmicas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Reumatologia - Extensivo/15. Manifestações Reumatológicas e Doenças Sistêmicas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/15. Metabolismo Ósseo e Mineral - Magnésio e Fosfato (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/15. Metabolismo Ósseo e Mineral - Magnésio e Fosfato.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/15. Vitalidade Fetal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/15. Vitalidade Fetal.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/16 - Exame do Tórax.pdf
+        - _pdfs/Livros/Semiologia/Porto/16 - Sistema Imunológico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/16. Abdome Agudo Obstrutivo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/16. Abdome Agudo Obstrutivo.pdf
+        - _pdfs/Cursos/Estratégia/out/16. Abdome Agudo Obstrutivo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/16. Assistência ao Parto (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/16. Assistência ao Parto.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/16. Doenças Neuromusculares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/16. Doenças Neuromusculares.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/16. Hepatoesplenomegalias Infecciosas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/16. Hepatoesplenomegalias Infecciosas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/16. Hipotireoidismo Congênito (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/16. Hipotireoidismo Congênito.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/16. Insuficiência Cardíaca Aguda (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/16. Insuficiência Cardíaca Aguda.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/16. Medicina de Família e Comunidade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/16. Medicina de Família e Comunidade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/16. Metabolismo Ósseo e Mineral - Vitamina D e Osteomalácia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/16. Metabolismo Ósseo e Mineral - Vitamina D e Osteomalácia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Gastroenterologia - Extensivo/16. Tumores Neuroendócrinos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Gastroenterologia - Extensivo/16. Tumores Neuroendócrinos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/16. Vulvovaginites (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/16. Vulvovaginites.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/17 - Exame do Abdome.pdf
+        - _pdfs/Livros/Semiologia/Porto/17 - Sistema Locomotor.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/17. Aleitamento Materno (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/17. Aleitamento Materno.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/17. Cervicites (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/17. Cervicites.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/17. Choque (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/17. Choque.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/17. Doenças de Partes Moles (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/17. Doenças de Partes Moles.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/17. Ética Médica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/17. Ética Médica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/17. Metabolismo Ósseo e Mineral - Raquitismo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/17. Metabolismo Ósseo e Mineral - Raquitismo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/17. Parto Vaginal Operatório (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/17. Parto Vaginal Operatório.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/17. Síndrome Febril Íctero-Hemorrágica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/17. Síndrome Febril Íctero-Hemorrágica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/17. Vesícula e Vias Biliares (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/17. Vesícula e Vias Biliares.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/18 - Exame dos Órgãos Genitais.pdf
+        - _pdfs/Livros/Semiologia/Porto/18 - Sistema Nervoso.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/18. Complicações Pós-Operatórias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/18. Complicações Pós-Operatórias.pdf
+        - _pdfs/Cursos/Estratégia/out/18. Complicações Pós-Operatórias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/18. Doença Inflamatória Pélvica (DIP) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/18. Doença Inflamatória Pélvica (DIP).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/18. Financiamento em Saúde (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/18. Financiamento em Saúde.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/18. Mecanismo de Parto e Fases Clínicas do Parto (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/18. Mecanismo de Parto e Fases Clínicas do Parto.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/18. Metabolismo Ósseo e Mineral - Osteoporose e Doença Óssea de Paget (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/18. Metabolismo Ósseo e Mineral - Osteoporose e Doença Óssea de Paget.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ortopedia - Extensivo/18. Miscelânea Ortopédica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/18. Miscelânea Ortopédica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/18. Piodermites (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/18. Piodermites.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/18. Pneumonias na Infância (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/18. Pneumonias na Infância.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/18. Semiologia Cardíaca (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/18. Semiologia Cardíaca.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/19 - Exame dos Ossos, da Coluna Vertebral, das Articulações e Extremidades.pdf
+        - _pdfs/Livros/Semiologia/Porto/19 - Exame Psiquiátrico.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/19. Adrenal - Morfofisiologia Adrenal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/19. Adrenal - Morfofisiologia Adrenal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/19. Covid (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/19. Covid.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/19. Desnutrição na Infância (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/19. Desnutrição na Infância.pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ortopedia - Extensivo/19. Estatísticas em Ortopedia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/19. Hérnias da Parede Abdominal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/19. Hérnias da Parede Abdominal.pdf
+        - _pdfs/Cursos/Estratégia/out/19. Hérnias da Parede Abdominal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/19. Indução do Parto e Pós-Datismo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/19. Indução do Parto e Pós-Datismo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/19. Saúde do Idoso (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/19. Saúde do Idoso.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/19. Úlceras Genitais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/19. Úlceras Genitais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/19. Valvopatias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/19. Valvopatias.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/20 - Exame Neurológico.pdf
+        - _pdfs/Livros/Semiologia/Porto/20 - Semiologia da Infância, da Adolescência e do Idoso.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/20. Adrenal- Hipocortisolismo (Insuficiência Adrenal) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/20. Adrenal- Hipocortisolismo (Insuficiência Adrenal).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/20. Assistência à Vítima de Violência Sexual (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/20. Assistência à Vítima de Violência Sexual.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/20. Cardiomiopatias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/20. Cardiomiopatias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/20. Cirurgia Vascular (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/20. Cirurgia Vascular.pdf
+        - _pdfs/Cursos/Estratégia/out/20. Cirurgia Vascular.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/20. Imunizações (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/20. Imunizações.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/20. Políticas de Saúde (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/20. Políticas de Saúde.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/20. Restrição de Crescimento Fetal e Óbito Fetal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/20. Restrição de Crescimento Fetal e Óbito Fetal.pdf
+        - _pdfs/Livros/Semiologia/Exame Clínico Porto/21 - Sinais Vitais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/21. Adrenal- Hipercortisolismo (Síndrome de Cushing) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/21. Adrenal- Hipercortisolismo (Síndrome de Cushing).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/21. Asma (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/21. Asma.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/21. Cirurgia Torácica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/21. Cirurgia Torácica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/21. Pericardiopatias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/21. Pericardiopatias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/21. Pneumonias Bacterianas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/21. Pneumonias Bacterianas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/21. Pré-Natal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/21. Pré-Natal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/21. Rastreamento do Câncer de Colo Uterino (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/21. Rastreamento do Câncer de Colo Uterino.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/21. Sistemas de Informação em Saúde (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/21. Sistemas de Informação em Saúde.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/22. Adrenal - Feocromocitoma Hiperaldosteronismo e Incidentaloma Adrenal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/22. Adrenal - Feocromocitoma Hiperaldosteronismo e Incidentaloma Adrenal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/22. Avaliação Perioperatoria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/22. Avaliação Perioperatoria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/22. Câncer de Colo Uterino (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/22. Câncer de Colo Uterino.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/22. Cirurgia Plástica (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/22. Cirurgia Plástica.pdf
+        - _pdfs/Cursos/Estratégia/out/22. Cirurgia Plástica.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Infectologia - Extensivo/22. Raiva Tétano Mordedura e Arranhadura Animal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Infectologia - Extensivo/22. Raiva Tétano Mordedura e Arranhadura Animal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/22. Sífilis Congênita (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/22. Sífilis Congênita.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/22. Ultrassom em Obstetrícia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/22. Ultrassom em Obstetrícia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Medicina Preventiva - Extensivo/22. Vigilância em Saúde (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Medicina Preventiva - Extensivo/22. Vigilância em Saúde.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/23. Climatério e Terapia Hormonal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/23. Climatério e Terapia Hormonal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/23. Cuidados Neonatais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/23. Cuidados Neonatais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/23. Diabetes Mellitus na Gestação (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/23. Diabetes Mellitus na Gestação.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cardiologia - Extensivo/23. Eletrocardiograma (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cardiologia - Extensivo/23. Eletrocardiograma.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/23. Perioperatório - Controle Glicêmico e Manejo dos Glicocorticóides (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/23. Perioperatório - Controle Glicêmico e Manejo dos Glicocorticóides.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/23. Urologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/23. Urologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/24. Choque em Pediatria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/24. Choque em Pediatria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/24. Cirurgia Infantil - Parte I (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/24. Cirurgia Infantil - Parte I.pdf
+        - _pdfs/Cursos/Estratégia/out/24. Cirurgia Infantil - Parte I.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/24. Hipófise - Fisiologia da Hipófise e Hipopituitarismo (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/24. Hipófise - Fisiologia da Hipófise e Hipopituitarismo.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/24. Miomatose Uterina (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/24. Miomatose Uterina.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/24. Sangramento da Primeira Metade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/24. Sangramento da Primeira Metade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/25. Cirurgia Infantil - Parte II (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/25. Cirurgia Infantil - Parte II.pdf
+        - _pdfs/Cursos/Estratégia/out/25. Cirurgia Infantil - Parte II.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/25. Deficiências Vitamínicas e Profilaxias (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/25. Deficiências Vitamínicas e Profilaxias.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/25. Hipófise - Acromegalia e Incidentaloma Hipofisário (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/25. Hipófise - Acromegalia e Incidentaloma Hipofisário.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/25. Prolapsos de Órgãos Pélvicos (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/25. Prolapsos de Órgãos Pélvicos.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Obstetrícia - Extensivo 25/25. Sangramento da Segunda Metade (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Obstetrícia - Extensivo 25/25. Sangramento da Segunda Metade.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/26. Anatomia e Embriologia do Trato Genital Feminino (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/26. Anatomia e Embriologia do Trato Genital Feminino.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/26. Cirurgia Infantil - Parte III (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/26. Cirurgia Infantil - Parte III.pdf
+        - _pdfs/Cursos/Estratégia/out/26. Cirurgia Infantil - Parte III.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/26. Convulsão Febril (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/26. Convulsão Febril.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/26. Hipófise - Hiperprolactinemia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/26. Hipófise - Hiperprolactinemia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/27. Infertilidade Conjugal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/27. Infertilidade Conjugal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/27. Neoplasias Endócrinas Múltiplas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/27. Neoplasias Endócrinas Múltiplas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/27. Proctologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/27. Proctologia.pdf
+        - _pdfs/Cursos/Estratégia/out/27. Proctologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/27. Reanimação Neonatal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/27. Reanimação Neonatal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/28. Doença de Kawasaki (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/28. Doença de Kawasaki.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/28. Dor Pélvica Crônica e Dismenorreia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/28. Dor Pélvica Crônica e Dismenorreia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/28. Hipoglicemia no Paciente não Diabético (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/28. Hipoglicemia no Paciente não Diabético.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/28. Neoplasias do Apêndice Cecal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/28. Neoplasias do Apêndice Cecal.pdf
+        - _pdfs/Cursos/Estratégia/out/28. Neoplasias do Apêndice Cecal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/29. Disfunções Sexuais (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/29. Disfunções Sexuais.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/29. Hipertensão Arterial na Criança e Adolescente (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/29. Hipertensão Arterial na Criança e Adolescente.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Endocrinologia - Extensivo/29. Incongruência de Gênero (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Endocrinologia - Extensivo/29. Incongruência de Gênero.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/29. Nutrição em Cirurgia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/29. Nutrição em Cirurgia.pdf
+        - _pdfs/Cursos/Estratégia/out/29. Nutrição em Cirurgia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/30. Cicatrização de Feridas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/30. Cicatrização de Feridas.pdf
+        - _pdfs/Cursos/Estratégia/out/30. Cicatrização de Feridas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/30. Púrpura de Hennoch Schonlein-Vasculite por IGA (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/30. Púrpura de Hennoch Schonlein-Vasculite por IGA.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/30. Síndrome Pré-Menstrual (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/30. Síndrome Pré-Menstrual.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Ginecologia - Extensivo/31. Abdome Agudo em Ginecologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Ginecologia - Extensivo/31. Abdome Agudo em Ginecologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/31. Cirurgia Bariátrica e Metabólica (Tratamento Cirúrgico da Obesidade) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/31. Cirurgia Bariátrica e Metabólica (Tratamento Cirúrgico da Obesidade).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/31. Doenças Exantemáticas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/31. Doenças Exantemáticas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/32. Cardiopatias Congênitas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/32. Cardiopatias Congênitas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/32. Temas Gerais em Cirurgia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/32. Temas Gerais em Cirurgia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/33. Doença Celíaca em Pediatria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/33. Doença Celíaca em Pediatria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Cirurgia - Extensivo/33. Princípios de Anestesiologia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Cirurgia - Extensivo/33. Princípios de Anestesiologia.pdf
+        - _pdfs/Cursos/Estratégia/out/33. Princípios de Anestesiologia.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/34. Icterícia e Sepse Neonatal (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/34. Icterícia e Sepse Neonatal.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/35. Diagnóstico Nutricional (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/35. Diagnóstico Nutricional.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/36. Coqueluche (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/36. Coqueluche.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/37. Cefaleias na Infância (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/37. Cefaleias na Infância.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/38. Febre Sem Sinais Localizatórios (FSSL) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/38. Febre Sem Sinais Localizatórios (FSSL).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/39. Segurança em Pediatria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/39. Segurança em Pediatria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/40. Desenvolvimento Neuropsicomotor (DNPM) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/40. Desenvolvimento Neuropsicomotor (DNPM).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/41. Doença do Refluxo Gastroesofágico em Pediatria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/41. Doença do Refluxo Gastroesofágico em Pediatria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/42. Bronquiolite (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/42. Bronquiolite.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/43. Emergências Pediátricas (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/43. Emergências Pediátricas.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/44. Tópicos em Pediatria (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/44. Tópicos em Pediatria.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/45. Tuberculose na Infância (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/45. Tuberculose na Infância.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/46. Fibrose Cística (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/46. Fibrose Cística.pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/47. Artrite Idiopática Juvenil (AIJ) (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/47. Artrite Idiopática Juvenil (AIJ).pdf
+        - _pdfs/Cursos/Estratégia/Resumos/Pediatria - Extensivo/48. Diarreia (Resumo).pdf
+        - _pdfs/Cursos/Estratégia/Apostilas/Pediatria - Extensivo/48. Diarreia.pdf
+        - _pdfs/Livros/Imunologia/Abul K. Abbas MBBS, Andrew H. Lichtman MD  PhD, Shiv Pillai MBBS  PhD - Cellular and Molecular Immunology-Elsevier (2021).pdf
+        - _pdfs/Livros/Imunologia/Abul K. Abbas, Andrew H. H. Lichtman, Shiv Pillai - Cellular and Molecular Immunology-Elsevier (2017).pdf
+        - _pdfs/Livros/Imunologia/Abul K. Abbas, Andrew H. Lichtman, Shiv Pillai - Imunologia Celular e Molecular-Elsevier (2019).pdf
+        - _pdfs/Livros/Anestesio/Anestesiologia - 4ed James Manica.pdf
+        - _pdfs/Livros/Anatomia/Angelo Machado - Neuroanatomia Funcional-Atheneu (2013).pdf
+        - _pdfs/Livros/Infectologia/Antibióticos e Quimioterápicos para o Clínico - Tavares - 3ª Ed. - 2014.pdf
+        - _pdfs/Livros/Fisiologia/Arthur C. Guyton, John Edward Hall - Tratado de Fisiologia Médica-Elsevier (2017).pdf
+        - 02_Temas/Artrite Reumatoide.md
+        - 05_Hubs/Artrites Inflamatórias.md
+        - 02_Temas/Assistência ao Parto.md
+        - 01_Estudo/Atendimento Inicial ao Trauma - MEDCURSO.md
+        - _pdfs/Livros/Anatomia/Atlas_Colorido_de_Anatomia_Humana,_8ª_ed_Abrahams_e_McMinn.pdf
+        - _pdfs/Livros/Anestesio/Barash_7th_compressed.pdf
+        - _pdfs/Livros/Anestesio/Barash_7th.pdf
+        - _pdfs/Livros/Semiologia/Bates' Guide To Physical Examination and History Taking (Lippincott Connect)-LWW (2020).pdf
+        - _pdfs/Livros/biologia_do_desenvolvimento_5a_edicao_scott_fgilbert.pdf
+        - _pdfs/Livros/Cardiologia/Braunwald's Heart Disease Review and Assessment_ A Companion to Braunwald’s Heart Disease (Z-lib.io).pdf
+        - _pdfs/Livros/Biocel/Bruce Alberts et al. - Biologia Molecular da Célula-Artmed (2017).pdf
+        - 04_Referencias/Cálculo do Volume pela SCQ.md
+        - 05_Hubs/Cardiologia.md
+        - 01_Estudo/Cicatrização de Feridas  - MEDCURSO.md
+        - 05_Hubs/Cirurgia.md
+        - 01_Estudo/Cirurgia Pediátrica - Estudo.md
+        - 04_Referencias/Classificação Neonatal.md
+        - 05_Hubs/Clínica Médica.md
+        - 01_Estudo/Colagenoses - Estudos.md
+        - 04_Referencias/Como Estimar a SCQ.md
+        - 04_Referencias/Correção de Sódio - Valores e Segurança.md
+        - _pdfs/Livros/Cirurgia/Courtney M. Townsend Jr. JR MD (editor) - Sabiston Textbook of Surgery_ The Biological Basis of Modern Surgical Practice-Elsevier (2021).pdf
+        - 01_Estudo/Declaração de Óbito - Estudo.md
+        - _pdfs/Livros/Hematologia/Denise M. Harmening - Modern Blood Banking & Transfusion Practices-F.A. Davis (2019) (Ingles).pdf
+        - 01_Estudo/Derrame Pleural - Estudo.md
+        - 02_Temas/Diagnóstico da Gravidez.md
+        - 01_Estudo/Diagnóstico de Gravidez - MEDCURSO.md
+        - _pdfs/Livros/Infectologia/diretrizes_metodologicas_sistema_grade.pdf
+        - 02_Temas/Distócia de Ombro.md
+        - _media/Distocia_de_Ombro.png
+        - 01_Estudo/Distúrbios do Potássio - MEDCURSO.md
+        - 05_Hubs/Distúrbios Hidroeletrolíticos.md
+        - 05_Hubs/Distúrbios Respiratórios em Neonatologia.md
+        - 01_Estudo/Distúrbios Respiratórios em Pediatria - Aula MEDCURSO.md
+        - 02_Temas/Doença Trofoblástica Gestacional.md
+        - 01_Estudo/Doenças da Mama - Estudo.md
+        - 01_Estudo/Dreno de Tórax.md
+        - Excalidraw/ECG Átrio DII.excalidraw.md
+        - Excalidraw/ECG Atrio V1.excalidraw.md
+        - Excalidraw/ECG DII Sobrecarga AD.excalidraw.md
+        - Excalidraw/ECG DII Sobrecarga AE.excalidraw.md
+        - Excalidraw/ECG example.excalidraw.md
+        - Excalidraw/ECG V1 Sobrecarga AD.excalidraw.md
+        - Excalidraw/ECG V1 Sobrecarga AE.excalidraw.md
+        - 05_Hubs/Eletrocardiograma.md
+        - _pdfs/Livros/Endócrino/Endocrinologia basica e clinica de Greenspan 9. ed. - www.meulivro.biz.pdf
+        - _pdfs/Livros/Endócrino/Endocrinologia Clínica - Lucio Vilar - 7ed. Nova Edição - versão menor.pdf
+        - _pdfs/Livros/Endócrino/Endocrinologia Clínica - Lucio Vilar - 7ed. Nova Edição.pdf
+        - _pdfs/Livros/Neurologia/Erik Roberson, David G. Standaert, Franklin Amthor, W. Anne Burton Theibert - Essentials of Modern Neuroscience (LANGE)-McGraw-Hill Professional (2020).pdf
+        - _pdfs/Livros/Imagenologia/Essentials of Radiology - Fred A Mettler Jr.pdf
+        - 04_Referencias/Estrogênio.md
+        - 01_Estudo/Ética Médica - Estudo.md
+        - _pdfs/Livros/Semiologia/Exame clínico Porto 8. ed. - www.meulivro.biz.pdf
+        - 01_Estudo/Febre Reumática - MEDCURSO.md
+        - _pdfs/Livros/Hematologia/Fundamentos em Hematologia (7ª Edição, Artmed 2018)_A. V. Hofbrand, P. A. H. Moss.pdf
+        - _pdfs/Livros/Hematologia/Fundamentos em Hematologia (7ª Edição, Artmed 2018)_A. V. Hofbrand, P. A. H. Moss.pdf.txt
+        - _pdfs/Livros/Imagenologia/Fundamentos_de_Radiologia_e_Diagnostico.pdf
+        - _pdfs/Livros/Embriologia/Gary C. Schoenwolf, PhD, Steven B. Bleyl, MD, PhD, Philip R. Brauer, PhD and Philippa H. Francis-West, PhD - Larsen Embriologia Humana-Elsevier (2016).pdf
+        - _pdfs/Livros/Gary W. Procop, Deirdre L. Church, Geraldine S. Hall, William M. Janda, Elmer W. Koneman, Paul C. Schreckenberger, Gail L. Woods. - Diagnóstico Microbiológico - Texto e Atlas Colorid.epub
+        - _pdfs/Livros/Infectologia/GARYWP~1.PDF
+        - 05_Hubs/Gastroenterologia.md
+        - 05_Hubs/Ginecologia e Obstetrícia.md
+        - _pdfs/Livros/Endócrino/Greenspan - Endocrinologia Básica e Clínica (9ª Ed).pdf
+        - _pdfs/Livros/Endócrino/Greenspan Endocrinología básica y clínica 10 Ed. (español).pdf
+        - _pdfs/Livros/Hematologia/Guia para o uso de Hemocomponentes 2ed..pdf
+        - _pdfs/Livros/Geriatria/Hazzard's Geriatric Medicine and Gerontology 6ed..pdf
+        - _pdfs/Livros/Geriatria/Hazzard's Geriatric Medicine and Gerontology 6ed..pdf.txt
+        - 05_Hubs/Hematologia.md
+        - 02_Temas/Hipercalemia.md
+        - 02_Temas/Hipernatremia.md
+        - 01_Estudo/Hipernatremia - Medcurso.md
+        - 02_Temas/Hipocalemia.md
+        - 02_Temas/Hiponatremia.md
+        - index.md
+        - 01_Estudo/Infertilidade - MEDCURSO 2025.md
+        - 03_Zettelkasten/Influência renal no equilíbrio osmótico.md
+        - 04_Referencias/Insulinoterapia.md
+        - 01_Estudo/IST - MEDCURSO.md
+        - _pdfs/Livros/Imagenologia/Jeffrey Klein,william brant,clyde helms,emily vinson - Fundamentals of Diagnostic Radiology all 4 volumes - Brant Helms - 5th Edition (2018)(Z-Lib.io).pdf
+        - _pdfs/Livros/Anestesio/John Butterworth, David Mackey, John Wasnick - Morgan and Mikhail's Clinical Anesthesiology, 7th Edition-McGraw Hill _ Medical (2022)(Z-Lib.io).pdf
+        - _pdfs/Livros/Bioquímica/Kathleen M. Botham_ David A. Bender_ Victor W. Rodwell_ Peter J. Kennelly_ P. Anthony Weil - Bioquimica ilustrada de harper.-McGraw-Hill (2017).pdf
+        - _pdfs/Livros/Embriologia/Keith L. Moore - Embriologia Clí_nica-Elsevier (2016).pdf
+        - _pdfs/Livros/Embriologia/Keith L. Moore (ed.), T. V. N. Persaud (ed.), Mark G. Torchia (ed.) - Before We Are Born_ Essentials of Embryology and Birth Defects-Elsevier (2016).pdf
+        - _pdfs/Livros/Anatomia/Keith L. Moore_ A. M. R. Agur_ II Arthur F. Dalley_ Keith L. Moore - Moore's essential clinical anatomy (2019).pdf
+        - _pdfs/Livros/Embriologia/KEITHL~3.PDF
+        - _pdfs/Livros/Farmacologia/Laurence L. Bunton_ Bruce A. Chabner_ Björn C Knollmann_ - As bases farmacológicas da terapêutica de Goodman & Gilman-Artmed (2012).pdf
+        - _pdfs/Livros/Neurologia/Mark F. Bear, Barry W. Connors, Michael A. Paradiso - Neurociências_ Desvendando o Sistema Nervoso-Artmed (2017).pdf
+        - _pdfs/Livros/Fisiologia/Marriott's Practical Electrocardiography, 12e [New Medical Books].pdf
+        - _pdfs/Livros/Hematologia/Marshall A. Lichtman, Kenneth Kaushansky, Josef T. Prchal, Marcel M. Levi, Linda J. Burns, David C. Linch - Williams Manual of Hematology, 10th Edition-McGraw Hill (2022).pdf
+        - _pdfs/Livros/Hematologia/Marshall A. Lichtman, Kenneth Kaushansky, Thomas J. Kipps, Josef T. Prchal, Marcel M. Levi - Williams Manual de Hematologia-McGrawHill (2014) (espanhol).pdf
+        - _pdfs/Livros/Ginecologia/med_febrasgo - tratado de ginecologia-elsevier (2019).pdf
+        - 05_Hubs/Medicina Preventiva.md
+        - _pdfs/Livros/Bioquímica/Michael B. Smith - Biochemistry_ An Organic Chemistry Approach-CRC Press (2020).pdf
+        - 03_Zettelkasten/Modelo Assistencialista.md
+        - 03_Zettelkasten/Modelo Beveridgiano.md
+        - 03_Zettelkasten/Modelo Bismarckiano.md
+        - 01_Estudo/Modelos Assistenciais de Saúde.md
+        - 05_Hubs/Nefrologia.md
+        - 01_Estudo/Neonatologia - MEDCURSO.md
+        - _pdfs/Livros/Anatomia/Netter, Frank Henry - Atlas of human anatomy-Elsevier (2019).pdf
+        - _pdfs/Livros/Geriatria/Neurologia Cognitiva e do Envelhecimento.pdf
+        - _pdfs/Livros/Geriatria/Neurologia Cognitiva e do Envelhecimento.pdf.txt
+        - _pdfs/Livros/Nicholas T. Carnevale, Michael L. Hines - The NEURON Book-Cambridge University Press (2004).pdf
+        - 01_Estudo/Níveis de Prevenção & Vigilância em Saúde.md
+        - 01_Estudo/Nutrição Perioperatória - Estudo.md
+        - 01_Estudo/Obstetrícia - Estudo.md
+        - Organizar.base
+        - 04_Referencias/Osmolaridade Plasmática.md
+        - 04_Referencias/Osmolaridade Urinária.md
+        - 04_Referencias/Paracentese.md
+        - 02_Temas/Parto.md
+        - _pdfs/Livros/Patologia/Patologia Básica - Robbins - 9ª Edição - 2013 - Ebook - Português.pdf
+        - _pdfs/Livros/Microbiologia/Patrick R. Murray, Ken S. Rosenthal, Michael A. Pfaller - Medical Microbiology-Elsevier (2020).pdf
+        - 05_Hubs/Pediatria.md
+        - _internato/Pediatria I.md
+        - 03_Zettelkasten/Perdas Insensíveis de Água e Hipernatremia.md
+        - _pdfs/Livros/Patologia/PERGUNTAS E RESPOSTAS EM PATOLOGIA - ROBBINS & COTRAN.pdf
+        - _pdfs/Livros/Cardiologia/Peter Libby_ Robert O. Bonow_ Douglas L. Mann_ Gordon F. Tomaselli_ Deepak L. Bhatt_ Scott D. Solomon_ Eugene Braunwald - Braunwald's Heart Disease_ A Textbook of Cardiovascular Med.pdf
+        - 01_Estudo/Point-of-Care Ultrasound.md
+        - _pdfs/Livros/Infectologia/PPG_21378.pdf
+        - _pdfs/Livros/Bioquímica/Princípios de bioquímica de Lehninger (Nelson) 6. ed. - www.meulivro.mobi.pdf
+        - _pdfs/Livros/Anatomia/Prometheus - Atlas de Anatomia 3 Volumes - 4a edição (PDF).pdf
+        - Excalidraw/Pulso Atrial Normal DII.excalidraw.md
+        - Excalidraw/Pulso Atrial Normal V1.excalidraw.md
+        - 02_Temas/Queimaduras.md
+        - 01_Estudo/Queimaduras - MEDCURSO.md
+        - 06_Questoes/Questão 06.md
+        - _pdfs/Livros/Imagenologia/Radiologia-Basica - Mello Jr.pdf
+        - _pdfs/Livros/Imagenologia/Radiologia-Basica-2ª-Ed-LANGE.pdf
+        - 01_Estudo/Reanimação Neonatal.md
+        - 03_Zettelkasten/Rede de Haller.md
+        - 04_Referencias/Regra de Nagele.md
+        - 05_Hubs/Reumatologia.md
+        - _pdfs/Livros/Neurologia/Roberto Lent - Cem bilhões de neurônios - Conceitos fundamentais de neurociência-Editora Atheneu (2010).pdf
+        - _internato/Rodízio Cirurgia - HUOL.md
+        - _pdfs/Livros/Epidemiologia/Rouquayrol_epidemiologia__sade_8._ed..pdf
+        - _pdfs/Livros/Gastro/S. Zaterka, J. N. Eisig - Tratado de Gastroenterologia da Graduação à Pós-Graduação 2. ed..pdf.pdf
+        - 01_Estudo/Sangramento Uterino Anormal - MEDCURSO.md
+        - 05_Hubs/Sangramentos da 1ª Metade da Gestação.md
+        - 01_Estudo/Saúde do Trabalhador - Estudo.md
+        - _pdfs/Livros/Semiologia/Semiologia medica Porto 8. ed. - www.meulivro.biz.pdf
+        - _pdfs/Livros/Fisiologia/Silverthorn_7ed_BR.pdf
+        - 03_Zettelkasten/Sinal de Hegar.md
+        - 03_Zettelkasten/Sinal de Hunter.md
+        - 03_Zettelkasten/Sinal de Nobile-Budin.md
+        - 03_Zettelkasten/Sinal de Piskacek.md
+        - 03_Zettelkasten/Sinal de Puzos.md
+        - 01_Estudo/Sobrecarga Atrial - ECG.md
+        - 01_Estudo/Sobrecarga Ventricular - ECG.md
+        - _pdfs/Livros/Pediatria/SOCIEDADE_BRASILEIRA_DE_PEDIATRIA_4_a_ED.pdf
+        - 07_Medicacoes/Sucralfato.md
+        - _pdfs/Livros/Semiologia/Porto/Sumário.pdf
+        - _pdfs/Livros/Embriologia/Thomas W. Sadler, Jan Langman - Langman's Medical Embryology, 11th Edition  -Lippincott William & Wilkins (2009).pdf
+        - _internato/TOCO II.md
+        - _pdfs/Livros/Infectologia/Tratado de infectologia - Veronesi - 5ed.pdf
+        - _pdfs/Livros/Pediatria/tratado-de-pediatria-sbp-vol-2-1.pdf
+        - 03_Zettelkasten/Tubérculos de Montgomery.md
+        - _media/Untitled.canvas
+        - _pdfs/Livros/Geriatria/Viana de Freitas - Tratado de Geriatria e Gerontologia 5ed..pdf
+        - _pdfs/Livros/Bioquímica/Victor W. Rodwell, David Bender, Kathleen M. Botham, Peter J. Kennelly, P. Anthony Weil - Harper’s Illustrated Biochemistry-McGraw-Hill Education _ Medical (2018).pdf
+        - _pdfs/Livros/Bioquímica/William J. Marshall (editor)_ Ruth M. Ayling (editor)_ Marta Lapsley (editor)_ Andrew P. Day (editor) - Bioquímica Clínica _ Aspectos Clínicos e Metabólicos-Elsevier Saunders (2016).pdf
+      note.status:
+        - stand by
+        - studying
+        - Uncategorized
+        - pendente
+        - estudando
+      note.areas:
+        - Anestesiologia
+        - Cardiologia
+        - Cardiologia, Clínica Médica
+        - Cirurgia
+        - Cirurgia, Clínica Médica
+        - Cirurgia, Pediatria
+        - Cirurgia, Trauma
+        - Cirurgia, Urgência
+        - Clínica Médica
+        - Clínica Médica, Cardiologia
+        - Clínica Médica, Cirurgia
+        - Clínica Médica, Endocrinologia
+        - Clínica Médica, Hematologia
+        - Clínica Médica, Hepatologia
+        - Clínica Médica, Nefrologia
+        - Clínica Médica, Pneumologia
+        - Clínica Médica, Reumatologia
+        - Endocrinologia, Clínica Médica
+        - Gastroenterologia
+        - Gastroenterologia, Cirurgia
+        - Gastroenterologia, Cirurgia, Clínica Médica
+        - Gastroenterologia, Clínica Médica
+        - Gastroenterologia, Clínica Médica, Cirurgia
+        - Ginecologia
+        - Ginecologia, Obstetrícia
+        - Hematologia
+        - Hematologia, Dermatologia, Gastroenterologia
+        - Medicina Preventiva
+        - Nefrologia, Pediatria
+        - Neonatologia
+        - Obstetrícia
+        - Obstetrícia, Cardiologia
+        - Obstetrícia, Endocrinologia
+        - Obstetrícia, Hematologia
+        - Oncologia, Pneumologia
+        - Ortopedia
+        - Ortopedia, Cirurgia
+        - Otorrinolaringologia
+        - Pediatria
+        - Pediatria, Clínica Médica
+        - Pediatria, Gastroenterologia
+        - Pediatria, Neonatologia
+        - Pneumologia
+        - Pneumologia, Infectologia
+        - Reumatologia
+        - Uncategorized
+        - Urologia, Ginecologia, Clínica Médica
+      note.area:
+        - Uncategorized
+      note.importancia:
+        - Uncategorized
+        - alta
+        - media
+      note.Tipo:
+        - Uncategorized
+        - estudo
+        - hub
+        - inbox
+        - questao
+        - referencia
+        - tema
+        - zetel
+      note.publish:
+        - Uncategorized
+        - "false"
+        - "true"
+    cardOrders:
+      file.file: {}
+      note.status: {}
+      note.areas: {}
+      note.area: {}
+      note.importancia: {}
+      note.Tipo: {}
+      note.publish: {}
+    columnColors:
+      file.file: {}
+      note.status: {}
+      note.areas: {}
+      note.area: {}
+      note.importancia: {}
+      note.Tipo: {}
+      note.publish: {}
+    wrapPropertyValues: false
+    columnSize:
+      file.name: 290
   - type: table
     name: Cardio
     filters:
       and:
         - areas.containsAny("Cardiologia")
   - type: table
-    name: GO
+    name: Gastro
     filters:
       and:
-        - areas.containsAny("Ginecologia", "Obstetrícia")
+        - areas.containsAny("Gastroenterologia", "Hepatologia")

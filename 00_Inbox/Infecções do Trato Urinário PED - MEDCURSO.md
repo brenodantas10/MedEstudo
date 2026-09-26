@@ -5,7 +5,8 @@ tipo:
 areas:
   - Nefrologia
   - Pediatria
-publish: false
+publish:
+status:
 ---
 ## Infecções do Trato Urinário
 - Importância

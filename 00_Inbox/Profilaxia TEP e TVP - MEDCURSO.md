@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cirurgia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ## Escalas Utilizadas
 - Escore de Caprini

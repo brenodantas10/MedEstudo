@@ -5,7 +5,8 @@ tipo:
 areas:
   - Ortopedia
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 # Fraturas
 A fratura é a perda da continuidade óssea.

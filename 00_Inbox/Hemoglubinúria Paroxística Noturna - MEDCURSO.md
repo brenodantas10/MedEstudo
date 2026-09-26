@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Hematologia
-publish: false
+publish:
+status:
 ---
 HPN é uma doença que causa **anemia hemolítica intravascular**
 

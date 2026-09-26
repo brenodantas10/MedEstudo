@@ -1,3 +1,10 @@
+---
+areas:
+  - Ortopedia
+Tipo:
+  - inbox
+status:
+---
 
 ## Contusão
 Trama com dano em partes moles

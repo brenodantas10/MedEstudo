@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cardiologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ### Valvas
 - Atrio-Ventriculares

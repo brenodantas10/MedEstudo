@@ -5,7 +5,8 @@ tipo:
 areas:
   - Clínica Médica
   - Cardiologia
-publish: false
+publish:
+status:
 ---
 ## Conceitos Básicos
 

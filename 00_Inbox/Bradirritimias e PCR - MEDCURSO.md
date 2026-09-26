@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cardiologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 # Bradicardias
 São ritmos que batem < 50-60 bpm

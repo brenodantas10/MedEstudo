@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Obstetrícia
-publish: false
+publish:
+status:
 ---
 ## Conceitos
 - **Corion**: Remete à placenta

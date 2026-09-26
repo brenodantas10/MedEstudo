@@ -1,9 +1,11 @@
 ---
-date: "2026-09-09"
+date: 2026-09-09
 tipo:
   - inbox
 areas:
-publish: false
+  - Cardiologia
+publish:
+status:
 ---
 - Ver nova diretriz de dor torácica.
 

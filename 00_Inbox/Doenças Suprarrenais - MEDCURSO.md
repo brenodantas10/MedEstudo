@@ -5,7 +5,8 @@ tipo:
 areas:
   - Endocrinologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ## Anatomia
 - Adrenal

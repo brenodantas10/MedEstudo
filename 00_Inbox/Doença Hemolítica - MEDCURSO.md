@@ -1,9 +1,12 @@
 ---
-date: "2026-06-08"
+date: 2026-06-08
 tipo:
   - inbox
 areas:
-publish: false
+  - Obstetrícia
+  - Hematologia
+publish:
+status:
 ---
 - ABO é mais comum
 - Rh é mais grave

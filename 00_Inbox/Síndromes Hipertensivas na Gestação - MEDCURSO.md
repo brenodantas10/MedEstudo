@@ -5,7 +5,8 @@ tipo:
 areas:
   - Obstetrícia
   - Cardiologia
-publish: false
+publish:
+status:
 ---
 ## Conceitos
 Normal da gestação

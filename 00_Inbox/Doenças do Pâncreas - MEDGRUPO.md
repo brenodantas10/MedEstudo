@@ -6,7 +6,8 @@ areas:
   - Gastroenterologia
   - Cirurgia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 ## Anatomia
 É um órgão retroperitoneal

@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Obstetrícia
-publish: false
+publish:
+status:
 ---
 **Causas**: Abortamento, Doença Trofoblastica Gestacional, Gravidez Ectópica
 

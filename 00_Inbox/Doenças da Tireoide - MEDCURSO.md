@@ -5,7 +5,8 @@ tipo:
 areas:
   - Clínica Médica
   - Endocrinologia
-publish: false
+publish:
+status:
 ---
 ## Fisiologia da Tireoide
 

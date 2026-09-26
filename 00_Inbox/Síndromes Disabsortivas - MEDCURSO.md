@@ -5,7 +5,8 @@ tipo:
 areas:
   - Gastroenterologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 - Não absorve o que foi digerido ou
 - Não consegue digerir para absorver

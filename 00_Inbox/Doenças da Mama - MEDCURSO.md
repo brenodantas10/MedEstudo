@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Ginecologia
-publish: false
+publish:
+status:
 ---
 ## Sintomas Típicos
 - Mastalgia

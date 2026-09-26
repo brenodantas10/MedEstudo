@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 É o sangramento que ocorre no TGI antes do ângulo de Treitz (Divisão entre Duodeono e Jejuno)
 ## Etiologias

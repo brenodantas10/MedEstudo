@@ -5,7 +5,8 @@ tipo:
 areas:
   - Oncologia
   - Pneumologia
-publish: false
+publish:
+status:
 ---
 Descobrir o mais precoce possível -> Melhora a fora de combater o CA de Pulmão
 - **Principal causa de óbito por CAs**

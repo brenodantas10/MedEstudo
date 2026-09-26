@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Hematologia
-publish: false
+publish:
+status:
 ---
 Talassemia é o defeito na quantidade da globina (suas estruturas e cadeias)
 - 4 Heme + 4 Globinas

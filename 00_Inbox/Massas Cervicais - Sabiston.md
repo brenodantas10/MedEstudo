@@ -4,7 +4,6 @@ tipo:
   - inbox
 areas:
   - Cirurgia
-publish: false
 ---
 Os sítios de malignidade podem ser divididos em:
 - **Muito Associadas ao tabagismo**:

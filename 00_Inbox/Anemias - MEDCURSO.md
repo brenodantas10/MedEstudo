@@ -1,3 +1,11 @@
+---
+date: 2026-01-01
+tipo:
+  - inbox
+areas:
+  - Hematologia
+status:
+---
 
 ## Tipos
 - Hipoploriferativa (MO não consegue manter a produção)

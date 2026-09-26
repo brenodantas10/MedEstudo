@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 # Tumor Estromal Gastrointestinal - GIST
 É um **sarcoma**, ou seja, advém de células mesenquimais.

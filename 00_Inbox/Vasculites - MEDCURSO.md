@@ -1,6 +1,10 @@
 ---
+date: 2026-01-01
+tipo:
+  - inbox
 areas:
   - Reumatologia
+status:
 ---
 Inframação sistêmica que provoca em algum momento Inflamação Vascular
 

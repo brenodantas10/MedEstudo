@@ -5,7 +5,8 @@ tipo:
 areas:
   - Pneumologia
   - Infectologia
-publish: false
+publish:
+status:
 ---
 Toda aquela que não é Hospitalar
 

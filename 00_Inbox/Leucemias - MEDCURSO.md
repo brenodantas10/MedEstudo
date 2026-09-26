@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Hematologia
-publish: false
+publish:
+status:
 ---
 São tumores com origem na medula que promovem acúmul de células brancas (leucócitos)
 

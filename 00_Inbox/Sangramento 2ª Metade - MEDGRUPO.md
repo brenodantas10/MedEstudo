@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Obstetrícia
-publish: false
+publish:
+status:
 ---
 Sangramento > 20 semanas de gestação
 

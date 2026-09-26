@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cardiologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 É uma síndrome clínica caracterizada por sintomas e / ou sinais típicos, secundários a uma anormalidade estrutural ou fncional cardíaca, cuja ccerteza diagnóstica se fortalece com níveis elevados de peptídeos natriuréticos e/ou evidência objetiva de congestão ou auumento de pressões de enchimento por meio de estudos de imagem
 

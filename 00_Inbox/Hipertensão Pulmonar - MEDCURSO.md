@@ -5,7 +5,8 @@ tipo:
 areas:
   - Clínica Médica
   - Cardiologia
-publish: false
+publish:
+status:
 ---
 É definida pela pressão média pulmonar acima de 20-25 mmHg.
 

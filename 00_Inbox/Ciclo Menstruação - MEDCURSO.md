@@ -1,6 +1,10 @@
 ---
-aliases:
-Creation Day: "2026-02-02:10:56"
+date: 2026-01-01
+tipo:
+  - inbox
+areas:
+  - Ginecologia
+status:
 ---
 Tempo do ciclo: 28-35 dias
 

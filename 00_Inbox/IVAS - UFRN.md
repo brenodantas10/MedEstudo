@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+publish:
+status:
 ---
 São infecções das vias aéreas superiores que levam a sintomas como coriza, febre, espirros.
 

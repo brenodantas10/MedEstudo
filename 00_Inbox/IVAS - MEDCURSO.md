@@ -5,7 +5,8 @@ tipo:
 areas:
   - Pediatria
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 São Principal motivo de atendimento em emergências pediátricas.
 

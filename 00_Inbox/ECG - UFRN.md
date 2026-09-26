@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Cardiologia
-publish: false
+publish:
+status:
 ---
 BLOG do SMith ECG
 

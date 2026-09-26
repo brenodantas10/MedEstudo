@@ -5,7 +5,8 @@ tipo:
 areas:
   - Cardiologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 Níveis médios de PA que conferem risco significativo de eventos cardiovasculares (IAM, AVC...)
 

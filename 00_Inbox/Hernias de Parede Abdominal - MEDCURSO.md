@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 Ver por fora Hérnia de Littré e Divertículo de Merckel
 

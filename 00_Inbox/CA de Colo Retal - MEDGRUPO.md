@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 ## Pólipos Intestinais
 - Pólipos adenomatosos: Adenoma / Adenocarcinoma

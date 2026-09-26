@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Hematologia
-publish: false
+publish:
+status:
 ---
 > [!note] Passo a Passo
 > 1. Sintomas Agudos -> Suspeita de Anemia

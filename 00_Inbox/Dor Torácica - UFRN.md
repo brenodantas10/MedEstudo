@@ -1,9 +1,11 @@
 ---
-date: "2026-09-16"
+date: 2026-09-16
 tipo:
   - inbox
 areas:
-publish: false
+  - Cardiologia
+publish:
+status:
 ---
 ## 1 Caracterizar a Dor
 - Carater

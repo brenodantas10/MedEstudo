@@ -1,9 +1,12 @@
 ---
-date: "2026-09-14"
+date: 2026-09-14
 tipo:
   - inbox
 areas:
-publish: false
+  - Clínica Médica
+  - Cardiologia
+publish:
+status:
 ---
 - **Dois principais**
 	- TVP: Trombose Venosa Profunda

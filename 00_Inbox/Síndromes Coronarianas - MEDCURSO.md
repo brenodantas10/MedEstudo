@@ -5,7 +5,8 @@ tipo:
 areas:
   - Clínica Médica
   - Cardiologia
-publish: false
+publish:
+status:
 ---
 Normalmente é relacionado a placa na coronária
 - **Síndrome Coronariana Crônica** -> Antiga Angina estável

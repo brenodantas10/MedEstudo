@@ -1,9 +1,11 @@
 ---
-date: "2026-08-19"
+date: 2026-08-19
 tipo:
   - inbox
 areas:
-publish: false
+  - Ginecologia
+publish:
+status:
 ---
 É um período de indícios de falhas ovarianas
 - Mais problemas cardiovasculares

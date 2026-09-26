@@ -5,7 +5,8 @@ tipo:
 areas:
   - Endocrinologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
 É um estado de hiperglicemia crônica que podem possuir complicações agudas e complicações crônicas
 

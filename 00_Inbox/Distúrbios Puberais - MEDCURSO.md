@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+publish:
+status:
 ---
 # Puberdade Precoce
 - Mulheres: < 8 anos

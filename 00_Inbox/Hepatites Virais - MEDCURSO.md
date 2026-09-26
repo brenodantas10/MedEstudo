@@ -5,8 +5,11 @@ tipo:
 areas:
   - Gastroenterologia
   - Clínica Médica
-publish: false
+publish:
+status:
 ---
+
+
 ## Vírus Hepatotrópicos
 Vírus com predileçao por células hepáticas (**Vírus Hepatite A, B, C**, D e E).
 - Hepatites A, C, D e E são de RNA

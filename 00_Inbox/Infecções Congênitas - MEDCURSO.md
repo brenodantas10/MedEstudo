@@ -5,7 +5,8 @@ tipo:
 areas:
   - Pediatria
   - Neonatologia
-publish: false
+publish:
+status:
 ---
 ## Introdução
 Transmissão durante a vida intrauterina via hematogênica transplacentária

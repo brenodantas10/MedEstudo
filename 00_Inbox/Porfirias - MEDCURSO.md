@@ -6,7 +6,8 @@ areas:
   - Hematologia
   - Dermatologia
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 Porfúria -> Urina arroxeada ao ser exposta à luz
 Porfiria é um grupo de doenças associdas à distúrbios da síntese da Heme.

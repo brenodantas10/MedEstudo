@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Gastroenterologia
-publish: false
+publish:
+status:
 ---
 Sangramento digestivo sem causa definida após EDA + colonoscopia.
 - Intestino delgado (EDA e Colonoscopia não veem bem).

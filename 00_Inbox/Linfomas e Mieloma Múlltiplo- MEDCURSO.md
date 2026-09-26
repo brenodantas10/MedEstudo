@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Hematologia
-publish: false
+publish:
+status:
 ---
 # Linfomas
 É um tumor de linfócitos do tecido linfoide

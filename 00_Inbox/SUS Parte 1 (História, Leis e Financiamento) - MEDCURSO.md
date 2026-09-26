@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Medicina Preventiva
-publish: false
+publish:
+status:
 ---
 ## História
 

@@ -6,7 +6,8 @@ areas:
   - Gastroenterologia
   - Clínica Médica
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 ## Síndrome de Dumping
 Ausência do piloro: Muita comida chega ao duodeno

@@ -4,6 +4,7 @@ Tipo:
 areas:
   - Pediatria
   - Neonatologia
+status:
 ---
 **Degradação do Heme**
 - Biliverdina -> Bilirrubina indireta (No Sistema Retículo endotelial)

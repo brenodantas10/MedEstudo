@@ -1,3 +1,11 @@
+---
+date: 2026-01-01
+tipo:
+  - inbox
+areas:
+  - Obstetrícia
+status:
+---
 Criança que toma ou tomou em algum momento o leite humano
 ## Definições
 - **Exclusivo**: Leite materno ou humano e mais nada

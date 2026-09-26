@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Ginecologia
-publish: false
+publish:
+status:
 ---
 Ovário é um órgão intraperitoneal
 - Disseminação por contiguidade para o peritôneo

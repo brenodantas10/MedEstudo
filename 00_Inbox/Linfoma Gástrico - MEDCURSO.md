@@ -6,7 +6,8 @@ areas:
   - Gastroenterologia
   - Clínica Médica
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 ## Epidemiologia
 - 2ª Neoplasia mais comum do estômago (3% dos canceres gástricos)

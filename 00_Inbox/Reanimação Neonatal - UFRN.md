@@ -4,7 +4,8 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+publish:
+status:
 ---
 > SBP tem videos sobre reanimação e transporte para a UTI
 > https://doi.org/10.25060

@@ -1,3 +1,10 @@
+---
+areas:
+  - Cardiologia
+Tipo:
+  - inbox
+status:
+---
 # Dor Torácica Aguda - PRESC1SE-MI
 
 - Dor torácica até porta -> 10 min

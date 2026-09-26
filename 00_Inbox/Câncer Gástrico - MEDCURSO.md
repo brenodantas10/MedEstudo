@@ -5,7 +5,8 @@ tipo:
 areas:
   - Gastroenterologia
   - Cirurgia
-publish: false
+publish:
+status:
 ---
 O tipo mais comum é o adenocarcinoma
 ## Fatores de Risco

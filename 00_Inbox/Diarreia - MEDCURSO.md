@@ -4,7 +4,9 @@ tipo:
   - inbox
 areas:
   - Pediatria
-publish: false
+  - Gastroenterologia
+publish:
+status:
 ---
 ## Definições
 - **Diarreia**: Evacuações amolecidas/líquidas, >= 3x/dia ou

@@ -1,9 +1,11 @@
 ---
-date: "2026-08-17"
+date: 2026-08-17
 tipo:
   - inbox
 areas:
-publish: false
+  - Medicina Preventiva
+publish:
+status:
 ---
 ## Atenção Básica (Primária)
 É o atendimento ambulatorial não-especializado
