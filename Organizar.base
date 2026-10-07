@@ -17,6 +17,13 @@ views:
       or:
         - Tipo == "tema"
         - Tipo == "estudo"
+    groupBy:
+      property: status
+      direction: ASC
+    groupOrder:
+      - 
+      - pendente
+      - estudando
     order:
       - file.name
       - Tipo
@@ -1207,9 +1214,15 @@ views:
     filters:
       and:
         - areas.containsAny("Cardiologia")
-  - type: table
+  - type: kanban
     name: Gastro
     filters:
       and:
         - areas.containsAny("Gastroenterologia", "Hepatologia")
-        - file.folder == "00_Inbox"
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - publish
+      - areas
