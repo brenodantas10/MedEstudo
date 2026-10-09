@@ -1,14 +1,16 @@
 ---
-date: "2026-10-07"
+date: 2026-10-07
 tipo:
   - inbox
 areas:
+  - Gastroenterologia
+  - Clínica Médica
 publish: false
 ---
 - Colonização do intestino delgado por bactérias do cólon
 
 ## Fisiopatologia
-- Falha de mecanismos de defesa do delgado facilitam subda de bactérias do cólon
+- Falha de mecanismos de defesa do delgado facilitam subida de bactérias do cólon
 	- **Dismotilidade**: neuropatia diabética, esclerose sistêmica, opióides
 	- **Hipocloridria**: IBP, gastrite atrófica
 	- **Alterações anatômicas**: Diverticulose de delgado, bariátrica Crohn
