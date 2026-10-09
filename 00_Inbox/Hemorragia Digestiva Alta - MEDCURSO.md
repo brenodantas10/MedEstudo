@@ -22,6 +22,10 @@ status:
 	- Clínica: HDA + dor no HCD + icterícia (Tríade de Sandblom)
 - **Ectasia Vascular Antral Gástrica**: Dilatação das vênulas do antro gástrico ("antro em melancia")
 	- Fatores de Risco: Cirrose hepática / Esclerodermia
+	- Ectasias vasculares em direção ao piloro (estrias longitudinais)
+	- Em favo de Mel
+	- Plasma de argônio
+	- 1ª Linha: Ligadura Elástica
 - **Fístula Aortoentérica**: Comunicação entre aorta abdominal e delgado
 	- Fatores de risco: Aneurisma de Aorta Abdominal / Prótese de aorta.
 	- TTO: Reparo Cirúrgico
