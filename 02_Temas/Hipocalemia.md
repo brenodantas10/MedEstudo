@@ -30,6 +30,7 @@ Raciocínio baseia-se em **pH**, **Aldosterona**, **Armazenamento** e **Excreç�
 > - Hiperaldosteronismo
 > - Distúrbios Tubulares
 > - Alcalemia (preferencia de trocar $\text{K}$ ao invés de $\text{H+}$)
+> - Hipomagnesemia
 > - Leptospirose
 > - Medicações
 > 	- Anfotericina B
@@ -56,3 +57,6 @@ O tratamento é realizado a base da reposição do potássio
 
 > [!error] Se Refratário > 72h
 > - Sulfato de Magnésio 2-3 g/dia
+
+## Notas Relacionadas
+- [[Magnésio - Fisiologia Renal]]

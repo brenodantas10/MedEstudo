@@ -8,7 +8,8 @@ Subárea da clínica médica relacionada ao funcionamento dos rins e suas reperc
 
 ## Assuntos
 - [[Anatomia Renal]]
+- [[Glomerulopatias]]
 - [[Síndrome Nefrítica]]
 - [[Síndrome Nefrótica]]
 - [[Distúrbios Hidroeletrolíticos]]
-	- [[Hiponatremia]]
+- [[Distúrbios Ácido-Base]]
