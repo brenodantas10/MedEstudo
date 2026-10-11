@@ -10,7 +10,7 @@ São doença que acometem os glomérulos, podendo ocasionar diversos sinais e si
 
 ## Assuntos
 - [[Síndrome Nefrítica]]
-- [[Síndrome Nefrótica]]
-- [[Glomerulonefrite Rapidamente Progressiva]]
 - [[Alterações Assintomáticas]]
-- [[Trombose Glomerular]]
+- [[Glomerulonefrite Rapidamente Progressiva]]
+- [[Síndrome Nefrótica]]
+- [[Trombose Glomerular]] (SHU)
