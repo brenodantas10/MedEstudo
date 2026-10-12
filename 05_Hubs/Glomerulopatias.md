@@ -10,7 +10,8 @@ São doença que acometem os glomérulos, podendo ocasionar diversos sinais e si
 
 ## Assuntos
 - [[Síndrome Nefrítica]]
-- [[Alterações Assintomáticas]]
+- [[Nefropatia por IgA]] (Doença de Berger)
 - [[Glomerulonefrite Rapidamente Progressiva]]
+- [[Síndrome de Alport]]
 - [[Síndrome Nefrótica]]
 - [[Trombose Glomerular]] (SHU)
