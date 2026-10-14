@@ -18,7 +18,7 @@ Definida por:
 	- Susceptível a Infecções: Diminui IgG
 	- Alfa-2 Globulina Aumenta
 - Edema -> Por Hipoalbuminemia
-- Hiperlipidemia
+- Hiperlipidemia -> Hiperprodução de lipoproteínas para compensar a hipoalbuminemia
 	- Lipidúria
 	- Cilindros Graxos na Urina
 

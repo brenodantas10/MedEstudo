@@ -26,3 +26,7 @@ status:
 - Insuficiência Renal
 - Plaquetopenia
 - Anemia Hemolítica Microangiopática (Esquizócito).
+
+## Tratamento
+- Suporte (Doença autolimitada: 7-21 dias)
+- Não fazer ATB -> Aumenta a toxina circulante
