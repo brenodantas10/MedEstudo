@@ -41,3 +41,19 @@ Mecanismos que evitam filtração das proteínas
 	- Aterogênese Acelerada - Plascas de aterosclerose
 
 ## Etiologia
+
+### Primária
+- [[Doença por Lesão Mínima]]
+- [[Glomeruloesclerose Focal e Segmentar]] (GESF)
+- [[Glomerulonefrite Proliferativa Mesangial]]
+- [[Glomerulopatia Membranosa]]
+- [[Glomerulonefrite Membranoproliferativa]]
+
+### Secundária
+- DIabetes
+- HAS
+- Lúpus
+
+## Diagnóstico
+- Biópsia!!!
+	- Excessão: Doença por Lesão Mínima
