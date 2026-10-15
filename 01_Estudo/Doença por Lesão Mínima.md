@@ -20,13 +20,26 @@ Lesão vista apenas pela **Microscopia Eletrônica**
 ## Associações
 - Linfoma de Hodgkin / AINEs
 
-## Clínica
+## Clínica-
 - Síndrome Nefrótica CLássica (Períodos de Atividade-Remissão)
 - Complemento Normal
 
 ## Tratamento
+- Medidas Gerais
+	- Se edema (sem hipovolemia): Restrição de Sódio
+		- Tiazídico ou Furosemida se edema persistente (com cautela, paciente já perde muita água)
+		- Infusão de Albumina 20% 0,5-1g/kg/dia
 - Corticoide (Excelente resposta)
 	- 85-95% das crianças respondem em 4 semanas.
+	- Adultos: Prednisona 1mg/kg/dia (max 80mg/dia) por 4 semanas
+		- Após remissão: Desmame gradual por 6 meses
+	- Crianças
+		- 60mg/m²/dia por 30 dias após remissão da proteinúria
+		- 40mg/m²/dia em dias alternados por 4 semanas
+		- Desmame nos próximos 1-2 meses.
+- Refratariedade
+	- Levamisol
+	- Micofenolato
 
 ## Biópsia?
 - Apenas se tiver estranho

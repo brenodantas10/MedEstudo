@@ -15,3 +15,9 @@ São doença que acometem os glomérulos, podendo ocasionar diversos sinais e si
 - [[Síndrome de Alport]]
 - [[Síndrome Nefrótica]]
 - [[Trombose Glomerular]] (SHU)
+
+## Outras Glomerulopatias
+- [[Nefroesclerose Hipertensiva]]
+- [[Nefropatia por Refluxo]]
+- [[Nefropatia pelo HIV]]
+- [[Amiloidose Renal]]

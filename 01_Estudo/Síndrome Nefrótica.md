@@ -50,7 +50,7 @@ Mecanismos que evitam filtração das proteínas
 - [[Glomerulonefrite Membranoproliferativa]]
 
 ### Secundária
-- DIabetes
+- Diabetes
 - HAS
 - Lúpus
 
