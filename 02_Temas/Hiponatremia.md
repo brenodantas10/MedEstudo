@@ -49,7 +49,7 @@ Definida por $[Na^+] < 135\text{ mEq/L}$, representa um distúrbio da **água li
 > - Hipoaldosteronismo
 
 > [!warning] Euvolêmica
-> - [[Síndrome da Antidiurese Inapropriada|SIAD]] -> Tumor pulmonar (células pequenas = *oat cells*) / AVC, cirurgias SNC
+> - [[Síndrome da Antidiurese Inapropriada|SIADH]] -> Tumor pulmonar (células pequenas = *oat cells*) / AVC, cirurgias SNC
 > - Polidipsia
 > - Alcoolismo
 

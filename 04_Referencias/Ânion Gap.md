@@ -6,21 +6,18 @@ areas:
   - Clínica Médica
 publish: true
 ---
-Avalia o equilíbrio entre **Cátions** (Cargas positivas) e **Ânions** (Cargas negativas) no sangue, normalmente devem ser iguais
+Avalia o equilíbrio entre **Cátions** (Cargas positivas) e **Ânions** (Cargas negativas) no sangue, normalmente devem ser iguais.
 
 > [!tip] Principal Cátion: $\ce{Na+}$
 
 > [!attention] Principais Ânions: $\ce{Cl+}$ e $\ce{HCO3-}$
 
-$$[\text{Cátions}] = [\text{Ânions}] \text{ (mEq/L)}\\
-\\
-\ce{[Na+] = [Cl-] + [HCO3-] + [AG]}$$
-onde o AG é o Ânion Gap, que são todos os ânions não quantificáveis no corpo. Sendo assim:
-$$\ce{[AG] = [Na+] - \left([Cl-] + [HCO3-]\right)}\text{ [8 - 12 mEq/L]}\\
+Geralmente, o Ânion Gap é representado por $\ce{AG}$, e representa  todos os ânions não quantificáveis no corpo. Sendo assim:
+$$\ce{[AG] = \underbrace{[Na+]}_{\text{Cátion}} - \underbrace{\left([Cl-] + [HCO3-]\right)}_{\text{Ânions}}}\text{ [8 - 12 mEq/L]}\\
 \\
 \text{OU}\\
 \\
-\ce{[AG] = \left([Na+] + [K+]\right) - \left([Cl-] + [HCO3-]\right)}\text{ [12 - 20 mEq/L]}$$
+\ce{[AG] = \underbrace{\left([Na+] + [K+]\right)}_{\text{Cátions}} - \underbrace{\left([Cl-] + [HCO3-]\right)}_{\text{Ânions}}}\text{ [12 - 20 mEq/L]}$$
 
 ## Pensamentos
 - Nas acidoses metabólicas o HCO3- está reduzido:

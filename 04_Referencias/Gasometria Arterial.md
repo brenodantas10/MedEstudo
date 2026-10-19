@@ -12,7 +12,7 @@ publish: true
 Bicarbonato é estimado a partir dos dois acima
 
 - $\ce{HCO3-}$ act (actual) = 22-26 mEq/L
-- $\ce{HCO3-}$ std (standart) = 22-26 mEq/L
+- $\ce{HCO3-}$ std (**standart**) = 22-26 mEq/L
 	- Calculado a partir do **pCO2 ideal**
 
 Rim demora 2 dias para lidar com as bases (melhor visível em problemas crônicos) -> **Melhor em Distúrbios Respiratórios** (Separa Crônico de Agudo)

@@ -11,5 +11,5 @@ Subárea da clínica médica relacionada ao funcionamento dos rins e suas reperc
 - [[Glomerulopatias]]
 - [[Síndrome Nefrítica]]
 - [[Síndrome Nefrótica]]
-- [[Distúrbios Hidroeletrolíticos]]
 - [[Distúrbios Ácido-Base]]
+- [[Distúrbios Hidroeletrolíticos]]

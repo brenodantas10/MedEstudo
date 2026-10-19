@@ -15,7 +15,7 @@ status:
 
 - Perdas Digestivas Baixas
 	- Diarreia Alta (Muito suco pancreático com BIC lavado)
-- Acidoses Tubulares Renais
+- [[Acidose Tubular Renal|Acidoses Tubulares Renais]]
 	- Urina muito $\ce{HCO3-}$
 	- Retém muito $\ce{H+}$
 
