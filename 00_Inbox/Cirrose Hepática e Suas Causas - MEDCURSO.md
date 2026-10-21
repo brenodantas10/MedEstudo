@@ -37,7 +37,7 @@ status:
 - **Fisiopatologia**: Resistência Insulínica
 	- Corpo não consegue usar glicose
 	- Quebra e usa gordura -> Resto da gordura vai ao fígado
-	- Acúlmulo de gordura no fígado (MASH)
+	- Acúmulo de gordura no fígado (MASH)
 	- Pode evoluir para cirrose
 - **Manifestações**
 	- Assintomático
@@ -92,7 +92,7 @@ Mulheres tem menos sintomas que homens pois a menstruação age como sangria.
 	- Hiperpigmentação (pele escura)
 	- Heart (Insuficiência cardíaca)
 	- Hipogonadismo (impotência, menos libido)
-	- hArtrite (metacarpofalangianas)
+	- Artrite (metacarpofalangianas)
 	- Como se fosse um diabetes Bronzeado
 - **Diagnóstico**
 	- Triagem: Aumento Sat. Transferrina e Aumento da Ferritina

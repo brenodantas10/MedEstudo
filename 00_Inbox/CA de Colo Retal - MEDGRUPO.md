@@ -26,7 +26,7 @@ status:
 		- Sem tumor budding (escape de células tumorais)
 			- Escape de algumas céulas tumorais além do tumor em crescimento.
 	- >= 5 adenomas: 3 anos
-	- >= 10 adenomas: 1 nao.
+	- >= 10 adenomas: 1 ano.
 
 ### Síndrome de Polipose Intestinal
 - Polipose Adenomatosa Familiar (PAF)
@@ -52,7 +52,7 @@ status:
 ## CA Colorretal: Adenocarcinoma
 - **Apresentações**:
 	- **Esporádico**
-		- mais comum, idade avançada, Tabagismo, alcoolismo, Doença Inflamatória Intestinal, História Familiar +
+		- Mais comum, idade avançada, Tabagismo, alcoolismo, Doença Inflamatória Intestinal, História Familiar +
 	- **Sindromes de Polipose** (PAF + Variantes)
 	- **Hereditário não polipose** (Síndrome de Lynch) -> Não tem síndrome de poliposa, mas pode ter pólipos.
 		- Associado à CA Esporádico
