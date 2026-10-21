@@ -62,7 +62,7 @@ Ordem de análise
 		- Ventrículo é protegido pelo nodo AV (freq ventricular é metade da atrial)
 - **Ventricular**
 	- Sem onda P com QRS alargado
-		- Defeito de condução leva impulso a ser levado iócito a miócito ao invés de fibras
+		- Defeito de condução leva impulso a ser levado miócito a miócito ao invés de fibras
 	- **Monomórfica**
 		- QRSs com formato igual
 		- Único ponto comanda a frequência (Defeito no ventrículo) -> Único circuito de reentrada
@@ -148,7 +148,7 @@ Ordem de análise
 - Quanto ao tempo
 	- Paroxística (< 7 dias)
 	- Persistente (7 dias - 1 ano)
-	- Persistente de longa duração (> 1 no)
+	- Persistente de longa duração (> 1 ano)
 - FA Permanente: Opta-se por não reverter o ritmo
 - Pós-ablação: sem recorrência após ablação
 
@@ -174,7 +174,7 @@ Ordem de análise
 > Na contra-indicação de anticoagular, deve-se ocluir a aurícula.
 - **Anticoagular**: CHA2DS2VA >= 1 / EM / mecânica
 	- Apixabana
-	- Rivaroxabaana
+	- Rivaroxabana
 	- Warfarin
 - **Baixar FC**
 	- Instável -> Cardioversão (200 J)
@@ -198,7 +198,7 @@ Ordem de análise
 ### Conduta
 - Instável / Estável: Cardioversão (50 J / 200 J)
 	- Amiodarona dificilmente reverte
-	- Ibutilida é a melhor medicção, mas não tem no Brasil
+	- Ibutilida é a melhor medicação, mas não tem no Brasil
 - Anticoagulação semelhante à FA
 
 >[!attention] Flutter pode virar FA e vice-versa

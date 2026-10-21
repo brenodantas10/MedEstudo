@@ -20,7 +20,7 @@ $$\ce{[AG] = \underbrace{[Na+]}_{\text{Cátion}} - \underbrace{\left([Cl-] + [HC
 \ce{[AG] = \underbrace{\left([Na+] + [K+]\right)}_{\text{Cátions}} - \underbrace{\left([Cl-] + [HCO3-]\right)}_{\text{Ânions}}}\text{ [12 - 20 mEq/L]}$$
 
 ## Pensamentos
-- Nas acidoses metabólicas o HCO3- está reduzido:
+- Na [[Acidose Metabólica]] o HCO3- está reduzido:
 - Para compensar:
 	- OU $\ce{Cl-}$ Aumenta (**Hipercorêmica**)
 	- OU $\ce{AG}$ Aumenta (**Normoclorêmica**)

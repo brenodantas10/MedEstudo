@@ -179,7 +179,6 @@ Normalmente é relacionado a placa na coronária
 - Olhar para o ECG
 	- Se tem INFRA e SUPRA: Quem manda é o SUPRA
 	- Qual parede e coronária acometida?
-	- 
 
 Sempre precisa ver duas derivações consecutivas com a alteração
 - Se Parede Inferior -> Pedir V3R e V4R

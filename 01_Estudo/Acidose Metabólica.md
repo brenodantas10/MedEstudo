@@ -41,7 +41,6 @@ AG Alto -> Significa que surge novo Ânion
 - Perdas Digestivas
 - Acidoses Tubulares renais
 
-
 ## Tratamento
 
 - Acidose Lática / Cetoacidose

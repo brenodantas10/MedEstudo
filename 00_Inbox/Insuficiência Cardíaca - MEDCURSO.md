@@ -8,7 +8,7 @@ areas:
 publish:
 status:
 ---
-É uma síndrome clínica caracterizada por sintomas e / ou sinais típicos, secundários a uma anormalidade estrutural ou fncional cardíaca, cuja ccerteza diagnóstica se fortalece com níveis elevados de peptídeos natriuréticos e/ou evidência objetiva de congestão ou auumento de pressões de enchimento por meio de estudos de imagem
+É uma síndrome clínica caracterizada por sintomas e / ou sinais típicos, secundários a uma anormalidade estrutural ou funcional cardíaca, cuja certeza diagnóstica se fortalece com níveis elevados de peptídeos natriuréticos e/ou evidência objetiva de congestão ou aumento de pressões de enchimento por meio de estudos de imagem
 
 Tipos de IC
 - IC FEr (Fração de Ejeção Reduzida)
@@ -101,7 +101,7 @@ Tipos de IC
 - **A**: Risco de IC
 	- MEV
 	- Se DM com DAC: Dapagliflozina
-- **B**: Pré-IC (Disfunção de VE com umento de BNP)
+- **B**: Pré-IC (Disfunção de VE com aumento de BNP)
 	- A + iECA + Beta-Bloq
 - **C**: IC Sintomático
 	- Chama a GABI
