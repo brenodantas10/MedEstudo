@@ -20,10 +20,18 @@ $$\ce{[AG] = \underbrace{[Na+]}_{\text{Cátion}} - \underbrace{\left([Cl-] + [HC
 \ce{[AG] = \underbrace{\left([Na+] + [K+]\right)}_{\text{Cátions}} - \underbrace{\left([Cl-] + [HCO3-]\right)}_{\text{Ânions}}}\text{ [12 - 20 mEq/L]}$$
 
 ## Pensamentos
-- Na [[Acidose Metabólica]] o HCO3- está reduzido:
+- Na [[Acidose Metabólica]] o $\ce{HCO3-}$ está reduzido:
 - Para compensar:
-	- OU $\ce{Cl-}$ Aumenta (**Hipercorêmica**)
+	- OU $\ce{Cl-}$ Aumenta (**Hiperclorêmica**)
 	- OU $\ce{AG}$ Aumenta (**Normoclorêmica**)
+
+> [!tip] Lembrar: Anion Gap é um ácido dissociado $\left(\ce{HAG -> H+ + AG-}\right)$
+> Coisas criam novos ácidos aumentam AG
+> - Cetoacidose
+> - Destruição celular (Ácido Lático)
+> - Intoxicação exógena
+> - Uremia (Aumenta outras escórias nitrogenadas, inclusive Ác. Úrico)
+
 
 > [!attention] Albumina pode falsear ânion Gap
 > Se Albumina reduzida, sempre calcular o ânion gap corrigido:
