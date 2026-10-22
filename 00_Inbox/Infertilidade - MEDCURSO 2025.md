@@ -1,6 +1,7 @@
 ---
 date: 2026-02-23
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Ginecologia
 publish: false

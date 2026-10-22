@@ -72,7 +72,7 @@ Inflamação por um cálculo obstruindo a vesícula;
 
 
 ## Síndrome de Mirizzi
-Compressão do ducto Hepático Comum porumcálculoimpactado no infundíbulo ou ducto cístico.
+Compressão do ducto Hepático Comum por um cálculo impactado no infundíbulo ou ducto cístico.
 
 ### Clínica
 Colecistite crônica (episódios de repetição)+ Icterícia

@@ -1,10 +1,13 @@
 ---
 date: 2026-02-06
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Clínica Médica
   - Nefrologia
 publish: false
+status:
+  - pendente
 ---
 Distúrbio definido por $\uparrow$ Na > 145 mEq/L.
 Lembrar: Falha da água ou do ADH

@@ -1,6 +1,7 @@
 ---
 date: 2026-02-11
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Obstetrícia
 publish: false

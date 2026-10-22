@@ -1,6 +1,7 @@
 ---
 date: 2026-03-30
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Clínica Médica
   - Reumatologia

@@ -11,12 +11,12 @@ properties:
   note.Tipo:
     displayName: tipo
 views:
-  - type: table
+  - type: kanban
     name: Temas
     filters:
-      or:
-        - Tipo == "tema"
-        - Tipo == "estudo"
+      and:
+        - Tipo.containsAny("tema", "estudo")
+        - areas.containsAny("Infectologia")
     groupBy:
       property: status
       direction: ASC
@@ -24,10 +24,10 @@ views:
       - 
       - pendente
       - estudando
+      - - finalizado
     order:
       - file.name
       - Tipo
-      - status
       - publish
       - areas
     sort:
@@ -38,11 +38,18 @@ views:
     columnSize:
       note.Tipo: 71
       note.status: 103
+    columnWidth: 300
   - type: table
     name: Inbox
     filters:
       and:
         - file.folder == "00_Inbox"
+        - areas.containsAny("Ginecologia")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    groupOrder:
+      - 00_Inbox
     order:
       - file.name
       - areas

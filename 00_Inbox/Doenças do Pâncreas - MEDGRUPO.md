@@ -194,7 +194,7 @@ Avaliar o Wirsung (Ducto Pancreático Principal) - CPRE
 	- **Frey**: Estende até a cabeça do pancreas
 	- Utiliza uma alça de jejuno para anastomosar com o ducto pancreático (suco cai direto no intestino)
 2) **Ducto Pancreático Não Dilatado**
-	- Deende da localização da Calcificação
+	- Depende da localização da Calcificação
 		1. **+ na cabeça**: Duodenopancreatoectomia **Whipple modificada** (preserva piloro), remove cabeça do pancreas, vesícula, parte do colédoco principal
 			- Comparativamente -> Whipple clássica faz gastrectomia distal
 		2. **+ em Corpo/Cauda**: Pancreatectomia Subtotal Distal (**CHILD**)

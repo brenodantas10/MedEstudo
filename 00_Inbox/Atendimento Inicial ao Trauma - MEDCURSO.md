@@ -1,6 +1,7 @@
 ---
 date: 2026-03-23
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Cirurgia
   - Trauma

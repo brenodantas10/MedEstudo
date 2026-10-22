@@ -1,10 +1,13 @@
 ---
 date: 2026-02-05
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Clínica Médica
   - Nefrologia
 publish: false
+status:
+  - pendente
 ---
 Potássio Referência: 3-5-5,5 mEq/L
 Local principal: Intracelular

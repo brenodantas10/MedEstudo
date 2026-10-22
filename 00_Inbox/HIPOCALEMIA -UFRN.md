@@ -1,8 +1,10 @@
 ---
-date: "2026-10-09"
+date: 2026-10-09
 tipo:
   - inbox
 areas:
+  - Nefrologia
+  - Clínica Médica
 publish: false
 ---
 

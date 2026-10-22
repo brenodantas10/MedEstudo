@@ -1,6 +1,7 @@
 ---
 date: 2026-02-25
-tipo: estudo
+tipo:
+  - inbox
 areas:
   - Pediatria
 publish: false

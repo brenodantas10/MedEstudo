@@ -1,6 +1,7 @@
 ---
-date: 
-tipo: estudo
+date:
+tipo:
+  - inbox
 areas:
   - Ginecologia
 publish: false
