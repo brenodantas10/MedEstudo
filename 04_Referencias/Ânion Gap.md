@@ -25,8 +25,8 @@ $$\ce{[AG] = \underbrace{[Na+]}_{\text{Cátion}} - \underbrace{\left([Cl-] + [HC
 	- OU $\ce{Cl-}$ Aumenta (**Hiperclorêmica**)
 	- OU $\ce{AG}$ Aumenta (**Normoclorêmica**)
 
-> [!tip] Lembrar: Anion Gap é um ácido dissociado $\left(\ce{HAG -> H+ + AG-}\right)$
-> Coisas criam novos ácidos aumentam AG
+> [!tip] Lembrar: Anion Gap é um ácido dissociado $\left(\ce{HA -> H+ + A-}\right)$
+> Criar novos ácidos aumenta AG. Exemplo:
 > - Cetoacidose
 > - Destruição celular (Ácido Lático)
 > - Intoxicação exógena
