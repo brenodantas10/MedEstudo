@@ -12,6 +12,8 @@ status:
 ## Doenças
 - [[Anemia Ferropriva]]
 
+- [[Mielodisplasia]]
+
 ## Classificação
 
 > [!multi-column]
@@ -29,7 +31,7 @@ status:
 > > - Anemia aplásica
 
 > [!example] Anemias macrocíticas
-> - Megaloblásticas
+> - [[Anemia Megaloblástica|Megaloblásticas]]
 > - Etilismo crônico (Faz célula crescer)
 > - Sideroblástica (Forma adquirida)
 
