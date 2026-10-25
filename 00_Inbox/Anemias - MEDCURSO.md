@@ -4,9 +4,10 @@ tipo:
   - inbox
 areas:
   - Hematologia
+  - Clínica Médica
 status:
+  - estudando
 ---
-
 ## Tipos
 - Hipoploriferativa (MO não consegue manter a produção)
 	- Ferropriva
@@ -17,7 +18,6 @@ status:
 	- Sangramento
 
 ## Conteúdo da Hemácia
-
 - Protoporfirina + Ferro -> Heme
 - 4 Heme + 4 Globina -> Hemoglobina
 

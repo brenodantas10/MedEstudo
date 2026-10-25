@@ -16,7 +16,7 @@ views:
     filters:
       and:
         - Tipo.containsAny("tema", "estudo")
-        - areas.containsAny("Infectologia")
+        - areas.containsAny("Hepatologia")
     groupBy:
       property: status
       direction: ASC
