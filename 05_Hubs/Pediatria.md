@@ -12,5 +12,6 @@ Essa nota é um hub para os principais assuntos em **Pediatria**
 - [[Distúrbios Respiratórios em Neonatologia]]
 - [[Icterícia Neonatal - MEDCURSO]]
 - [[Doenças Congenitas]]
+- [[Doenças Exantemáticas]]
 
 ## Outros Temas
