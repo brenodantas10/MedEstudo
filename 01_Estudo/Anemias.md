@@ -10,9 +10,18 @@ status:
 ---
 
 ## Doenças
-- [[Anemia Ferropriva]]
-
+- Anemias Carências
+	- [[Anemia Ferropriva]]
+	- [[Anemia Megaloblástica]]
+- Anemias Hemolíticas
+	- [[Anemia Hemolítica Autoimune]]
+	- [[Esferocitose Hereditária]]
+	- [[Deficiência de G6PD]]
+	- [[Hemoglobinopatias]]
+		- [[Anemia Falciforme]]
+		- [[Talassemia]]
 - [[Mielodisplasia]]
+- [[Anemia Aplásica]]
 
 ## Classificação
 
@@ -68,3 +77,33 @@ status:
 - [[Hemograma]]
 ## Links Relacionados
 - [[Hemoglobina]]
+
+
+Hemocaterese (Fisiológico): Hemácias morrem com >= 120 dias
+
+Hemólise (Patológico): Hemácia morre com < 120 dias de vida
+
+
+Para Hemólise não virar anemia
+1. Fez hiperplasia da MO (Rim sente hipoxia e produz mais eritropoetina)
+2. Estoques de Fe, B12 e Folato
+	1. Folato tende a ser consumido mais rápido
+	2. B12 dura muito tempo
+	3. Ferro tem muito estoque em ferritina
+3. Hemácia morre com > 20 dias
+
+Suspeitar de Anemia Hemolítica
+- Reticulocitose -> VCM aumentado (Reticulócitos são grandes e confundem a máquina)
+	- Anemias hemolíticas
+	- Sangramento agudo
+	- Melhora da Ferropriva
+- LDH alto
+- BI alto -> Icterícia leve + Colelitíase (Bilirrubinato de Calcio em Rx)
+- Haptoglobina (se agrega a globina livre que é tóxica pelo corpo)
+- Esplenomegalia (se mais agudo)
+
+Complicações -> Crises Anêmicas
+- Crise Aplásica -> Infecção pelo Parvovirus B19 (infecta eritroblasto) -> Reduz Eritroblastos -> Reduz Reticulócitos
+	- Tto: Suporte
+- Crise Megaloblastica -> Redução do Ác. Fólico -> Reduz eritroblastos -> Reduz Reticulócitos (+ Neutrófilos Plurissegmentados)
+	- Tto: Reposição diária de Folato
