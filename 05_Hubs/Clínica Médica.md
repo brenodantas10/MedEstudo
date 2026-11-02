@@ -15,3 +15,4 @@ Nota hub destinada às principais áreas dentro da clínica médica.
 - [[Cardiologia]]
 - [[Pneumologia]]
 - [[Neurologia]]
+- [[Dermatologia]]
