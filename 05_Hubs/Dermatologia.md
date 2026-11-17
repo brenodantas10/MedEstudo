@@ -10,7 +10,7 @@ Esta é uma nota hub dos principais conteúdos de Dermatologia para a residênci
 
 ## Temas
 - [[Doenças Infectoparasitárias]]
-- Farmacodermias
+- [[Farmacodermias]]
 - Eczemas
 - Psoríase
 - Buloses

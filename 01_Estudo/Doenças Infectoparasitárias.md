@@ -15,3 +15,7 @@ status:
 - [[Leishmaniose Tegumentar]]
 - [[Escabiose]]
 - [[Piodermites]]
+
+- [[Acne Vulgar]]
+- [[MPox]]
+- [[Herpes Zoster]]
