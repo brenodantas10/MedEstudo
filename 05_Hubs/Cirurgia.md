@@ -24,6 +24,7 @@ Essa nota hub conterá todos os temas pertinentes nas áreas de Cirurgia e Traum
 
 - [[Cirurgia Vascular]]
 - [[Proctologia]]
+- [[Ortopedia]]
 
 > [!hint] Procedimentos
 > - [[Dreno de Tórax]]
